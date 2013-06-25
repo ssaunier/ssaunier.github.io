@@ -1,8 +1,14 @@
-/*****************************************************************************/
 /*
-/* Common
-/*
-/*****************************************************************************/
+  Colors
+  dark blue: #255b96
+  light blue: #3073b3
+  gray: #c6c1bc
+  black: #2a1e28
+  red: #901a12
+*/
+
+@import url('syntax.css');
+@import url('font/icomoon79565/style.css');
 
 /* Global Reset */
 * {
@@ -13,25 +19,144 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  border-top: 5px solid #3073b3;
+  color: #545454;
   text-align: center;
+  height: 99%;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+h1, h2, h3 {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  color: #1C1C1C;
+}
 
-h1 { margin-bottom: 1em; }
+h1 { font-size: big; margin-bottom: 1em; }
 p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
 
 table {
   font-size: inherit;
   font: 100%;
+}
+
+/* Common */
+a, a:active {
+  text-decoration: none;
+  color: #3073b3;
+}
+
+a:visited {
+  color: #3073b3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 0 1em;
+}
+
+section, article {
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  line-height: 170%;
+}
+
+.pull-right { float: right; }
+.pull-left { float: left; }
+.clear { clear: both; }
+.center { text-align: center; }
+
+@media (max-width: 480px) {
+  section, article {
+    text-align: left;
+  }
+}
+
+/* Header and navigation */
+header {
+  margin: auto;
+  max-width: 48em;
+  padding: 0 1em;
+  height: 5.5em;
+}
+
+header .logo, header nav {
+  padding-top: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 1.2em;
+  padding-bottom: 0.2em;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav a.selected {
+  border-bottom: 3px solid #3073b3;
+}
+
+/* About me (home) */
+.avatar {
+  border-radius: 50%;
+  width: 80%;
+  max-width: 120px;
+}
+
+.links {
+  border-top: 1px solid #E6E6E6;
+  margin: 1em 0;
+  padding-top: 1em;
+  list-style-type: none;
+}
+
+.links li {
+  padding: 0.2em 0;
+}
+
+@media (min-width: 481px) {
+  .about-me {
+    width: 70%;
+    float: left;
+  }
+
+  .about-me + aside {
+    width: 25%;
+    float: right;
+  }
+}
+
+/* Footer */
+footer {
+  font-size: small;
+  color: #666;
+  border-top: 1px solid #E6E6E6;
+  margin-top: 2em;
+  line-height: 2em;
+  color: #858585;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .links {
+  border: none;
+}
+
+footer .links li {
+  display: inline;
+  padding: 0 0.2em;
 }
 
 /*****************************************************************************/
@@ -60,10 +185,13 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.container {
+  border-top: 1px solid #E6E6E6;
+}
+
 .site {
-  font-size: 115%;
   text-align: justify;
-  width: 42em;
+  max-width: 48em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -86,45 +214,10 @@ ul.posts span {
   color: #000;
 }
 
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
-}
-
 .site .meta {
   color: #aaa;
 }
 
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
 
 /*****************************************************************************/
 /*
