@@ -1,0 +1,4 @@
+name: Sébastien Saunier
+pygments: true
+lsi: false
+permalink: /blog/:year/:month/:day/:title.html
