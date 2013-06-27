@@ -256,3 +256,7 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
+img.inline {
+  margin: 0 1em;
+}
