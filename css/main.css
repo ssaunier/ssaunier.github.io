@@ -257,6 +257,13 @@ ul.posts span {
   background-color: #333;
 }
 
+.post-footer {
+  margin-top: 3em;
+  padding-top: 0.5em;
+  border-top: 2px solid #3073b3;
+  float: left;
+}
+
 img.inline {
   margin: 0 1em;
 }
