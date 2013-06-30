@@ -159,11 +159,10 @@ footer .links li {
   padding: 0 0.2em;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
+footer .links a:hover {
+  text-decoration: none;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -171,19 +170,14 @@ ul.posts {
 
 ul.posts li {
   line-height: 1.75em;
+  margin-bottom: 2em;
 }
 
-ul.posts span {
+ul.posts .date {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
 
 .container {
   border-top: 1px solid #E6E6E6;

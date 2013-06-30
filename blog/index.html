@@ -5,10 +5,16 @@ category: blog
 ---
 
 <section>
-  <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p>
+            <span class="date"></span>{{ post.date | date_to_string }}</span> &raquo;
+            <span class="description">{{ post.description }}</span>
+          </p>
+        </div>
+      </li>
     {% endfor %}
   </ul>
 </section>
