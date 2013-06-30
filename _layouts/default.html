@@ -4,7 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="aexITLS38FdIRzwj25OVWxm87rpa9l-UV0URTyC9cTs" />
-  <title>{{ page.title }}</title>
+  <title>
+    {{ page.title }}
+    {% if page.category == 'blog' and page.url != '/blog/index.html' %}
+    - Sébastien Saunier
+    {% endif %}
+  </title>
   <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,400|Titillium+Web">
   <link rel="stylesheet" href="/css/main.css">
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
