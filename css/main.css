@@ -24,6 +24,7 @@ body {
   text-align: center;
   height: 99%;
   font-family: Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3 {
@@ -32,7 +33,14 @@ h1, h2, h3 {
   color: #1C1C1C;
 }
 
-h1 { font-size: big; margin-bottom: 1em; }
+h1 {
+  font-size: big;
+}
+
+h2, h3 {
+  margin-top: 1.4em;
+}
+
 p { margin: 1em 0; }
 
 table {
@@ -234,6 +242,7 @@ ul.posts .date {
 
 .post ul, .post ol {
   margin-left: 1.35em;
+  margin-bottom: 1em;
 }
 
 .post code {

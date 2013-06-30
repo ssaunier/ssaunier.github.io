@@ -38,9 +38,13 @@ Now say you are reading your cached timeline in the Parisian subway, with no Int
 You must have noticed that I just discussed concepts and ideas so far. Here are the tools I enjoy using daily.
 
 1. **Readability** - This is my buffering application. That's where new links get pushed when either I don't have time to read something or I don't have any Internet connection. You can have a look at what's [on my plate](https://www.readability.com/ssaunier/latest) right now. On the week-end, I try to go through all the buffered articles and decide something for them. Delete or Star the candidates for archiving.
+
 2. **Pinboard** - That's a one-man shop run by the *Twitter-humorist* [Maciej Ceglowski](https://twitter.com/pinboard) and it's just great. Have a look at my [small archive of the web](https://pinboard.in/u:ssaunier) there to get an idea of how this works.
+
 3. **Tweetbot** - It's [great](http://tapbots.com/software/tweetbot/). Saves the position of the last tweet you read, and can easily send embedded tweet links to Readability (queuing this operation if Internet is down).
+
 4. **Reeder** - [Great piece of software](http://reederapp.com/) to read my RSS feeds. Can also send an article to Readability or directly to Pinboard (but I never use the latter).
+
 5. **Simple pinboard button** - [Firefox extension](http://simplepinboardbutton.neovatar.org/) which opens a popup to add the page you are reading to Pinboard.
 
 Thanks for reading this article, I hope you found it useful for your own technology watch.
