@@ -38,12 +38,14 @@
 
   <footer>
     <p>
-      Website powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>,
-      hosted on <a href="https://github.com/ssaunier/ssaunier.github.io">Github Pages</a>.
-      Template inspired by <a href="http://marcgg.com/">marcgg.com</a>
+      Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>,
+      hosted on <a href="https://github.com/ssaunier/ssaunier.github.io">Github Pages</a>
+      {% if page.url == '/index.html' %}
+      |  Homepage template inspired by <a href="http://marcgg.com/">marcgg.com</a>
+      {% endif %}
     </p>
     <p>
-      Everything shared here is done under the <a href="http://opensource.org/licenses/MIT">MIT License</a>
+      Blog content/code under the <a href="http://opensource.org/licenses/MIT">MIT License</a>
     </p>
     {% if page.url != '/index.html' %}
       <ul class="links">

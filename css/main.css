@@ -88,6 +88,11 @@ header .logo, header nav {
   font-weight: bold;
 }
 
+header .logo a, header .logo a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 nav a {
   display: inline-block;
   margin-right: 1.2em;
