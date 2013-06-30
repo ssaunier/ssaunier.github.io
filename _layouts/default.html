@@ -14,12 +14,13 @@
   <link rel="stylesheet" href="/css/main.css">
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
   {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
+  <link rel="alternate" type="application/atom+xml" title="RSS Feed for Sébastien Saunier's blog" href="/feed.xml" />
 </head>
 <body>
 
   <header>
     <div class="logo pull-left">
-      Sébastien Saunier
+      <a href="/">Sébastien Saunier</a>
     </div>
     <nav class="pull-right">
       <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog">blog</a>
