@@ -13,7 +13,7 @@ I use several information feeds:
 
 1. **RSS** - I still have 3 days to enjoy the soon to be defunct Google Reader. Last 5 years, I carefully crafted a collection of interesting RSS feeds, such as [Rands in Repose](http://www.randsinrepose.com/index.xml), [Coding Horror](http://feeds.feedburner.com/codinghorror) or [The Daily Nerd](http://dailynerd.nl/feed/).
 
-2. **Twitter** - <img class="inline pull-right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Paris_Metro_Sign.jpg/220px-Paris_Metro_Sign.jpg" alt="Paris Metro Sign" />I have been there since 2011 and it took me a couple of months to tune my timeline. I am one of the guys who read *every* tweet in his timeline, that's why I always enforce strict rules to survive this. I usually read my tweets twice a day, during commuting time in the Parisian subway.
+2. **Twitter** - <img class="inline pull-right" src="/images/posts/parismetrosign.jpg" alt="Paris Metro Sign" />I have been there since 2011 and it took me a couple of months to tune my timeline. I am one of the guys who read *every* tweet in his timeline, that's why I always enforce strict rules to survive this. I usually read my tweets twice a day, during commuting time in the Parisian subway.
 
 3. **Friends & Colleagues** - It is not uncommon to get in your inbox a simple message from a friend telling you that telling you to read this particular article. This is a valuable source as the level of noise here is very low, your friend having done the curation part of the job for you.
 
