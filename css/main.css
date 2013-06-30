@@ -169,14 +169,15 @@ ul.posts {
 }
 
 ul.posts li {
-  line-height: 1.75em;
-  margin-bottom: 2em;
+  line-height: 1.4em;
+  margin-bottom: 3em;
 }
 
 ul.posts .date {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+  margin-right: 0.5em;
 }
 
 .container {

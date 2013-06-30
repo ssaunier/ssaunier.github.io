@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I stay up to date"
-description: "Technology watch using RSS and Twitter as sources, Pinboard as archiving and Readability as a buffer"
+description: "My personal technology watch using RSS and Twitter as sources, Pinboard and Readability as buffer/archiving tools."
 category: blog
 ---
 
@@ -21,9 +21,9 @@ This list is obviously extensible with your favorite social network or any other
 
 ## Archiving
 
-One important part of the job is to keep a log of what you read. You can't remember everything, but you can remember that you read something about a given topic. As a species we are moving from *Do you remember X?* to *Do you remember having read something about X and do you know how to find it again?*. You know what I mean, **Search Engines** + **Always connected**.
+One important part of the job is to keep a log of what you read. You can't remember everything, but you can remember that you read something about a given topic. As a specie we are moving from *Do you remember X?* to *Do you remember having read something about X and do you know how to find it again?*. You know what I mean, **Search Engines** + **Always connected**.
 
-So what you want to do is keeping a collection of bookmarks to articles you think you may need later. It's not everything you read, it may be between 5% and 10%. There a catchy word describing that process, it's *curation*.
+So what you want to do is keeping a collection of bookmarks of articles you think you may need later. It's not everything you read, it may be between 5% and 10%. There is a catchy word describing that process: *curation*.
 
 ## Buffering
 
