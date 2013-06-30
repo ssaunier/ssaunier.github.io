@@ -257,6 +257,14 @@ ul.posts .date {
   background-color: #333;
 }
 
+/* Quotes */
+blockquote {
+  margin: 1em 3em;
+  color: #999;
+  border-left: 2px solid #999;
+  padding-left: 1em;
+}
+
 .post-footer {
   margin-top: 3em;
   padding-top: 0.5em;
