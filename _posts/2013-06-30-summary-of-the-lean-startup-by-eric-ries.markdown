@@ -5,7 +5,7 @@ description: ""
 category: blog
 ---
 
-<img class="inline pull-right" src="http://theleanstartup.com/images/buy_book_bg.jpg" alt="The Lean Startup book cover" />
+<img class="inline pull-right" src="/images/posts/theleanstartup.png" alt="The Lean Startup book cover" />
 
 I bought [The Lean Startup](http://theleanstartup.com/) by [@ericries](https://twitter.com/ericries) in December 2011 and read it in one sitting. As a software engineer more interested in *actually* building products rathen than playing with every fancy new technology that pops up on <acronym title="Hacker News">HN</acronym>, this book really resonated with me.
 

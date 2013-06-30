@@ -272,6 +272,6 @@ blockquote {
   float: left;
 }
 
-img.inline {
-  margin: 0 1em;
+img.inline.pull-right {
+  margin: 0 0 1em 1em;
 }
