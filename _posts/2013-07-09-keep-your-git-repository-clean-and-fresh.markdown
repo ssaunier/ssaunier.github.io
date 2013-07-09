@@ -24,7 +24,7 @@ $ git mom    # merge origin/master into local master branch.
 $ git sweep  # At last, clean up merged branches and prune.
 {% endhighlight %}
 
-All this magic happens because of some I aliases I setup:
+All this magic happens because of some aliases I setup:
 
 {% highlight bash %}
 [alias]
@@ -35,5 +35,5 @@ All this magic happens because of some I aliases I setup:
           && git remote prune origin
 {% endhighlight %}
 
-You can review my full [`.gitignore`](https://github.com/ssaunier/dotfiles/blob/master/gitconfig)
+You can review my full [`.gitconfig`](https://github.com/ssaunier/dotfiles/blob/master/gitconfig)
 on GitHub for more details.
