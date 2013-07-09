@@ -227,8 +227,8 @@ ul.posts .date {
 
 /* standard */
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid #eee;
+  background-color: whitesmoke;
   padding: 0 .4em;
 }
 
@@ -237,8 +237,8 @@ ul.posts .date {
 }
 
 .post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid #eee;
+  background-color: whitesmoke;
   padding: 0 .2em;
 }
 
