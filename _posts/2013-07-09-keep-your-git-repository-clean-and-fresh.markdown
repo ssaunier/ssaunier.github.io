@@ -31,7 +31,7 @@ All this magic happens because of some I aliases I setup:
   m = checkout master
   fo = fetch origin
   mom = merge origin master
-  sweep = !git branch --merged master | grep -v 'master$' | xargs !git branch -d\
+  sweep = !git branch --merged master | grep -v 'master$' | xargs git branch -d\
           && git remote prune origin
 {% endhighlight %}
 
