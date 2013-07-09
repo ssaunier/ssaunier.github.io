@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Keep your git repository clean and fresh"
-description: ""
+description: "Learn how to quickly remove merged branches from your local repository once your pull request has been approved on GitHub"
 category: blog
 ---
 
