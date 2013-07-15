@@ -79,18 +79,35 @@ header {
   margin: auto;
   max-width: 48em;
   padding: 0 1em;
-  height: 5.5em;
+  text-align: left;
 }
 
 header .logo, header nav {
-  padding-top: 2em;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  padding: 1.6em 0;
+}
+
+header .logo {
+  display: inline-block;
 }
 
 header .logo a, header .logo a:hover {
   color: black;
   text-decoration: none;
+}
+
+header nav {
+  float: right;
+}
+
+@media (max-width: 479px) {
+  header .logo, header nav {
+    padding: 0.5em 0;
+  }
+  header nav {
+    float: none;
+  }
 }
 
 nav a {

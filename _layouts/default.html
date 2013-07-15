@@ -19,13 +19,15 @@
 <body>
 
   <header>
-    <div class="logo pull-left">
+    <div class="logo">
       <a href="/">Sébastien Saunier</a>
     </div>
-    <nav class="pull-right">
+    <nav>
+      <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio">portfolio</a>
       <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog">blog</a>
       <a class="{% if page.url == '/index.html' %} selected {% endif %}" href="/">about</a>
     </nav>
+    <div class="clear"></div>
   </header>
 
   <div class="container">
