@@ -11,7 +11,7 @@ be creating a lot of git branches. From GitHub, you can merge a branch to `maste
 even [delete](https://github.com/blog/1335-tidying-up-after-pull-requests) it from `origin` once merged.
 
 But locally the branch is still here and if you don't pay attention you will accumulate
-a mess, that is a bunch of merged branches. And I really have getting 10+ items
+a mess, that is a bunch of merged branches. And I really hate getting 10+ items
 when running `git branch`.
 
 Once I receive a confirmation email from GitHub that a pull request I opened has been merged
@@ -24,7 +24,7 @@ $ git mom    # merge origin/master into local master branch.
 $ git sweep  # At last, clean up merged branches and prune.
 {% endhighlight %}
 
-All this magic happens because of some aliases I setup:
+All this magic happens because of some aliases:
 
 {% highlight bash %}
 [alias]
