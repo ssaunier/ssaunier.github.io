@@ -64,10 +64,15 @@ section, article {
   line-height: 170%;
 }
 
+
 .pull-right { float: right; }
 .pull-left { float: left; }
 .clear { clear: both; }
 .center { text-align: center; }
+.spacer {
+  border-top: 1px solid #E6E6E6;
+  margin: 3em auto;
+}
 
 @media (max-width: 480px) {
   section, article {
@@ -304,6 +309,7 @@ blockquote {
   float: left;
 }
 
-img.inline {
-  margin: 0 1em;
+img.inline.pull-right {
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
