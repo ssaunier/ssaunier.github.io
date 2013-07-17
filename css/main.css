@@ -241,19 +241,7 @@ ul.posts .date {
   color: #aaa;
 }
 
-/* Portfolio */
-.project-image {
-  width: 30%;
-  float: left;
-  background-color: green;
-  margin: 0;
-}
-
-.project-description {
-  width: 70%;
-  float: left;
-  vertical-align: top;
-}
+.convinced { margin: 6em 0 4em 0;}
 
 
 /*****************************************************************************/
