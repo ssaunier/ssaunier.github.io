@@ -59,7 +59,7 @@ a:hover {
   padding: 0 1em;
 }
 
-section, article {
+.fancy, section, article {
   font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   line-height: 170%;
 }
