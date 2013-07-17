@@ -30,9 +30,10 @@ h1, h2, h3 {
   font-family: 'Open Sans',sans-serif;
   font-weight: 400;
   color: #1C1C1C;
+  margin-bottom: 0.8em;
 }
 
-h1 { font-size: big; margin-bottom: 1em; }
+h1 { font-size: big; }
 p { margin: 1em 0; }
 
 table {
@@ -233,6 +234,20 @@ ul.posts .date {
 
 .site .meta {
   color: #aaa;
+}
+
+/* Portfolio */
+.project-image {
+  width: 30%;
+  float: left;
+  background-color: green;
+  margin: 0;
+}
+
+.project-description {
+  width: 70%;
+  float: left;
+  vertical-align: top;
 }
 
 
