@@ -30,10 +30,11 @@ h1, h2, h3 {
   font-family: 'Open Sans',sans-serif;
   font-weight: 400;
   color: #1C1C1C;
-  margin-bottom: 0.8em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
-h1 { font-size: big; }
+h1 { font-size: 1.8em; }
 p { margin: 1em 0; }
 
 table {
@@ -148,6 +149,10 @@ nav a.selected {
 
 .links li {
   padding: 0.2em 0;
+}
+
+.about-me h1 {
+  margin-top: 0;
 }
 
 @media (min-width: 481px) {
@@ -299,5 +304,4 @@ blockquote {
 
 img.inline.pull-right {
   margin-left: 1em;
-  margin-bottom: 1em;
 }
