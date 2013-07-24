@@ -9,7 +9,7 @@ category: blog
 
 <img class="inline pull-right" src="/images/posts/hammock.jpg" alt="Hammock" />
 One of the best quality a software engineer should have is laziness.
-Not wanna-sleep-all-day kind of lazy, but more in a way where he seeks to minimize
+Not wanna-sleep-all-day kind of lazy, but more in a way of seeking to minimize
 the amount of stuff built. He knows the best code is the one you don't write.
 
 Product came today with a wonderful idea. They want you to build feature _X_.
