@@ -5,7 +5,7 @@ description: "Validate the feature/market fit with a Minimum Viable Feature usin
 category: blog
 ---
 
-**TL;DR -** Validate the feature/market fit with a <acronym title="Minimum Viable Feature">MVF</acronym> SaaS products (APIs, Web Hooks, Concierge).
+**TL;DR -** Validate the feature/market fit with a <acronym title="Minimum Viable Feature">MVF</acronym> using SaaS products (APIs, Web Hooks, Concierge).
 
 <img class="inline pull-right" src="/images/posts/hammock.jpg" alt="Hammock" />
 One of the best quality a software engineer should have is laziness.
