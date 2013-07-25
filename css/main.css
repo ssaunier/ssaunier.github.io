@@ -296,7 +296,7 @@ blockquote {
 }
 
 .post-footer {
-  margin-top: 3em;
+  margin: 3em 0;
   padding-top: 0.5em;
   border-top: 2px solid #3073b3;
   float: left;
