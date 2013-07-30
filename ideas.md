@@ -1,4 +1,3 @@
 # Blog posts ideas
 
-- Feature as a MVP using SaaS products
-  => Exemple: Wufoo in MobiCheckin, MailChimp in MobiCheckin
+https://www.youtube.com/watch?v=URSWYvyc42M
