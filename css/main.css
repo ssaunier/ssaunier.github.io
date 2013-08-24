@@ -22,8 +22,8 @@ body {
   border-top: 5px solid #3073b3;
   color: #545454;
   text-align: center;
-  height: 99%;
   font-family: Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3 {
@@ -70,6 +70,7 @@ a:hover {
 .pull-left { float: left; }
 .clear { clear: both; }
 .center { text-align: center; }
+.right { text-align: right; }
 .spacer {
   border-top: 1px solid #E6E6E6;
   margin: 3em auto;
@@ -85,18 +86,19 @@ a:hover {
 header {
   margin: auto;
   max-width: 48em;
-  padding: 0 1em;
   text-align: left;
+  display: table;
+  width: 100%;
 }
 
-header .logo, header nav {
+.heady {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  padding: 1.6em 0;
+  padding: 1.6em 1em;
 }
 
-header .logo {
-  display: inline-block;
+.cell {
+  display: table-cell;
 }
 
 header .logo a, header .logo a:hover {
@@ -104,16 +106,19 @@ header .logo a, header .logo a:hover {
   text-decoration: none;
 }
 
-header nav {
-  float: right;
+@media(min-width: 48em) {
+  .heady {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 479px) {
-  header .logo, header nav {
-    padding: 0.5em 0;
+  .cell {
+    display: block;
   }
-  header nav {
-    float: none;
+  .heady {
+    text-align: left;
+    padding: 0.6em 1em;
   }
 }
 
