@@ -19,15 +19,16 @@
 <body>
 
   <header>
-    <div class="logo">
+    <div class="heady logo cell">
       <a href="/">Sébastien Saunier</a>
     </div>
-    <nav>
-      <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio">portfolio</a>
-      <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog">blog</a>
-      <a class="{% if page.url == '/index.html' %} selected {% endif %}" href="/">about</a>
-    </nav>
-    <div class="clear"></div>
+    <div class="heady cell right">
+      <nav>
+        <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio">portfolio</a>
+        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog">blog</a>
+        <a class="{% if page.url == '/index.html' %} selected {% endif %}" href="/">about</a>
+      </nav>
+    </div>
   </header>
 
   <div class="container">
