@@ -15,21 +15,29 @@
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
   {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
   <link rel="alternate" type="application/atom+xml" title="RSS Feed for Sébastien Saunier's blog" href="/feed.xml" />
+
+  {% if page.url == '/index.html' %}
+    <link rel="alternate" hreflang="fr" href="/fr/" />
+  {% elsif page.url == '/fr/index.html' %}
+    <link rel="alternate" hreflang="en" href="/" />
+  {% endif %}
 </head>
 <body>
 
-  <header>
-    <div class="heady logo cell">
-      <a href="/">Sébastien Saunier</a>
-    </div>
-    <div class="heady cell right">
-      <nav>
-        <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio">portfolio</a>
-        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog">blog</a>
-        <a class="{% if page.url == '/index.html' %} selected {% endif %}" href="/">about</a>
-      </nav>
-    </div>
-  </header>
+  <div class="container">
+    <header>
+      <div class="heady logo cell">
+        <a href="/">Sébastien Saunier</a>
+      </div>
+      <div class="heady cell right">
+        <nav>
+          <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">portfolio</a>
+          <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">blog</a>
+          <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">about</a>
+        </nav>
+      </div>
+    </header>
+  </div>
 
   <div class="container">
     <div class="site">

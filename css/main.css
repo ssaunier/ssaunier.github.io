@@ -85,7 +85,7 @@ a:hover {
 /* Header and navigation */
 header {
   margin: auto;
-  max-width: 48em;
+  max-width: 800px;
   text-align: left;
   display: table;
   width: 100%;
@@ -94,7 +94,7 @@ header {
 .heady {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  padding: 1.6em 1em;
+  padding: 1.6em 0;
 }
 
 .cell {
@@ -106,19 +106,13 @@ header .logo a, header .logo a:hover {
   text-decoration: none;
 }
 
-@media(min-width: 48em) {
-  .heady {
-    padding-left: 0;
-  }
-}
-
 @media (max-width: 479px) {
   .cell {
     display: block;
   }
   .heady {
     text-align: left;
-    padding: 0.6em 1em;
+    padding: 0.6em 0;
   }
 }
 
@@ -224,7 +218,7 @@ ul.posts .date {
 
 .site {
   text-align: justify;
-  max-width: 48em;
+  max-width: 800px;
   margin: 3em auto 1em;
   line-height: 1.5em;
 }
