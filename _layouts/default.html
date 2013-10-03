@@ -49,11 +49,13 @@
 
   <footer>
     <p>
-      Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>,
-      hosted on <a href="https://github.com/ssaunier/ssaunier.github.io">Github Pages</a>
-      {% if page.category == 'about' %}
-      |  Homepage template inspired by <a href="http://marcgg.com/">marcgg.com</a>
-      {% endif %}
+
+    </p>
+    <p itemscope itemtype="http://data-vocabulary.org/Person">
+      <a href="/" itemprop="url">Notes</a> from
+      <span itemprop="name">Sébastien Saunier</span>,
+      <span itemprop="title">Web Software Engineer</span>,
+      powerded by <a href="https://github.com/ssaunier/ssaunier.github.io">Jekyll</a>
     </p>
     {% if page.category != 'about' %}
       <ul class="links">
