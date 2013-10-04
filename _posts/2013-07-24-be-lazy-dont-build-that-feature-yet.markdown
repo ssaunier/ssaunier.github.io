@@ -5,7 +5,7 @@ description: "Validate the feature/market fit with a Minimum Viable Feature usin
 category: blog
 ---
 
-**TL;DR -** Validate the feature/market fit with a <acronym title="Minimum Viable Feature">MVF</acronym> using SaaS products (APIs, Web Hooks, Concierge).
+**TL;DR -** Validate the feature/market fit with a <abbr title="Minimum Viable Feature">MVF</abbr> using SaaS products (APIs, Web Hooks, Concierge).
 
 <img class="inline pull-right" src="/images/posts/hammock.jpg" alt="Hammock" />
 One of the best quality a software engineer should have is laziness.
@@ -31,7 +31,7 @@ The client (event organizer) would upload his Excel guest list and would sync it
 with the MobiCheckin iOS app, from there he could check-in guests. Very good.
 
 How did the client put together his Excel list? It could be from a
-<acronym title="Customer Relationship Management">CRM</acronym> of his,
+<abbr title="Customer Relationship Management">CRM</abbr> of his,
 or a registration form. Product wanted to follow a _Land and Expand_ strategy
 to compete with other solutions involved. Thus MobiCheckin needed
 a new feature, a **registration form**.
@@ -42,13 +42,13 @@ There had to be another way.
 
 We investigated SaaS tools providing an easy way to build web forms and picked up
 [Wufoo](http://www.wufoo.com). It has a great
-<acronym title="What You See Is What You Get">WYSIWYG</acronym>
+<abbr title="What You See Is What You Get">WYSIWYG</abbr>
 user interface to build forms, a well documented API and it supports Web Hooks.
 As a reminder, a web hook is a HTTP request (usually `POST`) triggered by a specific event.
 That way, Wufoo could tell MobiCheckin someone had just registered.
 
 It took us a couple of days to implement and quickly delight our clients.
-The <acronym title="Minimum Viable Feature">MVF</acronym> approach was a success.
+The <abbr title="Minimum Viable Feature">MVF</abbr> approach was a success.
 
 Fast forwarding a couple of months later. Wufoo works great but I hear some clients
 complaining they can't change _Y_ or _Z_. Moreover, the feature is being used systematically.
@@ -58,7 +58,7 @@ editor inside MobiCheckin? Again, laziness tells you that building a copycat of
 what another company took years to make awesome is not a good idea.
 
 We went for a hybrid approach using [Liquid](http://liquidmarkup.org) to get
-web forms up and running quickly without a complex and long development to build <acronym title="User Interface">UI</acronym>.
+web forms up and running quickly without a complex and long development to build <abbr title="User Interface">UI</abbr>.
 And it works great now! You can see how we started with a simple integration of an
 existing SaaS product (providing an API and web hooks) to pivot the feature and
 build it in our tool.
@@ -72,7 +72,7 @@ a single call to action, a link to the registration form.
 
 
 For the past few months, each time our clients asked us if we could set up their
-event mailing campaigns, we used another <acronym title="Minimum Viable Feature">MVF</acronym>.
+event mailing campaigns, we used another <abbr title="Minimum Viable Feature">MVF</abbr>.
 This time, the great SaaS product was [Mailchimp](http://www.mailchimp.com).
 
 Our project management team acted like a _Concierge_.
@@ -88,6 +88,6 @@ total number of campaign recipients. Our customer development revealed that this
 our clients, so we decided to bite the bullet and implement a small mailing
 campaign tool inside MobiCheckin.
 
-Again, we went from using a <acronym title="Minimum Viable Feature">MVF</acronym> to
+Again, we went from using a <abbr title="Minimum Viable Feature">MVF</abbr> to
 validate the exact feature specifications our clients would be delighted with. And I
 think this is what _Lean Startup_ and _Agile_ are about.
