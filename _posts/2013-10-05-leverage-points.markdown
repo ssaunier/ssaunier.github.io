@@ -65,7 +65,7 @@ Add now two taps, hot and cold, and add a second goal: water must be at 41°C. Y
 
 If you don't have a bathtub, you still have a bank account. Just picture it as a bathtub where checks, deposits, interest, etc... affect your balance.
 
-For the following, you need to know what is a [*negative feedback loop*.](https://en.wikipedia.org/wiki/Negative_feedback), to quote Wikipedia:
+First, a little definition of the [*negative feedback loop*.](https://en.wikipedia.org/wiki/Negative_feedback), quoting Wikipedia:
 
 > Negative feedback occurs when the result of a process influences the operation of the process itself in such a way as to reduce changes. Negative feedback tends to make a system self-regulating; it can produce stability and reduce the effect of fluctuations.
 
