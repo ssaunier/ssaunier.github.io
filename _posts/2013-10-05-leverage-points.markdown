@@ -65,6 +65,10 @@ Add now two taps, hot and cold, and add a second goal: water must be at 41°C. Y
 
 If you don't have a bathtub, you still have a bank account. Just picture it as a bathtub where checks, deposits, interest, etc... affect your balance.
 
+For the following, you need to know what is a [*negative feedback loop*.](https://en.wikipedia.org/wiki/Negative_feedback), to quote Wikipedia:
+
+> Negative feedback occurs when the result of a process influences the operation of the process itself in such a way as to reduce changes. Negative feedback tends to make a system self-regulating; it can produce stability and reduce the effect of fluctuations.
+
 
 ## Leverage points
 
@@ -88,7 +92,7 @@ A shower connected directly to the boiler which takes 30 seconds to respond is v
 
 ### 8. Strength of negative feedback loops relative to corrected impacts
 
-Very intense part here, let's try to sum it up. Some of the negative loops can be inactive (yet powerful) such as emergency cooling system in a nuclear plant or your ability to sweat or shiver. Those aren't usually visible but really important for the long-term welfare of the system. One big mistakes would be to cut cost by removing them.
+Very intense part here, let's try to sum it up. Some of the negative loops can be inactive (yet powerful) such as emergency cooling system in a nuclear plant or your ability to sweat or shiver. Those aren't usually visible but really important for the long-term welfare of the system. One big mistake would be to cut cost by removing them.
 
 Markets worship price to keep demand and supply in balance, so the more the price is kept clear, unambiguous and truthful, the more smoothly markets operate. Companies and Governments play with the price and weaken the feedback power by twisting information in their favor (subsidies, taxes, etc.), thus the *real* leverage point is to have anti-trust laws, pollution taxes, truth-in-advertising laws.
 
