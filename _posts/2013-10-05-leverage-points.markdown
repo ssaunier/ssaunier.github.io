@@ -61,7 +61,7 @@ You have two *negative feedback loops* controlling your inflow and outflow.
 
 **NB:** Both the goal and the feedback connections are **hidden** in your head, an external observer would take a while to figure it out only looking at the system.
 
-Add now two taps, hot and cold, and add a second goal: water must be at 41°C. You are in a big house, and the hot inflow is served by a boiler thre floors below (takes seconds to respond). The system become more complex and realistic, and it's very hard for you to control precisely hot and cold inflows to reach your goal.
+Add now two taps, hot and cold, and add a second goal: water must be at 41°C. You are in a big house, and the hot inflow is served by a boiler three floors below (takes seconds to respond). The system becomes more complex and realistic, and it's very hard for you to control precisely hot and cold inflows to reach your goal.
 
 If you don't have a bathtub, you still have a bank account. Just picture it as a bathtub where checks, deposits, interest, etc... affect your balance.
 
@@ -90,7 +90,7 @@ A shower connected directly to the boiler which takes 30 seconds to respond is v
 
 Very intense part here, let's try to sum it up. Some of the negative loops can be inactive (yet powerful) such as emergency cooling system in a nuclear plant or your ability to sweat or shiver. Those aren't usually visible but really important for the long-term welfare of the system. One big mistakes would be to cut cost by removing them.
 
-Markets worship price to keep demand and suppy in balance, so the more the price is kept clear, unambiguous and truthful, the more smoothly markets operate. Companies and Governments play with the price and weaken the feedback power by twisting information in their favor (subsidies, taxes, etc.), thus the *real* leverage point is to have anti-trust laws, pollution taxes, truth-in-advertising laws.
+Markets worship price to keep demand and supply in balance, so the more the price is kept clear, unambiguous and truthful, the more smoothly markets operate. Companies and Governments play with the price and weaken the feedback power by twisting information in their favor (subsidies, taxes, etc.), thus the *real* leverage point is to have anti-trust laws, pollution taxes, truth-in-advertising laws.
 
 Democracy has elections as a negative feedback loop between the people and their government. Billions of dollars are spent by leaders to bias the information flow to people.
 
@@ -99,7 +99,7 @@ To sum up, if the impact increases in strength, the feedback have to be strength
 1. Freedom of Information Act to reduce government secrecy
 2. Protection of Whistleblowers
 3. Pollution Taxes
-4. Prevention medecine and good nutrition to help the body's ability to fight disease
+4. Prevention medicine and good nutrition to help the body's ability to fight disease
 
 ### 7. Gain around driving positive feedback loops
 
@@ -121,15 +121,15 @@ Look for places in the system where the more you have of something, the more you
 
 I really like this story:
 
-> There was this subdivision of identical houses, the story goes, except that for some reason the electri meter in some of the houses was installed in the basement and in others it was installed in the fron hall, where the residents could see it constantly, going round faster or slower as they used more or less electricity. With no other change, with identical prices, electricity consumption was 30 percent lower in the houses where the meter was in the front hall.
+> There was this subdivision of identical houses, the story goes, except that for some reason the electric meter in some of the houses was installed in the basement and in others it was installed in the front hall, where the residents could see it constantly, going round faster or slower as they used more or less electricity. With no other change, with identical prices, electricity consumption was 30 percent lower in the houses where the meter was in the front hall.
 
-Basically, a leverage point could be a *new loop* delivering information to a new place. Missing feedback is a common causes of system malfunction. Humans have a tendancy to avoid accountability for their own decisions, thus so many feedback loops are missing.
+Basically, a leverage point could be a *new loop* delivering information to a new place. Missing feedback is a common causes of system malfunction. Humans have a tendency to avoid accountability for their own decisions, thus so many feedback loops are missing.
 
 > Suppose that the politicians who declare war were required to spend that war in the front lines.
 
 ### 5. System rules
 
-Rules from the most absolute to the weakest: Physical laws (*e.g.* Termodynamics), Constitutions, Laws, Punishments, Incentives, Informal social agreements.
+Rules from the most absolute to the weakest: Physical laws (*e.g.* Thermodynamics), Constitutions, Laws, Punishments, Incentives, Informal social agreements.
 
 Rules are powerful upon a system, changing them is a high leverage point. Lobbyists know that. What are the rules of your system, who has power over them?
 
@@ -149,7 +149,7 @@ Again, think of DNA (the stock) and Biodiversity. Or Books, Brains and creativit
 
 ### 3. The goals of the system
 
-If a partical goal is set, then all of the above can be twisted to conform to that goal (think of totalitarism).
+If a specific goal is set, then all of the above can be twisted to conform to that goal (think of Totalitarianism).
 
 > Even people within systems don't often recognize what whole-system goal they are serving. To make profits, most corporations would say, but that's just a rule, a necessary condition to stay in the game. What is the *point* of the game?
 
