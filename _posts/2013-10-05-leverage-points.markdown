@@ -96,7 +96,7 @@ Very intense part here, let's try to sum it up. Some of the negative loops can b
 
 Markets worship price to keep demand and supply in balance, so the more the price is kept clear, unambiguous and truthful, the more smoothly markets operate. Companies and Governments play with the price and weaken the feedback power by twisting information in their favor (subsidies, taxes, etc.), thus the *real* leverage point is to have anti-trust laws, pollution taxes, truth-in-advertising laws.
 
-Democracy has elections as a negative feedback loop between the people and their government. Billions of dollars are spent by leaders to bias the information flow to people.
+Democracy has elections as a negative feedback loop between the people and their government. Yet billions of dollars are spent by leaders to bias the information flow to people.
 
 To sum up, if the impact increases in strength, the feedback have to be strengthened too. Examples are:
 
