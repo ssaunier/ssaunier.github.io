@@ -49,7 +49,7 @@ The *goal* is where you want the stock to be, the *discrepancy* is the
 difference between the *perceived state* and your goal. This is information you
 use to act on inflows and outflows.
 
-Very well, this is quite abstract. Let's take an example.
+This is quite abstract. Let's take an example.
 
 ## The Bathtub
 
@@ -57,7 +57,7 @@ Very well, this is quite abstract. Let's take an example.
 
 The system is now a bathtub, and you want to take a bath. Your goal is a desired level of water. So you plug the faucet and let the water rise until the discrepancy is zero, meaning that the level of water (perceived state) reached your goal. If the water rises too much, you can open the drain a little.
 
-You have two *negative feedback loops* controlling your inflow and outflow.
+You have two *feedback loops* controlling your inflow and outflow.
 
 **NB:** Both the goal and the feedback connections are **hidden** in your head, an external observer would take a while to figure it out only looking at the system.
 
@@ -68,7 +68,7 @@ If you don't have a bathtub, you still have a bank account. Just picture it as a
 
 ## Leverage points
 
-Here are the twelve places to intervene in a system compiled by Donna. In increasing order of effectiveness.
+Here are the twelve places to intervene in a system compiled by Donna, in increasing order of effectiveness.
 
 ### 12. Constants, parameters, numbers
 
@@ -76,13 +76,13 @@ Basically the rate of inflows and outflows. Least effective as they *don't chang
 
 ### 11. Buffer sizes relatively to the flows (stabilization)
 
-Huge bathtub with slow flows is different from tiny bathtub with very fast flows, think of lake and river. There are river floods (small stock) more often than lake floods. Systems can be stabilized simply by increasing the capacity of a buffer, while maintaining flexible enough (huge buffer make the system react too slowly, and cost a lot to build/maintain).
+Huge bathtub with slow flows is different from tiny bathtub with very fast flows. Systems can be stabilized simply by increasing the capacity of a buffer, while maintaining flexible enough (huge buffer make the system react too slowly, and cost a lot to build/maintain).
 
 ### 10. Structure of material stocks and flows
 
-A road system, Baby-Boom, lifetime of CFC molecules, etc.. are structure of a system hard to change afterwards, the leverage point is to build it correctly the first time when possible.
+A road system, the Baby-Boom, the lifetime of CFC molecules, etc. are structure of a system hard to change afterwards, the leverage point is to build it correctly the first time when possible.
 
-### 9. Delays relative to system rates of change
+### 9. Delays relative to the system rates of change
 
 A shower connected directly to the boiler which takes 30 seconds to respond is very hard to adjust. You get *oscillations* from the delay in the feedback loop.
 
