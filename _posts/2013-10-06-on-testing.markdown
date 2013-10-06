@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "On testing"
-description: "My notes on Sandy Metz' great tech talk, The Magic Tricks of Testing"
+description: "My notes on Sandi Metz' great tech talk, The Magic Tricks of Testing"
 category: blog
 ---
 
 A while ago, I watched [The Magic Tricks of Testing](https://www.youtube.com/watch?v=URSWYvyc42M)
-by [Sandy Metz](https://twitter.com/sandimetz) and had an epiphany. This was the perfect
+by [Sandi Metz](https://twitter.com/sandimetz) and had an epiphany. This was the perfect
 approach at testing because it answered perfectly the question I always have:
 
 > What should I test exactly?
@@ -38,12 +38,12 @@ Those messages come in two flavors:
 
 <figure class="center pull-left">
   <img src="/images/posts/object_under_test.jpg" alt="Object under test Diagram">
-  <figcaption>Object under test diagram, by Sandy Metz</figcaption>
+  <figcaption>Object under test diagram, by Sandi Metz</figcaption>
 </figure>
 
 <figure class="center pull-right">
   <img src="/images/posts/unit_testing_minimalist_grid.jpg" alt="Unit testing minimalist grid">
-  <figcaption>Unit Testing Minimalist Grid, by Sandy Metz</figcaption>
+  <figcaption>Unit Testing Minimalist Grid, by Sandi Metz</figcaption>
 </figure>
 
 <div class="clear">
