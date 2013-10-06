@@ -75,6 +75,9 @@ a:hover {
   border-top: 1px solid #E6E6E6;
   margin: 3em auto;
 }
+.without-border {
+  border: none;
+}
 
 @media (max-width: 480px) {
   section, article {
