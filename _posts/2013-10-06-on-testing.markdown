@@ -86,7 +86,7 @@ Source: [Readme](https://github.com/rspec/rspec-mocks#delegating-to-the-original
 
 Here is a small experiment I setup to test `rspec-mocks` and
 [`rspec-fire`](https://github.com/xaviershay/rspec-fire) way of preventing
-stubbing inexistant methods (API drift). You can see that `rspec-fire` is more explicit
-at telling you that you stubbed an inexistant method than `rspec-mock`.
+stubbing nonexistant methods (API drift). You can see that `rspec-fire` is more explicit
+at telling you that you stubbed an nonexistant method than `rspec-mock`.
 
 <script src="https://gist.github.com/ssaunier/6864350.js"></script>
