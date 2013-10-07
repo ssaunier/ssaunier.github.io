@@ -315,3 +315,8 @@ img.inline.pull-right {
 img {
   max-width: 100%;
 }
+
+.gist {
+  font-size: 0.8em !important;
+  line-height: 140% !important;
+}

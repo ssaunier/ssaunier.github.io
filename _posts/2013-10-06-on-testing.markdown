@@ -75,7 +75,7 @@ Rule 5 can be broken if side effects are stable and cheap (close, not far away).
 A mock is a fake of the real object, and it's the developer's job to make sure there
 is no API drift, to ensure test doubles (mocks) stay in sync with th API.
 
-Test frameworks can help you do that. For instance, with [rspec/rspec-mocks](https://github.com/rspec/rspec-mocks), you have:
+Test frameworks can help you do that. For instance, with [`rspec-mocks`](https://github.com/rspec/rspec-mocks), you have:
 
 {% highlight ruby %}
 expect(Person).to receive(:find).and_call_original
@@ -83,3 +83,10 @@ Person.find # => executes the original find method and returns the result
 {% endhighlight %}
 
 Source: [Readme](https://github.com/rspec/rspec-mocks#delegating-to-the-original-implementation).
+
+Here is a small experiment I setup to test `rspec-mocks` and
+[`rspec-fire`](https://github.com/xaviershay/rspec-fire) way of preventing
+stubbing inexistant methods (API drift). You can see that `rspec-fire` is more explicit
+at telling you that you stubbed an inexistant method than `rspec-mock`.
+
+<script src="https://gist.github.com/ssaunier/6864350.js"></script>
