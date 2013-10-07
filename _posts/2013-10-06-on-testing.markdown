@@ -90,4 +90,5 @@ Here is a small experiment I setup to test `rspec-mocks` and
 stubbing nonexistant methods (API drift). You can see that `rspec-fire` is more explicit
 at telling you that you stubbed an nonexistant method than `rspec-mock`.
 
-<script src="https://gist.github.com/ssaunier/6864350.js"></script>
+<script src="https://gist.github.com/ssaunier/6864350.js">
+</script>
