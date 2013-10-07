@@ -13,6 +13,7 @@ approach at testing because it answered perfectly the question I always have:
 
 This blog note are my notes about that talk, for future reference. It only deals
 with **unit tests**, not integration test.
+You can check the [slides on Speaker Deck](https://speakerdeck.com/skmetz/magic-tricks-of-testing-railsconf).
 
 ## Goals of unit tests
 
