@@ -145,8 +145,9 @@ nav a.selected {
 .links {
   border-top: 1px solid #E6E6E6;
   margin: 1em 0;
-  padding-top: 1em;
+  padding-top: 0.2em;
   list-style-type: none;
+  font-size: 1.2em;
 }
 
 .links li {
