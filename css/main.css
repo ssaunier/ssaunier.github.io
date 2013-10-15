@@ -30,8 +30,9 @@ h1, h2, h3 {
   font-family: 'Open Sans',sans-serif;
   font-weight: 400;
   color: #1C1C1C;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.2em;
 }
 
 h1 { font-size: 1.8em; line-height: 1.8em; }
@@ -214,9 +215,9 @@ ul.posts li {
 }
 
 ul.posts .date {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  color: #999;
+  font-family: "Titillium Web", monospace;
+  font-size: 90%;
   margin-right: 0.5em;
 }
 
@@ -250,7 +251,7 @@ ul.posts .date {
 }
 
 .site .meta {
-  color: #aaa;
+  color: #666;
 }
 
 .convinced { margin: 6em 0 4em 0;}
