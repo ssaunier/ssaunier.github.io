@@ -143,6 +143,15 @@ nav a.selected {
   max-width: 120px;
 }
 
+aside .links {
+  font-size: 1em;
+  padding-top: 1em;
+}
+
+aside .links li {
+  margin-top: 0.3em;
+}
+
 .links {
   border-top: 1px solid #E6E6E6;
   margin: 1em 0;
