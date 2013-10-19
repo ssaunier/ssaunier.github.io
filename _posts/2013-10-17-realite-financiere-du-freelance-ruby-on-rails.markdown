@@ -105,7 +105,7 @@ de leur activité, plus d'un quart des sondés indiquant prendre 6 semaines et p
 
 Une question qui revient pour chaque nouveau projet qu'un freelance aborde est de
 savoir s'il doit facturer au forfait, c'est-à-dire donner une valeur totale au projet
-que sont client lui paiera, indépendemment du nombre d'heures passées sur le projet,
+que son client lui paiera, indépendemment du nombre d'heures passées sur le projet,
 ou bien s'il doit indiquer un taux horaire et facturer chaque heure passée sur le
 projet.
 
@@ -124,7 +124,7 @@ Les sondés ne s'y trompent d'ailleurs pas, voici la part de forfait dans leur a
 ## Structure juridique
 
 Pour tout freelance qui démarre, un choix de statut est obligatoire. Et le moins
-que l'on puisse dire, c'est qu'on est vite perdu. Entre le staut d'auto-entrepreneur,
+que l'on puisse dire, c'est qu'on est vite perdu. Entre le statut d'auto-entrepreneur,
 celui de gérant d'EURL ou SARL, en entreprise individuelle (ou EIRL) ou bien encore
 en SCOP ou en SASU, le choix n'est pas évident. À cela s'ajoutent le choix du
 régime fiscal entre l'impôt sur le revenu et l'impôt sur les sociétés, qui démultiplie
@@ -164,9 +164,9 @@ aux freelances qui démarrent. Les voici :
 
 > Ne démarrer qu'avec déjà une mission.
 
-> Il faut toujours prendre en compte le temps passe à l'étude des demandes dans le taux horaire.
+> Il faut toujours prendre en compte le temps passé à l'étude des demandes dans le taux horaire.
 
-> Bouche à oreille : un client satisfait en fait venir d'autre. Savoir rester patient ;)
+> Bouche à oreille : un client satisfait en fait venir d'autres. Savoir rester patient ;)
 
 > Avoir un solide réseau, et pas que virtuel. Sortir, faire des confs, des apéros, des rencontres...
 
