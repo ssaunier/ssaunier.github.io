@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Réalité financière du Freelance Ruby on Rails"
-description: ""
+description: "Enquête auprès des freelancers francophones sur leur activité"
 category: blog
 extra_head: |
   <style type="text/css">
