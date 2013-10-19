@@ -41,7 +41,7 @@ extra_head: |
 J'ai lancé un [appel](https://groups.google.com/forum/#!topic/railsfrance/BPwrappeXlc)
 le 14 octobre 2013 dernier pour sonder la réalité financière du développeur Ruby on Rails
 francophone. Vous avez été nombreux — 37 plus précisément — à y répondre et je vous en remercie. Entrons
-sans plus attendre dans le vif du sujet
+sans plus attendre dans le vif du sujet.
 
 ## Taux Horaire
 
@@ -137,14 +137,50 @@ Voici donc les strucures juridiques choisies par le panel :
   </div>
 </figure>
 
-On voit une majorité d'auto-entrepreneurs, ce qui semble logique étant donné la
+On voit qu'un bon tiers choisissent le statut d'auto-entrepreneur,
+ce qui semble logique étant donné la
 simplicité du statut (déclaration trimestrielle de chiffre d'affaires, pas
 de cotisation sans chiffre). Cependant le plafond de 32600 euros HT peut gêner
 certains qui optent donc pour une structure juridique autre.
 
+Autre remarque pertinente de [@gbetous](http://twitter.com/gbetous), la moitié
+ont créé une personne morale (EURL, SARL, SAS, SASU, SCOP) alors que l'autre est
+en son nom propre (auto-entrepreneur et entreprise individuelle).
+
 Le nouveau statut SASU semble plébiscité par certains freelancers rencontrés à
 <a href="https://twitter.com/dotrbeu">@dotRBeu</a>, à suivre
 (ping <a href="https://twitter.com/Berlimioz">@Berlimioz</a> !)
+
+## Expression libre
+
+La dernière question de l'enquête était libre, et portait sur les conseils à donner
+aux freelances qui démarrent. Les voici :
+
+> Fréquenter les conférences, être présent sur Twitter et la mailing list, rencontrer les autres freelance, participer aux projets open source. Apprendre à être commercial, se considérer comme son propre produit et se marketer en tant que tel. Connaitre ses forces et faiblesses, quitte à demander aux proches d'être franc à ce sujet.
+
+> De ne pas le faire en France !! :)
+
+> Je trouve pas mal de clients sur Odesk. Facturer a l'heure et s'engager le moins possible sur un ETA. Juste s'engager sur un nombre d'heures de travail/semaine et communiquer beaucoup.
+
+> Ne démarrer qu'avec déjà une mission.
+
+> Il faut toujours prendre en compte le temps passe à l'étude des demandes dans le taux horaire.
+
+> Bouche à oreille : un client satisfait en fait venir d'autre. Savoir rester patient ;)
+
+> Avoir un solide réseau, et pas que virtuel. Sortir, faire des confs, des apéros, des rencontres...
+
+> Do it ! :)
+
+> S'inscrire sur [freelancebooking.pro](http://freelancebooking.pro/fr), venir au meetup ruby, faire des présentations au meetup ruby, NE JAMAIS CÉDER AU COÛT FIXE, faire soi-même son [contrat](https://github.com/tibastral/contrats-francais)
+
+> Savoir qu'on peut mettre 2 à 3 ans à atteindre un rythme de croisière, et prévoir les fonds pour les périodes creuses. Se fixer des limites dès le départ (tarifs, prestations, temps de travail) et s'y tenir, ou ça devient vite invivable. S'accorder le droit à l'erreur.
+
+> Continuer à s'investir dans la communauté et l'open source...
+
+> Espace de co-working : cadre de travail + réseau (la majeure partie de mes clients en sont issus), TDD sur chaque projet dépassant les 30/40h, éduquer le client pour qu'il poste ses issues directement sur Github, un bon suivi des Exceptions pour intervenir avant que le client ne puisse se plaindre
+
+À noter que [@thibaut_barrere](http://twitter.com/thibaut_barrere) coache régulièrement des freelances qui se lancent pour leur donner un coup de pouce, n'hésitez pas à le contacter (mail dans la description de son profil twitter).
 
 ## Conclusion
 

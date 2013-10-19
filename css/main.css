@@ -307,8 +307,8 @@ ul.posts .date {
 /* Quotes */
 blockquote {
   margin: 1em 3em;
-  color: #999;
-  border-left: 2px solid #999;
+  color: #666;
+  border-left: 4px solid #3073b3;
   padding-left: 1em;
 }
 
