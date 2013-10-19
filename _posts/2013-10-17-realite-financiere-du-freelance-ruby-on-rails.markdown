@@ -17,6 +17,16 @@ extra_head: |
       font-family: Helvetica, Arial, sans-serif;
       font-size: 13px;
     }
+    #forfait_taux_horaire svg rect {
+      fill: #588ECB;
+      stroke: white;
+    }
+
+    #panel_strucure_juridique svg rect {
+      fill: #314F71;
+      stroke: white;
+    }
+
     figcaption {
       font-style: italic;
     }
@@ -69,15 +79,16 @@ très affutés facturant à prix d'or leur prestation et ne travaillant que 6 mo
 Regardons les chiffres :
 
 <figure class="center">
-  <div id="work_load">
-  </div>
-  <figcaption>Congés pris en fonction du nombre d'heures facturées par mois</figcaption>
-</figure>
-
-<figure class="center">
   <div id="quality_or_quantity">
   </div>
   <figcaption>Relation entre taux horaire et volume mensuel</figcaption>
+</figure>
+
+
+<figure class="center">
+  <div id="work_load">
+  </div>
+  <figcaption>Congés pris en fonction du nombre d'heures facturées par mois</figcaption>
 </figure>
 
 Il semble qu'il y ait deux groupes de freelances, d'un côté ceux qui facturent moins
@@ -89,6 +100,63 @@ malin qui a tout compris : travailler peu mais facturer beaucoup !
 
 Quant aux congés, il semble que les freelances ne sacrifient pas leurs congés au nom
 de leur activité, plus d'un quart des sondés indiquant prendre 6 semaines et plus.
+
+## Forfait vs. Taux horaire
+
+Une question qui revient pour chaque nouveau projet qu'un freelance aborde est de
+savoir s'il doit facturer au forfait, c'est-à-dire donner une valeur totale au projet
+que sont client lui paiera, indépendemment du nombre d'heures passées sur le projet,
+ou bien s'il doit indiquer un taux horaire et facturer chaque heure passée sur le
+projet.
+
+La deuxième solution est moins risquée pour le freelance car il se met à l'abri
+des [erreurs d'estimations](http://www.quora.com/Engineering-Management/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3) récurrentes sur tout projet de développement
+qui sont payées cash par le freelance au forfait.
+
+Les sondés ne s'y trompent d'ailleurs pas, voici la part de forfait dans leur activité :
+
+<figure class="center">
+  <div id="forfait_taux_horaire">
+  </div>
+  <figcaption>Les freelances privilégient une facturation au taux horaire</figcaption>
+</figure>
+
+## Structure juridique
+
+Pour tout freelance qui démarre, un choix de statut est obligatoire. Et le moins
+que l'on puisse dire, c'est qu'on est vite perdu. Entre le staut d'auto-entrepreneur,
+celui de gérant d'EURL ou SARL, en entreprise individuelle (ou EIRL) ou bien encore
+en SCOP ou en SASU, le choix n'est pas évident. À cela s'ajoutent le choix du
+régime fiscal entre l'impôt sur le revenu et l'impôt sur les sociétés, qui démultiplie
+les possibilités.
+
+Voici donc les strucures juridiques choisies par le panel :
+
+<figure class="center">
+  <div id="panel_strucure_juridique">
+  </div>
+</figure>
+
+On voit une majorité d'auto-entrepreneurs, ce qui semble logique étant donné la
+simplicité du statut (déclaration trimestrielle de chiffre d'affaires, pas
+de cotisation sans chiffre). Cependant le plafond de 32600 euros HT peut gêner
+certains qui optent donc pour une structure juridique autre.
+
+Le nouveau statut SASU semble plébiscité par certains freelancers rencontrés à
+<a href="https://twitter.com/dotrbeu">@dotRBeu</a>, à suivre
+(ping <a href="https://twitter.com/Berlimioz">@Berlimioz</a> !)
+
+## Conclusion
+
+Merci encore à tous ceux qui ont répondu à l'enquête, j'ai bien conscience que
+cette étude est loin de respecter les règles statistiques élementaires mais
+j'espère qu'elle vous donnera un aperçu de ce qui vous attend si vous vous lancez
+en indépendant.
+
+Vous pouvez consulter les données brutes
+[ici](https://github.com/ssaunier/ssaunier.github.io/data/french_freelance_ruby_on_rails.tsv),
+n'hésitez pas à ajouter une analyse en commentaire ou des suggestions sur d'autres
+données à croiser. Vous pouvez également consulter le [résumé de Google](https://docs.google.com/forms/d/1Ge7K6DO54Lzf-1wRwu_nJhYwMfpcXJvxaBMDLxCHNi4/viewanalytics) du sondage.
 
 <script src="http://d3js.org/d3.v3.min.js">
 </script>
@@ -143,6 +211,14 @@ function plot_dots(svg, data, r, cx, cy, fill) {
       .style("fill", fill);
 }
 
+function type(d) {
+  d.hourlyRate = +d.hourlyRate;
+  d.monthBilledHours = +d.monthBilledHours;
+  d.experience = +d.experience;
+  d.holidayWeeks = +d.holidayWeeks;
+  return d;
+}
+
 (function() {
   var x = d3.scale.linear()
     .range([0, width]);
@@ -163,15 +239,13 @@ function plot_dots(svg, data, r, cx, cy, fill) {
 
   var svg = create_svg("#houly_rate_by_experience_chart");
 
-  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", function(error, data) {
+  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", type, function(error, data) {
     var tuples = {};
     var max_r = 0;
     var tuple_selector = function(d) {
       return d.experience + "-" + d.hourlyRate;
     }
     data.forEach(function(d) {
-      d.experience = +d.experience;
-      d.hourlyRate = +d.hourlyRate;
       var key = tuple_selector(d);
       if (tuples[key]) {
         tuples[key] += 1;
@@ -232,7 +306,7 @@ function plot_dots(svg, data, r, cx, cy, fill) {
 
   var svg = create_svg("#work_load");
 
-  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", function(error, data) {
+  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", type, function(error, data) {
     var tuples = {};
     var max_r = 0;
     var tuple_selector = function(d) {
@@ -240,8 +314,6 @@ function plot_dots(svg, data, r, cx, cy, fill) {
     }
 
     data.forEach(function(d) {
-      d.monthBilledHours = +d.monthBilledHours;
-      d.holidayWeeks = +d.holidayWeeks;
       var key = tuple_selector(d);
 
       if (tuples[key]) {
@@ -290,7 +362,7 @@ function plot_dots(svg, data, r, cx, cy, fill) {
 
   var svg = create_svg("#quality_or_quantity");
 
-  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", function(error, data) {
+  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", type, function(error, data) {
     var tuples = {};
     var max_r = 0;
     var tuple_selector = function(d) {
@@ -298,8 +370,6 @@ function plot_dots(svg, data, r, cx, cy, fill) {
     }
 
     data.forEach(function(d) {
-      d.monthBilledHours = +d.monthBilledHours;
-      d.hourlyRate = +d.hourlyRate;
       var key = tuple_selector(d);
 
       if (tuples[key]) {
@@ -328,6 +398,121 @@ function plot_dots(svg, data, r, cx, cy, fill) {
       function(d) { return y(d.hourlyRate); },
       function(d) { return color(d.hourlyRate >= 75); });
   });
+})();
+
+(function() {
+  var x = d3.scale.ordinal()
+      .rangeRoundBands([0, width], .1);
+
+  var y = d3.scale.linear()
+      .range([height, 0]);
+
+  var xAxis = d3.svg.axis()
+      .scale(x)
+      .orient("bottom");
+
+  var yAxis = d3.svg.axis()
+      .scale(y)
+      .orient("left");
+
+  var svg = create_svg("#forfait_taux_horaire");
+  // Title
+  svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("Part de projets facturés au forfait");
+
+  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", type, function(error, data) {
+
+    var aggregated = d3.nest()
+                   .key(function(d) { return d.fixedPriceRatio })
+                   .rollup(function(d) { return d3.sum(d, function(e) { return 1 }); })
+                   .entries(data)
+                   .map(function(d) { return {fixedPriceRatio: d.key, frequency: d.values}; })
+                   .sort(function(a, b) { return d3.ascending(a.fixedPriceRatio, b.fixedPriceRatio); });
+
+    x.domain(aggregated.map(function(d) { return d.fixedPriceRatio; }));
+    y.domain([0, d3.max(aggregated, function(d) { return d.frequency; })]);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+    svg.selectAll(".bar")
+        .data(aggregated)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.fixedPriceRatio); })
+        .attr("width", x.rangeBand())
+        .attr("y", function(d) { return y(d.frequency); })
+        .attr("height", function(d) { return height - y(d.frequency); });
+  });
+
+
+})();
+
+(function() {
+  var x = d3.scale.ordinal()
+      .rangeRoundBands([0, width], .1);
+
+  var y = d3.scale.linear()
+      .range([height, 0]);
+
+  var xAxis = d3.svg.axis()
+      .scale(x)
+      .orient("bottom");
+
+  var yAxis = d3.svg.axis()
+      .scale(y)
+      .orient("left");
+
+  var svg = create_svg("#panel_strucure_juridique");
+  // Title
+  svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px");
+
+  d3.tsv("/data/french_freelance_ruby_on_rails.tsv", function(error, data) {
+
+    var aggregated = d3.nest()
+                   .key(function(d) { return d.companyForm })
+                   .rollup(function(d) { return d3.sum(d, function(e) { return 1 }); })
+                   .entries(data)
+                   .map(function(d) { return {companyForm: d.key, frequency: d.values}; })
+                   .sort(function(a, b) { return d3.ascending(a.companyForm, b.companyForm); });
+
+    x.domain(aggregated.map(function(d) { return d.companyForm; }));
+    y.domain([0, d3.max(aggregated, function(d) { return d.frequency; })]);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+    svg.selectAll(".bar")
+        .data(aggregated)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.companyForm); })
+        .attr("width", x.rangeBand())
+        .attr("y", function(d) { return y(d.frequency); })
+        .attr("height", function(d) { return height - y(d.frequency); });
+  });
+
+
 })();
 
 </script>
