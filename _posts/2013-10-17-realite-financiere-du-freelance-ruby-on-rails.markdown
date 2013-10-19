@@ -154,7 +154,7 @@ j'espère qu'elle vous donnera un aperçu de ce qui vous attend si vous vous lan
 en indépendant.
 
 Vous pouvez consulter les données brutes
-[ici](https://github.com/ssaunier/ssaunier.github.io/data/french_freelance_ruby_on_rails.tsv),
+[ici](https://github.com/ssaunier/ssaunier.github.io/blob/master/data/french_freelance_ruby_on_rails.tsv),
 n'hésitez pas à ajouter une analyse en commentaire ou des suggestions sur d'autres
 données à croiser. Vous pouvez également consulter le [résumé de Google](https://docs.google.com/forms/d/1Ge7K6DO54Lzf-1wRwu_nJhYwMfpcXJvxaBMDLxCHNi4/viewanalytics) du sondage.
 
