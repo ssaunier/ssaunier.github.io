@@ -71,8 +71,8 @@ qu'il y a deux modèles qui divergent:
 vacances et en facturant **22** heures par **semaine**, un
 développeur ruby peut gagner un salaire **net** de **3000 euros**.</del>
 <em>&nbsp;Comme le fait remarquer <a href="http://twitter.com/jblemee">@jblemee</a>,
-le calcul de yourrate est approximatif, et les charges payées par le freelance
-sont moins importantes que 50%. Discussion à suivre dans les commentaires.</em>
+le calcul est approximatif et trop inspiré du salariat, les charges payées par le freelance
+étant moins importantes que 50%. Discussion à suivre dans les commentaires.</em>
 
 ## Volume de travail
 
