@@ -66,10 +66,13 @@ qu'il y a deux modèles qui divergent:
   <figcaption>Les plus gros points représentent cinq personnes, les plus petits une seule.</figcaption>
 </figure>
 
-À quoi correspond ce taux horaire de 75 euros brut ? En utilisant le site
+<del>À quoi correspond ce taux horaire de 75 euros brut ? En utilisant le site
 [yourrate](http://yourrate.co), on calcule qu'en prenant **5** semaines de
 vacances et en facturant **22** heures par **semaine**, un
-développeur ruby peut gagner un salaire **net** de **3000 euros**.
+développeur ruby peut gagner un salaire **net** de **3000 euros**.</del>
+<em>&nbsp;Comme le fait remarquer <a href="http://twitter.com/jblemee">@jblemee</a>,
+le calcul de yourrate est approximatif, et les charges payées par le freelance
+sont moins importantes que 50%. Discussion à suivre dans les commentaires.</em>
 
 ## Volume de travail
 
