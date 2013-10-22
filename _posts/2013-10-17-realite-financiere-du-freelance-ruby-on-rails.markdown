@@ -3,6 +3,7 @@ layout: post
 title: "Réalité financière du Freelance Ruby on Rails"
 description: "Enquête auprès des freelancers francophones sur leur activité"
 category: blog
+french: true
 extra_head: |
   <style type="text/css">
     .axis path,
