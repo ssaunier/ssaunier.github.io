@@ -40,7 +40,7 @@ extra_head: |
 ---
 
 J'ai lancé un [appel](https://groups.google.com/forum/#!topic/railsfrance/BPwrappeXlc)
-le 14 octobre 2013 dernier pour sonder la réalité financière du développeur Ruby on Rails
+le 14 octobre 2013 dernier pour sonder la réalité financière du [développeur Ruby on Rails](/fr/developpeur-ruby-on-rails-freelance-paris.html)
 francophone. Vous avez été nombreux — 37 plus précisément — à y répondre et je vous en remercie. Entrons
 sans plus attendre dans le vif du sujet.
 
