@@ -1,42 +1,11 @@
 ---
 layout: post
-title: "Réalité financière du Freelance Ruby on Rails"
-description: "Enquête auprès des freelancers francophones sur leur activité"
+title: Réalité financière du Freelance Ruby on Rails
+description: Enquête auprès des freelancers francophones sur leur activité
 category: blog
 french: true
-extra_head: |
-  <style type="text/css">
-    .axis path,
-    .axis line {
-      fill: none;
-      stroke: #eee;
-      shape-rendering: crispEdges;
-    }
-
-    .axis text,
-    figcaption {
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 13px;
-    }
-    #forfait_taux_horaire svg rect {
-      fill: #588ECB;
-      stroke: white;
-    }
-
-    #panel_strucure_juridique svg rect {
-      fill: #314F71;
-      stroke: white;
-    }
-
-    figcaption {
-      font-style: italic;
-    }
-
-    figure {
-      margin-bottom: 2em;
-    }
-
-  </style>
+extra_head: "<style type=\"text/css\">\n  .axis path,\n  .axis line {\n    fill: none;\n    stroke: #eee;\n    shape-rendering: crispEdges;\n  }\n\n  .axis text,\n  figcaption {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 13px;\n  }\n  #forfait_taux_horaire svg rect {\n    fill: #588ECB;\n    stroke: white;\n  }\n\n  #panel_strucure_juridique svg rect {\n    fill: #314F71;\n    stroke: white;\n  }\n\n  figcaption {\n    font-style: italic;\n  }\n\n  figure {\n    margin-bottom: 2em;\n  }\n\n</style>\n"
+published: true
 ---
 
 J'ai lancé un [appel](https://groups.google.com/forum/#!topic/railsfrance/BPwrappeXlc)
@@ -50,7 +19,7 @@ L'échantillon sondé a révélé un taux horaire brut **médian**, c'est-à-dir
 sondée en deux groupes de taille égale, de:
 
 <div class="center" style="font-size: 3em; font-weight: bold; margin: 1em 0">
-   75€ brut / heure
+   75€ HT / heure
 </div>
 
 Il est intéressant de comparer le taux horaire facturé et l'expérience du
