@@ -127,16 +127,17 @@ nav a {
   display: inline-block;
   margin-right: 1.2em;
   padding-bottom: 0.2em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: small;
 }
 
 nav a:hover {
   text-decoration: none;
+  border-bottom: 3px solid #3073b3;
 }
 
 nav a.selected {
-  border-bottom: 3px solid #3073b3;
+  color: black;
 }
 
 .avatar {
