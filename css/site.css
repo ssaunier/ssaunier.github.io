@@ -94,18 +94,19 @@ header {
   margin: auto;
   max-width: 800px;
   text-align: left;
-  display: table;
   width: 100%;
-}
-
-.heady {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  padding: 1.6em 0;
 }
 
-.cell {
-  display: table-cell;
+header nav {
+  padding-top: 11px;
+}
+
+.separator {
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 header .logo a, header .logo a:hover {
@@ -113,13 +114,10 @@ header .logo a, header .logo a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 479px) {
-  .cell {
-    display: block;
-  }
-  .heady {
-    text-align: left;
-    padding: 0.6em 0;
+@media (max-width: 530px) {
+  header .logo {
+    float: left;
+    margin-top: 1em;
   }
 }
 
@@ -127,8 +125,8 @@ nav a {
   display: inline-block;
   margin-right: 1.2em;
   padding-bottom: 0.2em;
-  /*text-transform: uppercase;*/
-  font-size: small;
+  font-weight: normal;
+  border-bottom: 3px solid transparent;
 }
 
 nav a:hover {
@@ -138,6 +136,10 @@ nav a:hover {
 
 nav a.selected {
   color: black;
+}
+
+nav a.selected:hover {
+  border-bottom: none;
 }
 
 .avatar {
@@ -168,27 +170,13 @@ nav a.selected {
   line-height: 3.8em;
 }
 
-/*@media (min-width: 481px) {
-  .about-me {
-    width: 70%;
-    float: left;
-  }
-
-  .about-me + aside {
-    width: 25%;
-    float: right;
-  }
-}*/
-
 /* Footer */
 footer {
   font-size: small;
   color: #666;
-  border-top: 1px solid #E6E6E6;
-  margin-top: 2em;
   line-height: 2em;
   color: #858585;
-  padding: 2em 1em;
+  padding: 0 1em;
   text-align: center;
 }
 
@@ -227,14 +215,10 @@ ul.posts .date {
   margin-right: 0.5em;
 }
 
-.container {
-  border-top: 1px solid #E6E6E6;
-}
-
 .site {
   text-align: justify;
   max-width: 800px;
-  margin: 3em auto 1em;
+  margin: 1em auto 1em;
   line-height: 1.5em;
 }
 
@@ -321,7 +305,6 @@ blockquote {
 .post-footer {
   margin: 3em 0;
   padding-top: 0.5em;
-  border-top: 2px solid #3073b3;
   float: left;
 }
 

@@ -11,7 +11,7 @@
     {% endif %}
   </title>
   <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,400|Titillium+Web:700,400">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/site.css">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
   <link rel="alternate" type="application/atom+xml" title="RSS Feed for Sébastien Saunier's blog" href="/feed.xml" />
@@ -27,25 +27,25 @@
 <body>
 
   <div class="container">
-    <header>
-      <div class="heady cell">
-        <nav>
-          <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
-          <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">Portfolio</a>
-          <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
-          <a href="https://github.com/ssaunier">Github</a>
-        </nav>
-      </div>
-      <div class="heady logo right">
-        <a href="/">Sébastien Saunier</a>
-        <img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />
-      </div>
-    </header>
-  </div>
-
-  <div class="container">
     <div class="site">
+      <header>
+        <div class="pull-left">
+          <nav>
+            <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+            <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">Portfolio</a>
+            <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+            <a href="https://github.com/ssaunier">Github</a>
+          </nav>
+        </div>
+        <div class="pull-right right logo">
+          <a href="/">Sébastien Saunier</a>
+          <img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />
+        </div>
+        <div class="clear"></div>
+      </header>
+      <div class="separator"></div>
       {{ content }}
+      <div class="separator"></div>
     </div>
   </div>
 
