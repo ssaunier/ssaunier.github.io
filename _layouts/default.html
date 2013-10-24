@@ -28,15 +28,16 @@
 
   <div class="container">
     <header>
-      <div class="heady logo cell">
-        <a href="/">Sébastien Saunier</a>
-      </div>
-      <div class="heady cell right">
+      <div class="heady cell">
         <nav>
+          <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">about</a>
           <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">portfolio</a>
           <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">blog</a>
-          <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">about</a>
         </nav>
+      </div>
+      <div class="heady logo right">
+        <a href="/">Sébastien Saunier</a>
+        <img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />
       </div>
     </header>
   </div>
@@ -53,19 +54,15 @@
     <p>
       Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>,
       hosted on <a href="https://github.com/ssaunier/ssaunier.github.io">Github Pages</a>
-      {% if page.category == 'about' %}
-      |  Homepage template inspired by <a href="http://marcgg.com/">marcgg.com</a>
-      {% endif %}
+      | Template inspired by <a href="http://marcgg.com/">marcgg.com</a>, originally designed by <a href="http://twitter.com/kevintunc">@kevintunc</a>
     </p>
-    {% if page.category != 'about' %}
-      <ul class="links">
-        <li><a href="https://github.com/ssaunier" title="Show me the code"><i class="icon-github"></i></a></li>
-        <li><a href="https://twitter.com/ssaunier" title="Tweeto ergo sum"><i class="icon-twitter"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/sebastiensaunier" title="That's serious stuff"><i class="icon-linkedin"></i></a></li>
-        <li><a href="https://pinboard.in/u:ssaunier" title="My small personal archive of the web"><i class="icon-pinboard"></i></a></li>
-        <li><a href="mailto:seb+footer@saunier.me" title="AMA"><i class="icon-sparrow"></i></a></li>
-      </ul>
-    {% endif %}
+    <ul class="links">
+      <li><a href="https://github.com/ssaunier" title="Show me the code"><i class="icon-github"></i></a></li>
+      <li><a href="https://twitter.com/ssaunier" title="Tweeto ergo sum"><i class="icon-twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/sebastiensaunier" title="That's serious stuff"><i class="icon-linkedin"></i></a></li>
+      <li><a href="https://pinboard.in/u:ssaunier" title="My small personal archive of the web"><i class="icon-pinboard"></i></a></li>
+      <li><a href="mailto:seb+footer@saunier.me" title="AMA"><i class="icon-sparrow"></i></a></li>
+    </ul>
   </footer>
 
   <script type="text/javascript">

@@ -23,7 +23,6 @@ ul {
 html, body { height: 100%; }
 
 body {
-  border-top: 5px solid #3073b3;
   color: #545454;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
@@ -140,20 +139,11 @@ nav a.selected {
   border-bottom: 3px solid #3073b3;
 }
 
-/* About me (home) */
 .avatar {
   border-radius: 50%;
-  width: 80%;
-  max-width: 120px;
-}
-
-aside .links {
-  font-size: 1em;
-  padding-top: 1em;
-}
-
-aside .links li {
-  margin-top: 0.3em;
+  max-width: 40px;
+  vertical-align: -12px;
+  margin-left: 12px;
 }
 
 .links {
@@ -177,7 +167,7 @@ aside .links li {
   line-height: 3.8em;
 }
 
-@media (min-width: 481px) {
+/*@media (min-width: 481px) {
   .about-me {
     width: 70%;
     float: left;
@@ -187,7 +177,7 @@ aside .links li {
     width: 25%;
     float: right;
   }
-}
+}*/
 
 /* Footer */
 footer {
@@ -270,11 +260,11 @@ article h1 {
 }
 
 .site .meta {
-  display: inline-block;
+  /*display: inline-block;*/
   color: #666;
-  border-top: 1px solid #ccc;
+  /*border-top: 1px solid #ccc;*/
   margin-top: 4px;
-  padding: 4px 8px;
+  /*padding: 4px 8px;*/
   margin-bottom: 2em;
 }
 
