@@ -221,6 +221,7 @@ footer .links a:hover {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
+  padding-left: 0;
 }
 
 ul.posts li {
