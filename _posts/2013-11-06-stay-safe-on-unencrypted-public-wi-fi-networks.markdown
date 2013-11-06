@@ -15,20 +15,20 @@ harvest your cookies and impersonate you. Remember
 [Firesheep](http://codebutler.github.io/firesheep/tc12/). Here is a solution to
 keep your Linux or Mac laptop safe.
 
-# Tunnelling to the rescue
+## Tunnelling to the rescue
 
 We want to encrypt all data passing through this public wi-fi. We can use a
 transparent proxy which will forward all your network traffic through a SSH
 connection to a server of yours, using [sshuttle](https://github.com/apenwarr/sshuttle).
 
-## Pre-requisites: somewhere to SSH
+### Pre-requisites: somewhere to SSH
 
 If you don't already own a server with SSH access, you can use AWS EC2 and create
 a free micro-instance through your [AWS Console](https://console.aws.amazon.com/ec2/v2/home).
 It's really easy. When creating the instance, you will be provided with a `.pem` file.
 Put it in your `~/.ssh` folder and `chmod 600` it.
 
-## (Optional) Use your domain
+### (Optional) Use your domain
 
 You can setup a CNAME with your domain name if you own one. I named my micro-instance
 `chaton`, kitten in French.
@@ -41,7 +41,7 @@ ec2-54-194-5-226.eu-west-1.compute.amazonaws.com.
 You can skip this step and use the public DNS name of your instance instead. Just
 replace each mention of `chaton.saunier.me` in the following snippets.
 
-## Setup an SSH config
+### Setup an SSH config
 
 Open your `~/.ssh/config` file and add a new configuration for this host.
 
@@ -60,7 +60,7 @@ $ ssh chaton
 
 (If it does not work, make sure to `chmod 600 ~/.ssh/config`)
 
-## Get sshuttle
+### Get sshuttle
 
 You need to clone the github repository. For instance:
 
@@ -74,7 +74,7 @@ $ ./sshuttle --dns --remote=chaton.saunier.me 0/0
 The last line is here to manually check that `sshuttle` behaves correctly.
 On Mac OSX, you may need to reboot.
 
-## Create handy aliases
+### Create handy aliases
 
 Open your `.aliases` file or your `.zshrc` / `.bashrc`, and put the following
 two lines:
@@ -88,7 +88,7 @@ alias tunnelx='[[ -f /tmp/sshuttle.pid ]] && kill $(cat /tmp/sshuttle.pid) && ec
 
 Don't forget to put your own server in place of `chaton`
 
-## Encrypt all the things!
+### Encrypt all the things!
 
 That's it! After sourcing your configuration file, you should be able to run
 
@@ -98,7 +98,7 @@ $ tunnel
 $ ip  # Your IP with the tunnel
 {% endhighlight %}
 
-# Ready to work!
+## Ready to get things done!
 
 That's it, next time you want to connect to an unencrypted Wi-Fi:
 
