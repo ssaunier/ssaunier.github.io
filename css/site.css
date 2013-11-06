@@ -301,9 +301,9 @@ blockquote {
 }
 
 .post-footer {
-  margin: 3em 0;
-  padding-top: 0.5em;
-  float: left;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em;
+  font-style: italic;
 }
 
 img.inline.pull-right {
