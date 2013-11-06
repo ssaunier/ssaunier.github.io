@@ -80,7 +80,7 @@ Open your `.aliases` file or your `.zshrc` / `.bashrc`, and put the following
 two lines:
 
 {% highlight bash %}
-alias ip="curl http://ipecho.net/plain; echo;"
+alias ip="curl ipinfo.io/ip"
 alias tunnel='~/code/python/sshuttle/sshuttle --dns \
               --daemon --pidfile=/tmp/sshuttle.pid --remote=chaton 0/0'
 alias tunnelx='[[ -f /tmp/sshuttle.pid ]] && kill $(cat /tmp/sshuttle.pid) && echo "Disconnected."'
