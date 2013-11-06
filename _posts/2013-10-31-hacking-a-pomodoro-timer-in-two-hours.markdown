@@ -9,7 +9,7 @@ category: blog
 from Green to Black to tell you that time flies.
 
 
-My friend [@Julient_Mottet](https://twitter.com/Julien_Mottet) told me he would
+My friend [@Julien_Mottet](https://twitter.com/Julien_Mottet) told me he would
 like a tool to help him focus on his work and give him very short deadlines to
 commit to. But he didn't want an obnoxious countdown timer, too much distracting.
 
