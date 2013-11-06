@@ -12,7 +12,8 @@ unprotected public Wi-Fi is great. And you may know that all the web traffic not
 going through `HTTPS` is transmitted in clear for everybody connected to the
 same network to see! Basically, anybody sniffing the HTTP packets on the network can
 harvest your cookies and impersonate you. Remember
-[Firesheep](http://codebutler.github.io/firesheep/tc12/).
+[Firesheep](http://codebutler.github.io/firesheep/tc12/). Here is a solution to
+keep your Linux or Mac laptop safe.
 
 # Tunnelling to the rescue
 
