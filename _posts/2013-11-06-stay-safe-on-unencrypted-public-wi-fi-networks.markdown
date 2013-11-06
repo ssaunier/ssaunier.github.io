@@ -17,7 +17,7 @@ keep your Linux or Mac laptop safe.
 
 ## Tunnelling to the rescue
 
-We want to encrypt all data passing through this public wi-fi. We can use a
+We want to encrypt the HTTP traffic passing through this public wi-fi. We can use a
 transparent proxy which will forward all your network traffic through a SSH
 connection to a server of yours, using [sshuttle](https://github.com/apenwarr/sshuttle).
 
@@ -88,7 +88,7 @@ alias tunnelx='[[ -f /tmp/sshuttle.pid ]] && kill $(cat /tmp/sshuttle.pid) && ec
 
 Don't forget to put your own server in place of `chaton`
 
-### Encrypt all the things!
+### Encrypt your HTTP traffic!
 
 That's it! After sourcing your configuration file, you should be able to run
 
