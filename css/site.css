@@ -327,3 +327,49 @@ h2 .french-flag {
   font-size: 0.8em !important;
   line-height: 140% !important;
 }
+
+.book-me {
+  float: right;
+  margin-top: -3px;
+}
+
+@media (max-width: 728px) {
+  .book-me {
+    float: none;
+    text-align: center;
+  }
+}
+
+/* From http://designmodo.github.io/Flat-UI/ */
+.btn {
+  border: none;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border-radius: 4px;
+  padding: 10px 15px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+  background-color: #255b96;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #3073b3;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-lg {
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  border-radius: 6px;
+}
