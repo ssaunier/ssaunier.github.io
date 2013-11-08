@@ -27,6 +27,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.top-bar {
+  height: 4px;
+  background-color: #255b96;
+}
+
 h1, h2, h3 {
   font-family: 'Open Sans',sans-serif;
   font-weight: 400;
