@@ -39,7 +39,18 @@
           </nav>
         </div>
         <div class="pull-right right logo">
-          <a href="/">Sébastien Saunier</a>
+          <div class="name">
+            <a href="/">Sébastien Saunier</a><br />
+            <small>
+              <em>
+                {% if page.url == '/fr/index.html' %}
+                  <a href="http://freelancebooking.pro/efrn/users/ssaunier">Développeur Ruby on Rails Freelance</a>
+                {% else %}
+                  <a href="http://freelancebooking.pro/en/users/ssaunier">Freelance Ruby on Rails Developer</a>
+                {% endif %}
+              </em>
+            </small>
+          </div>
           <img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />
         </div>
         <div class="clear"></div>

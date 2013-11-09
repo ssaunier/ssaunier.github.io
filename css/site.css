@@ -42,6 +42,7 @@ h1, h2, h3 {
 }
 
 h1 { font-size: 1.8em; line-height: 1.8em; font-weight: 700; }
+h1 small { font-weight: 400; font-size: 50%; color: #999; }
 p { margin: 1em 0; }
 
 table {
@@ -103,7 +104,7 @@ header {
 }
 
 header nav {
-  padding-top: 11px;
+  padding-top: 14px;
 }
 
 .separator {
@@ -117,10 +118,21 @@ header .logo a, header .logo a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 530px) {
+.logo small a {
+  font-weight: 400;
+}
+
+
+.logo .name {
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
   header .logo {
-    float: left;
-    margin-top: 1em;
+    clear: left;
+    text-align: left;
+    padding-top: :;em;
+    float: none;
   }
 }
 
@@ -147,8 +159,8 @@ nav a.selected:hover {
 
 .avatar {
   border-radius: 50%;
-  max-width: 40px;
-  vertical-align: -12px;
+  max-width: 50px;
+  vertical-align: -6px;
   margin-left: 12px;
 }
 
