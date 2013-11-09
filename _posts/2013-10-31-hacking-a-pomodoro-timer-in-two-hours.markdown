@@ -63,7 +63,7 @@ Please note that the app is fully responsive thanks to the use of [`vh`](http://
 
 ## Hosting
 
-[Github Pages](https://startpage.com/do/search) is a great hosting solution for
+[Github Pages](http://pages.github.com/) is a great hosting solution for
 these little hacks. Just create a `gh-pages` branch from `master`, and push it.
 Keeping it in sync with `master` will be equivalent to deploying a new version.
 
@@ -73,6 +73,6 @@ $ git checkout -b gh-pages
 $ git push origin gh-pages
 {% endhighlight %}
 
-This way you get a nice `github.io` or use your own [CNAME](https://startpage.com/do/search).
+This way you get a nice `github.io` or use your own [CNAME](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 Try it here:
 [sebastien.saunier.me/colortimer](http://sebastien.saunier.me/colortimer/) !
