@@ -30,14 +30,12 @@
   <div class="container">
     <div class="site">
       <header>
-        <div class="pull-left">
-          <nav>
-            <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
-            <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">Portfolio</a>
-            <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
-            <a href="https://github.com/ssaunier">Github</a>
-          </nav>
-        </div>
+        <nav>
+          <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+          <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">Portfolio</a>
+          <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+          <a href="https://github.com/ssaunier">Github</a>
+        </nav>
         <div class="pull-right right logo">
           <div class="name">
             <a href="/">Sébastien Saunier</a><br />

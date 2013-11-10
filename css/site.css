@@ -64,8 +64,18 @@ a:hover {
   text-decoration: underline;
 }
 
+a.discreet {
+  color: #545454;
+}
+
 .container {
-  padding: 0 1em;
+  padding: 0 2em;
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0 1em;
+  }
 }
 
 .fancy, section, article {
@@ -97,13 +107,13 @@ a:hover {
 header {
   margin: auto;
   max-width: 800px;
-  text-align: left;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
 header nav {
+  float: left;
   padding-top: 14px;
 }
 
@@ -127,12 +137,27 @@ header .logo a, header .logo a:hover {
   display: inline-block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   header .logo {
     clear: left;
-    text-align: left;
-    padding-top: :;em;
+    text-align: center;
+    padding-top: 1em;
     float: none;
+  }
+
+  header .avatar {
+    margin-top: 1em;
+    max-width: 80px;
+    vertical-align: -20px;
+  }
+
+  header nav {
+    float: none;
+    text-align: center;
+  }
+
+  .site {
+    text-align: left !important;
   }
 }
 
@@ -142,6 +167,10 @@ nav a {
   padding-bottom: 0.2em;
   font-weight: normal;
   border-bottom: 3px solid transparent;
+}
+
+nav a:last-child {
+  margin-right: 0;
 }
 
 nav a:hover {
@@ -257,14 +286,16 @@ ul.posts .date {
 
 article h1 {
   margin-bottom: 0;
+  line-height: 120%;
+  text-align: center;
 }
 
 .site .meta {
-  /*display: inline-block;*/
+  display: inline-block;
   color: #666;
-  /*border-top: 1px solid #ccc;*/
+  border-top: 1px solid #ccc;*/
   margin-top: 4px;
-  /*padding: 4px 8px;*/
+  padding: 4px 8px;
   margin-bottom: 2em;
 }
 
@@ -350,10 +381,17 @@ h2 .french-flag {
   margin-top: -3px;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 420px) {
   .book-me {
     float: none;
     text-align: center;
+    margin: 1em 0 1em 0;
+  }
+  .about-me h1 {
+    text-align: center;
+  }
+  .hello {
+    display: none;
   }
 }
 
