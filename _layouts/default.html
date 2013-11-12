@@ -102,7 +102,6 @@
 
       function trackExternalLink() {
         var link = this;
-        debugger
         _gaq.push(['_trackEvent', 'External link', 'Click', link.href ]);
         setTimeout(function() {
           document.location.href = link.href;
