@@ -28,7 +28,7 @@ So after some brainstorming we decided to go for a one page website showcasing v
 and tracks, and came up with this basic mockup:
 
 <div class="center">
-  <a href="http://www.faggydux.fr" target="_blank">
+  <a href="http://www.faggydux.fr">
     <img alt="Basic mockup of Faggy Dux" src="/images/posts/mockup_faggy_dux.png" />
   </a>
 </div>

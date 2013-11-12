@@ -86,6 +86,38 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
+
+    (function() {
+      function externalLinks() {
+        var links = document.getElementsByTagName('a');
+        var externalLinks = [];
+        for (var i in links) {
+          var link = links[i];
+          if (link.host != window.location.host) {
+            externalLinks.push(link);
+          }
+        }
+        return links;
+      }
+
+      function trackExternalLink() {
+        var link = this;
+        debugger
+        _gaq.push(['_trackEvent', 'External link', 'Click', link.href ]);
+        setTimeout(function() {
+          document.location.href = link.href;
+        }, 100);  // Delay navigation so that GA is notified of the click
+        return false;
+      }
+
+      // Track outbound links
+      window.onload = function() {
+        var links = externalLinks();
+        for (var i in links) {
+          links[i].onclick = trackExternalLink;
+        }
+      }
+    }());
   </script>
 </body>
 </html>
