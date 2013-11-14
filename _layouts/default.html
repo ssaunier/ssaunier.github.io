@@ -87,36 +87,12 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 
-    (function() {
-      function externalLinks() {
-        var links = document.getElementsByTagName('a');
-        var externalLinks = [];
-        for (var i in links) {
-          var link = links[i];
-          if (link.host != window.location.host) {
-            externalLinks.push(link);
-          }
-        }
-        return links;
-      }
-
-      function trackExternalLink() {
-        var link = this;
-        _gaq.push(['_trackEvent', 'External link', 'Click', link.href ]);
-        setTimeout(function() {
-          document.location.href = link.href;
-        }, 100);  // Delay navigation so that GA is notified of the click
-        return false;
-      }
-
-      // Track outbound links
-      window.onload = function() {
-        var links = externalLinks();
-        for (var i in links) {
-          links[i].onclick = trackExternalLink;
-        }
-      }
-    }());
+    /*!
+     * http://github.com/ssaunier/track-external-links
+     * Copyright 2013 Sébastien Saunier
+     * @license MIT
+     */
+    !function(){function n(){for(var n=document.getElementsByTagName("a"),t=[],e=0;e<n.length;++e){var o=n[e];o.host!=window.location.host&&t.push(o)}return t}function t(){var n=this;return window._gaq&&_gaq.push(["_trackEvent","External link","Click",n.href]),setTimeout(function(){document.location.href=n.href},100),!1}window.addEventListener("load",function(){var e=n();for(var o in e)e[o].addEventListener("click",t)})}();
   </script>
 
   {% if page.category != blog %}
