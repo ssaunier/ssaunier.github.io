@@ -105,14 +105,13 @@
     return outboundLinks;
   }
 
-  function trackOutboundLink() {
+  function trackOutboundLink(event) {
     var link = this;
     window._gaq && _gaq.push(['_trackEvent', 'Outbound link', 'Click', link.href ]);
-    debugger
     setTimeout(function() {
       document.location.href = link.href;
-    }, 250);  // Delay navigation so that GA is notified of the click
-    return false;
+    }, 300);  // Delay navigation so that GA is notified of the click
+    event.preventDefault ? event.preventDefault() : event.returnValue = false;
   }
 
   // Track outbound links
