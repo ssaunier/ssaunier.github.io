@@ -92,7 +92,37 @@
      * Copyright 2013 Sébastien Saunier
      * @license MIT
      */
-    !function(){function n(){for(var n=document.getElementsByTagName("a"),t=[],e=0;e<n.length;++e){var o=n[e];o.host!=window.location.host&&t.push(o)}return t}function t(){var n=this;return window._gaq&&_gaq.push(["_trackEvent","Outbound link","Click",n.href]),setTimeout(function(){document.location.href=n.href},250),!1}window.addEventListener("load",function(){var e=n();for(var o in e)e[o].addEventListener("click",t)})}();
+    (function(window, document) {
+  function getOutboundLinks() {
+    var links = document.getElementsByTagName('a');
+    var outboundLinks = [];
+    for (var i = 0; i < links.length; ++i) {
+      var link = links[i];
+      if (link.host != window.location.host) {
+        outboundLinks.push(link);
+      }
+    }
+    return outboundLinks;
+  }
+
+  function trackOutboundLink() {
+    var link = this;
+    window._gaq && _gaq.push(['_trackEvent', 'Outbound link', 'Click', link.href ]);
+    debugger
+    setTimeout(function() {
+      document.location.href = link.href;
+    }, 250);  // Delay navigation so that GA is notified of the click
+    return false;
+  }
+
+  // Track outbound links
+  window.addEventListener('load', function() {
+    var outboundLinks = getOutboundLinks();
+    for (var i in outboundLinks) {
+      outboundLinks[i].addEventListener('click', trackOutboundLink);
+    }
+  });
+}(window, document));
   </script>
 
   {% if page.category != blog %}
