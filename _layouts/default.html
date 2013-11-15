@@ -92,7 +92,7 @@
      * Copyright 2013 Sébastien Saunier
      * @license MIT
      */
-    !function(){function n(){for(var n=document.getElementsByTagName("a"),t=[],e=0;e<n.length;++e){var o=n[e];o.host!=window.location.host&&t.push(o)}return t}function t(){var n=this;return window._gaq&&_gaq.push(["_trackEvent","Outbound link","Click",n.href]),setTimeout(function(){document.location.href=n.href},100),!1}window.addEventListener("load",function(){var e=n();for(var o in e)e[o].addEventListener("click",t)})}();
+    !function(){function n(){for(var n=document.getElementsByTagName("a"),t=[],e=0;e<n.length;++e){var o=n[e];o.host!=window.location.host&&t.push(o)}return t}function t(){var n=this;return window._gaq&&_gaq.push(["_trackEvent","Outbound link","Click",n.href]),setTimeout(function(){document.location.href=n.href},250),!1}window.addEventListener("load",function(){var e=n();for(var o in e)e[o].addEventListener("click",t)})}();
   </script>
 
   {% if page.category != blog %}
