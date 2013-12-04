@@ -38,12 +38,12 @@ Those messages come in two flavors:
 </div>
 
 <figure class="center pull-left">
-  <img src="/images/posts/object_under_test.jpg" alt="Object under test Diagram">
+  <img src="/images/posts/object_under_test.jpg" alt="Object under test Diagram" width="330">
   <figcaption>Object under test diagram, by Sandi Metz</figcaption>
 </figure>
 
 <figure class="center pull-right">
-  <img src="/images/posts/unit_testing_minimalist_grid.jpg" alt="Unit testing minimalist grid">
+  <img src="/images/posts/unit_testing_minimalist_grid.jpg" alt="Unit testing minimalist grid"  width="330">
   <figcaption>Unit Testing Minimalist Grid, by Sandi Metz</figcaption>
 </figure>
 

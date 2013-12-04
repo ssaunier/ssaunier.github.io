@@ -35,14 +35,17 @@ body {
 h1, h2, h3 {
   font-family: 'Open Sans',sans-serif;
   font-weight: 400;
-  color: #1C1C1C;
-  margin-top: 1.6em;
-  margin-bottom: 0.6em;
+  color: #101010;
+  margin-top: 2em;
+  margin-bottom: 0.3em;
   line-height: 1.2em;
 }
 
 h1 { font-size: 1.8em; line-height: 1.8em; font-weight: 700; }
 h1 small { font-weight: 400; font-size: 50%; color: #999; }
+
+h2 { font-weight: bold; }
+
 p { margin: 1em 0; }
 
 table {
@@ -118,9 +121,9 @@ header nav {
 }
 
 .separator {
-  border-bottom: 1px solid #E6E6E6;
+  /*border-bottom: 1px solid #E6E6E6;*/
   padding-bottom: 1em;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 
 header .logo a, header .logo a:hover {
@@ -260,8 +263,8 @@ ul.posts .date {
 }
 
 .site {
-  text-align: justify;
-  max-width: 800px;
+  text-align: left;
+  max-width: 680px;
   margin: 1em auto 1em;
   line-height: 1.5em;
 }
@@ -342,10 +345,11 @@ article h1 {
 
 /* Quotes */
 blockquote {
-  margin: 1em 3em;
+  margin: 1em 0 1em -1em;
   color: #666;
-  border-left: 4px solid #3073b3;
-  padding-left: 1em;
+  border-left: 0.4em solid #3073b3;
+  padding-left: 0.6em;
+  font-style: italic;
 }
 
 .post-footer {

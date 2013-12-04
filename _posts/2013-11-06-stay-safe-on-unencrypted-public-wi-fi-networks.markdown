@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stay safe on unencrypted public Wi-Fi networks"
+title: "Stay safe on unencrypted public Wi-Fi"
 description: "Set up a poor's man VPN, fowarding all your network traffic to a server of yours through SSH"
 category: blog
 ---
