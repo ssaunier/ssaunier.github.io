@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create Pull Request from the command line within an organization"
+title: "Create Pull Requests from the command line within an organization"
 description: "Use the command line tool `hub` with some alias of mine to easily create pull requests"
 category: blog
 ---
