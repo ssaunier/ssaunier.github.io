@@ -1,0 +1,38 @@
+---
+
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://sebastien.saunier.me/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://sebastien.saunier.me/fr/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://sebastien.saunier.me/portfolio/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://sebastien.saunier.me/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  {% endfor %}
+</urlset>
