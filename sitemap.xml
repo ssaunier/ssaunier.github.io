@@ -25,7 +25,7 @@
   </url>
   {% for post in site.posts %}
     <url>
-      <loc>{{ post.url }}</loc>
+      <loc>http://sebastien.saunier.me/{{ post.url }}</loc>
       {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}
