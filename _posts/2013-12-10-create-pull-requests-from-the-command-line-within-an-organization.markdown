@@ -5,6 +5,9 @@ description: "Use the command line tool `hub` with some alias of mine to easily 
 category: blog
 ---
 
+**EDIT**: `hub` has been [updated](https://github.com/github/hub/releases/tag/v1.11.0) to deal with this issue. Just run ```brew update && brew upgrade hub```.
+
+
 If your company uses Github on a daily basis for your private git repositories,
 you may be using Pull Requests at the heart of the Github flow. You may already
 know [`hub`](http://hub.github.com/), a little command-line tool to help you
