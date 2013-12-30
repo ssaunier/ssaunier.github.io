@@ -28,35 +28,33 @@
   <div class="top-bar"></div>
 
   <div class="container">
-    <div class="site">
-      <header>
-        <nav>
-          <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
-          <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">Portfolio</a>
-          <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
-          <a href="https://github.com/ssaunier">Github</a>
-        </nav>
-        <div class="pull-right right logo">
-          <div class="name">
-            <a href="/">Sébastien Saunier</a><br />
-            <small>
-              <em>
-                {% if page.url == '/fr/index.html' %}
-                  <a href="/fr">Développeur Ruby on Rails Freelance</a>
-                {% else %}
-                  <a href="/">Freelance Ruby on Rails Engineer</a>
-                {% endif %}
-              </em>
-            </small>
-          </div>
-          <img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />
+    <header class="inner">
+      <nav>
+        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+        <a class="{% if page.category == 'portfolio' %} selected {% endif %}" href="/portfolio/">Portfolio</a>
+        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+        <a href="https://github.com/ssaunier">Github</a>
+      </nav>
+      <div class="pull-right right logo">
+        <div class="name">
+          <a href="/">Sébastien Saunier</a><br />
+          <small>
+            <em>
+              {% if page.url == '/fr/index.html' %}
+                <a href="/fr">Développeur Ruby on Rails Freelance</a>
+              {% else %}
+                <a href="/">Freelance Ruby on Rails Engineer</a>
+              {% endif %}
+            </em>
+          </small>
         </div>
-        <div class="clear"></div>
-      </header>
-      <div class="separator"></div>
-      {{ content }}
-      <div class="separator"></div>
-    </div>
+        <img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />
+      </div>
+      <div class="clear"></div>
+    </header>
+    <div class="separator"></div>
+    {{ content }}
+    <div class="separator"></div>
   </div>
 
   <div class="clear"></div>
