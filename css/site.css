@@ -31,7 +31,7 @@
 }
 
 body {
-  color: #545454;
+  color: #222;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
@@ -78,7 +78,7 @@ a:hover {
 }
 
 a.discreet {
-  color: #545454;
+  color: #222;
 }
 
 .fancy, section, article {
@@ -94,7 +94,7 @@ article {
 .pull-right { float: right; }
 .pull-left { float: left; }
 .clear { clear: both; }
-.center { text-align: center; }
+.center { text-align: center !important; }
 .right { text-align: right; }
 .spacer {
   border-top: 1px solid #E6E6E6;
@@ -176,6 +176,7 @@ header .logo a, header .logo a:hover {
     margin-top: 1em;
     max-width: 80px;
     vertical-align: -20px;
+    margin-left: 0
   }
 
   header nav {
@@ -277,12 +278,12 @@ ul.posts li {
 ul.posts .date {
   margin-right: 0.3em;
   display: inline-block;
-  color: #999;
+  color: #666;
   font-family: "Ubuntu Mono";
 }
 
 ul.posts .description {
-  color: #999;
+  color: #666;
 }
 
 header {
@@ -307,7 +308,7 @@ header h1.title a:hover {
 }
 
 article h1 {
-  margin-bottom: 0;
+  margin-bottom: 8px;
   line-height: 120%;
   text-align: center !important;
 }
