@@ -10,8 +10,8 @@
     - Sébastien Saunier
     {% endif %}
   </title>
-  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,400|Ubuntu+Mono">
   <link rel="stylesheet" href="/css/site.css">
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu+Mono|Asap:400,700,400italic">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
   <link rel="alternate" type="application/atom+xml" title="RSS Feed for Sébastien Saunier's blog" href="/feed.xml" />
@@ -27,7 +27,7 @@
 <body>
   <div class="top-bar"></div>
 
-  <div class="container">
+  <div class="header-container">
     <header class="inner">
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
@@ -41,9 +41,9 @@
           <small>
             <em>
               {% if page.url == '/fr/index.html' %}
-                <a href="/fr">Développeur Ruby on Rails Freelance</a>
+                <a href="/fr">Ingénieur Web Freelance</a>
               {% else %}
-                <a href="/">Freelance Ruby on Rails Engineer</a>
+                <a href="/">Freelance Web Engineer</a>
               {% endif %}
             </em>
           </small>
@@ -52,25 +52,24 @@
       </div>
       <div class="clear"></div>
     </header>
-    <div class="separator"></div>
-    {{ content }}
-    <div class="separator"></div>
+    <div class="clear"></div>
   </div>
 
-  <div class="clear"></div>
+  {{ content }}
+  <div class="separator"></div>
 
+  <div  style="border-bottom: 1px solid #ddd"></div>
   <footer>
     <p>
       Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>,
-      hosted on <a href="https://github.com/ssaunier/ssaunier.github.io">Github Pages</a>
-      | Template inspired by <a href="http://marcgg.com/">marcgg.com</a>, originally designed by <a href="http://twitter.com/kevintunc">@kevintunc</a>
+      hosted on <a href="https://github.com/ssaunier/ssaunier.github.io">Github Pages</a>. Theme inspired by <a href="http://marcgg.com">marcgg.com</a>.
     </p>
     <ul class="links">
       <li><a href="https://github.com/ssaunier" title="Show me the code"><i class="icomoon-github"></i></a></li>
       <li><a href="https://twitter.com/intent/follow?screen_name=ssaunier" title="Tweeto ergo sum"><i class="icomoon-twitter"></i></a></li>
       <li><a href="https://www.linkedin.com/in/sebastiensaunier" title="That's serious stuff"><i class="icomoon-linkedin"></i></a></li>
       <li><a href="https://pinboard.in/u:ssaunier" title="My small personal archive of the web"><i class="icomoon-pinboard"></i></a></li>
-      <li><a href="mailto:seb+footer@saunier.me" title="AMA"><i class="icomoon-sparrow"></i></a></li>
+      <li><a href="mailto:seb@saunier.me" title="AMA"><i class="icomoon-sparrow"></i></a></li>
       <li>
         <a href="/feed.xml"><img src="/images/rss.jpg" style="height: 18px; vertical-align: -2px" alt="RSS" /></a>
       </li>

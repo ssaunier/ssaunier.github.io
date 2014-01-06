@@ -6,9 +6,8 @@ layout: default
   <h1 class="inner">
     {{ page.title }}
   </h1>
-  <div class="center">
-    <p class="meta">{{ page.date | date_to_string }}</p>
-  </div>
+
+  <p class="meta">{{ page.date | date: "%A %-d %B %Y" }}</p>
 
   {% if page.french %}
   <div class="suggest-translate">

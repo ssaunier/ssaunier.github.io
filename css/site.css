@@ -43,7 +43,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Asap', sans-serif;
   font-weight: 400;
   color: #101010;
   margin-top: 2em;
@@ -112,10 +112,7 @@ article {
 
 /* Header and navigation */
 header {
-  margin: auto;
-  max-width: 800px;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Asap', Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -124,9 +121,14 @@ header nav {
   padding-top: 14px;
 }
 
+.header-container {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5em;
+}
+
 .separator {
-  padding-bottom: 1em;
-  margin-bottom: 2em;
+  padding-bottom: 0.8em;
+  margin-bottom: 1.4em;
 }
 
 header .logo a, header .logo a:hover {
@@ -213,17 +215,15 @@ nav a.selected:hover {
 .avatar {
   border-radius: 50%;
   max-width: 50px;
-  vertical-align: -6px;
+  vertical-align: -9px;
   margin-left: 12px;
 }
 
 .links {
   border-top: 1px solid #E6E6E6;
   margin: 1em 0;
-  padding-top: 0.2em;
-  padding-left: 0;
   list-style-type: none;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .links li {
@@ -244,8 +244,8 @@ footer {
   color: #666;
   line-height: 2em;
   color: #858585;
-  padding: 0 1em;
   text-align: center;
+  margin: 4em 0;
 }
 
 footer p {
@@ -287,7 +287,7 @@ ul.posts .description {
 }
 
 header {
-  margin-top: 1em;
+  padding: 1em 0;
 }
 
 header a {
@@ -314,9 +314,10 @@ article h1 {
 }
 
 .meta {
-  display: inline-block;
   color: #666;
+  display: inline-block;
   border-top: 1px solid #ccc;
+  font-size: 0.9em;
   margin-top: 4px;
   padding: 4px 8px;
 }
@@ -418,7 +419,7 @@ img {
   .book-me {
     float: none;
     text-align: center;
-    margin: 1em 0 1em 0;
+    margin: 0 0 1em 0;
   }
   .about-me h1 {
     text-align: center;
