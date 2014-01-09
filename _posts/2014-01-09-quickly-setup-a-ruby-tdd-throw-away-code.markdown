@@ -7,7 +7,7 @@ category: blog
 
 A few days ago, I was on a phone interview, with my screen shared. I was asked
 to write an algorithm, and I had 20 minutes. I decided to go with Ruby, and TDD.
-But I spent 15 minutes to setup correctly `guard` and `rspec` before actually
+But I spent 15 minutes to correctly setup the environment with `guard` `rspec` before actually
 working on the algorithm. With these instructions, I would have had 19 minutes.
 
 {% highlight bash %}
