@@ -5,6 +5,8 @@ description: "Next time you have a phone interview, be ready with this template 
 category: blog
 ---
 
+**TL;DR** - I created [`ssaunier/lab`](https://github.com/ssaunier/lab#lock-and-load) to start hacking even faster!
+
 A few days ago, I was on a phone interview, with my screen shared. I was asked
 to write an algorithm, and I had 20 minutes. I decided to go with Ruby, and TDD.
 But I spent 15 minutes to correctly setup the environment with `guard` `rspec` before actually
@@ -49,5 +51,3 @@ $ bundle exec guard
 {% endhighlight %}
 
 Now go hack your solution! FWIW, here's [mine](https://gist.github.com/ssaunier/8336988) :)
-
-**TL;DR** - I created [`ssaunier/lab`](https://github.com/ssaunier/lab#lock-and-load) to start hacking even faster!
