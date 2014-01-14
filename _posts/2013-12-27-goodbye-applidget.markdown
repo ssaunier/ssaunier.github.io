@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Goodbye Applidget"
-description: "As of January 2014, I am starting a new life as a freelance web consultant"
+description: "As of January 2014, I am starting a new life as a web consultant"
 category: blog
 ---
 
-After 1 year and 9 months of service, I am leaving [Applidget](http://www.applidget.com) to focus on my freelance career. I have been working on [MobiCheckin](http://www.mobicheckin.com/) with [@rpechayr](http://twitter.com/rpechayr), [@W_Deluche](https://twitter.com/W_Deluche), [@m7alleus](https://m7alleus) and [@Ahrryg](https://twitter.com/Ahrryg). I am proud of what we built, a robust, well-tested, full-featured SaaS product. For the stats nerds out there, here are some numbers:
+After 1 year and 9 months of service, I am leaving [Applidget](http://www.applidget.com) to focus on my consulting career. I have been working on [MobiCheckin](http://www.mobicheckin.com/) with [@rpechayr](http://twitter.com/rpechayr), [@W_Deluche](https://twitter.com/W_Deluche), [@m7alleus](https://m7alleus) and [@Ahrryg](https://twitter.com/Ahrryg). I am proud of what we built, a robust, well-tested, full-featured SaaS product. For the stats nerds out there, here are some numbers:
 
 <figure class="center">
   <img src="/images/posts/github-ssaunier-mobicheckin.png" alt="2187 commits" />
