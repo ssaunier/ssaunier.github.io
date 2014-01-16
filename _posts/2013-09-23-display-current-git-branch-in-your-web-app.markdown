@@ -16,7 +16,7 @@ browser tab. That way, your eye will catch on the orange badge and figure out qu
 you are. Plus you get a nice benefit of knowing the feature context.
 
 
-{% highlight ruby %}
+```ruby
 # app/helpers/application_helper.rb
 module ApplicationHelper
   def branch_info
@@ -28,18 +28,18 @@ module ApplicationHelper
     end
   end
 end
-{% endhighlight %}
+```
 
 This helper is ready to be used in your bootstrap top bar menu, inside a `ul.nav`.
 
-{% highlight html %}
+```html
 <!-- app/views/layout/application.html.erb -->
 <div class="nav-collapse collapse">
   <ul class="nav">
     <%= branch_info if Rails.env.development? %>
   </ul>
 </div>
-{% endhighlight %}
+```
 
 You will get a nice orange badge in the top bar of your web application reminding
 you that:
@@ -49,10 +49,10 @@ you that:
 
 Before coming with the shell approach, I was previously using the gem [`grit`](https://github.com/mojombo/grit):
 
-{% highlight ruby %}
+```ruby
 repository = Grit::Repo.new(Rails.root)
 branch_name = repository.head.name
-{% endhighlight %}
+```
 
 But I figured out that I just needed the branch name, so including a gem was a
 bit of overhead!

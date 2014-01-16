@@ -4,3 +4,4 @@ title: Sébastien Saunier
 safe: true
 pygments: true
 lsi: false
+markdown: redcarpet

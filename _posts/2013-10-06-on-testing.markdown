@@ -80,10 +80,10 @@ is no API drift, to ensure test doubles (mocks) stay in sync with th API.
 
 Test frameworks can help you do that. For instance, with [`rspec-mocks`](https://github.com/rspec/rspec-mocks), you have:
 
-{% highlight ruby %}
+```ruby
 expect(Person).to receive(:find).and_call_original
 Person.find # => executes the original find method and returns the result
-{% endhighlight %}
+```
 
 Source: [Readme](https://github.com/rspec/rspec-mocks#delegating-to-the-original-implementation).
 

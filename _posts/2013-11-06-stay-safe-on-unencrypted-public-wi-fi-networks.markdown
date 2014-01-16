@@ -33,10 +33,10 @@ Put it in your `~/.ssh` folder and `chmod 600` it.
 You can setup a CNAME with your domain name if you own one. I named my micro-instance
 `chaton`, kitten in French.
 
-{% highlight bash %}
+```bash
 $ dig +short chaton.saunier.me
 ec2-54-194-5-226.eu-west-1.compute.amazonaws.com.
-{% endhighlight %}
+```
 
 You can skip this step and use the public DNS name of your instance instead. Just
 replace each mention of `chaton.saunier.me` in the following snippets.
@@ -45,18 +45,18 @@ replace each mention of `chaton.saunier.me` in the following snippets.
 
 Open your `~/.ssh/config` file and add a new configuration for this host.
 
-{% highlight bash %}
+```bash
 Host chaton
   HostName chaton.saunier.me
   User ubuntu
   IdentityFile ~/.ssh/chaton.pem
-{% endhighlight %}
+```
 
 That way, you'll be directly connected to your micro-instance with:
 
-{% highlight bash %}
+```bash
 $ ssh chaton
-{% endhighlight %}
+```
 
 (If it does not work, make sure to `chmod 600 ~/.ssh/config`)
 
@@ -64,12 +64,12 @@ $ ssh chaton
 
 You need to clone the github repository. For instance:
 
-{% highlight bash %}
+```bash
 $ cd ~/code/python
 $ git clone git://github.com/apenwarr/sshuttle
 $ cd sshuttle
 $ ./sshuttle --dns --remote=chaton.saunier.me 0/0
-{% endhighlight %}
+```
 
 The last line is here to manually check that `sshuttle` behaves correctly.
 On Mac OSX, you may need to reboot.
@@ -79,12 +79,12 @@ On Mac OSX, you may need to reboot.
 Open your `.aliases` file or your `.zshrc` / `.bashrc`, and put the following
 two lines:
 
-{% highlight bash %}
+```bash
 alias ip="curl ipinfo.io/ip"
 alias tunnel='~/code/python/sshuttle/sshuttle --dns \
               --daemon --pidfile=/tmp/sshuttle.pid --remote=chaton 0/0'
 alias tunnelx='[[ -f /tmp/sshuttle.pid ]] && kill $(cat /tmp/sshuttle.pid) && echo "Disconnected."'
-{% endhighlight %}
+```
 
 Don't forget to put your own server in place of `chaton`
 
@@ -92,11 +92,11 @@ Don't forget to put your own server in place of `chaton`
 
 That's it! After sourcing your configuration file, you should be able to run
 
-{% highlight bash %}
+```bash
 $ ip  # Your IP without the tunnel
 $ tunnel
 $ ip  # Your IP with the tunnel
-{% endhighlight %}
+```
 
 ## Ready to get things done!
 

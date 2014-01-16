@@ -17,23 +17,23 @@ when running `git branch`.
 Once I receive a confirmation email from GitHub that a pull request I opened has been merged
 by a fellow coworker, I have this simple routine I run in 4 steps:
 
-{% highlight bash %}
+```bash
 $ git m      # Go back to master,
 $ git fo     # and fetch origin,
 $ git mom    # merge origin/master into local master branch.
 $ git sweep  # At last, clean up merged branches and prune.
-{% endhighlight %}
+```
 
 All this magic happens because of some aliases:
 
-{% highlight bash %}
+```bash
 [alias]
   m = checkout master
   fo = fetch origin
   mom = merge origin master
   sweep = !git branch --merged master | grep -v 'master$' | xargs git branch -d\
           && git remote prune origin
-{% endhighlight %}
+```
 
 You can review my full [`.gitconfig`](https://github.com/ssaunier/dotfiles/blob/master/gitconfig)
 on GitHub for more details.

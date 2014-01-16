@@ -53,7 +53,7 @@ allow you to **tag** information. Let's name them `video` and `remix`.
 
 Now we can simply implement a `for` loop to display all videos, and all remixes.
 
-{% highlight html %}
+```html
 {% raw %}
 {% for video in site.categories.videos %}
   <!-- Display the video -->
@@ -63,13 +63,13 @@ Now we can simply implement a `for` loop to display all videos, and all remixes.
   <!-- Display the remix -->
 {% endfor %}
 {% endraw %}
-{% endhighlight %}
+```
 
 One more requirement is to display both Vimeo **and** Youtube videos. Leveraging Jekyll
 posts metadata, let's introduce two post variables, `youtube_id` and `vimeo_id`, and render
 different HTML blocks based on what the post contains.
 
-{% highlight html %}
+```html
 {% raw %}
 {% if video.youtube_id %}
   <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}"
@@ -81,12 +81,13 @@ different HTML blocks based on what the post contains.
   {% endif %}
 {% endif %}
 {% endraw %}
-{% endhighlight %}
+```
 
 Then my brother just has to create a new file in [`_posts`](https://github.com/yoo76/yoo76.github.io/tree/master/_posts)
 to add a new video, like this:
 
-<pre>
+<div class="highlight">
+<pre><code>
 ---
 categories: video
 youtube_id: <strong><a href="https://www.youtube.com/watch?v=0QsmwNNp2_k">0QsmwNNp2_k</a></strong>
@@ -95,8 +96,8 @@ name: Audi Talents Awards - Symbiosis
 
 Our vision of the first corporate video from the Audi Talent Awards 2013.
 Our purposal wasn't selected, despite of hard work and many efforts.
-But we plan to go further for the next edition!
-</pre>
+But we plan to go further for the next edition!</code></pre>
+</div>
 
 Dead easy, right? You can view the full source code for including
 [remixes](https://github.com/yoo76/yoo76.github.io/blob/master/_includes/remixes.html#L37)

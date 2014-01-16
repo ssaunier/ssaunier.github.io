@@ -104,12 +104,6 @@ article {
   border: none;
 }
 
-@media (max-width: 480px) {
-  section, article {
-    text-align: left;
-  }
-}
-
 /* Header and navigation */
 header {
   font-family: 'Asap', Helvetica, Arial, sans-serif;

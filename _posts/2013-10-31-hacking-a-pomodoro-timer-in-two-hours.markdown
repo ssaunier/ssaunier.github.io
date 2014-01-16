@@ -45,7 +45,7 @@ I also implemented a simple feature: matching the favicon color to the body back
 is a pattern we see more and more as it gives you feedback of a tab status without focusing
 on this particular tab. [Buffer](http://bufferapp.com/) does that using [tommoor/tinycon](https://github.com/tommoor/tinycon).
 
-{% highlight javascript %}
+```javascript
 var canvas = document.createElement("canvas");
 var size = 16 * (window.devicePixelRatio || 1);
 canvas.width = size;
@@ -57,7 +57,7 @@ context.fill();
 
 // Having in <head />: <link id="favicon" href="" rel="icon" type="image/x-icon">
 $('#favicon').attr('href', canvas.toDataURL(0)).remove().appendTo('head');
-{% endhighlight %}
+```
 
 Please note that the app is fully responsive thanks to the use of [`vh`](http://dev.opera.com/articles/view/css-viewport-units/) units.
 
@@ -67,11 +67,11 @@ Please note that the app is fully responsive thanks to the use of [`vh`](http://
 these little hacks. Just create a `gh-pages` branch from `master`, and push it.
 Keeping it in sync with `master` will be equivalent to deploying a new version.
 
-{% highlight bash %}
+```bash
 $ git checkout master
 $ git checkout -b gh-pages
 $ git push origin gh-pages
-{% endhighlight %}
+```
 
 This way you get a nice `github.io` or use your own [CNAME](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 Try it here:

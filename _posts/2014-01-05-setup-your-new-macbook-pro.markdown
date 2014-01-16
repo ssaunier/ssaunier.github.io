@@ -29,31 +29,31 @@ I use Sublime Text 2 as my text editor. Grab it, set up your license, and [insta
 
 I assume you run Mavericks.
 
-{% highlight bash %}
+```bash
 $ sudo xcodebuild -license
 $ xcode-select --install
-{% endhighlight %}
+```
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) for a fancy shell.
 
-{% highlight bash %}
+```bash
 $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-{% endhighlight %}
+```
 
 Then open your terminal preferences and set the "Pro" theme as default. Quit and relaunch it.
 
 Install HomeBrew to `brew install` all the things.
 
-{% highlight bash %}
+```bash
 $ ruby <(curl -fsS https://raw.github.com/Homebrew/homebrew/go/install)
 $ brew doctor
-{% endhighlight %}
+```
 
 Some basic programs to have on your computer.
 
-{% highlight bash %}
+```bash
 $ brew install vim wget git hub
-{% endhighlight %}
+```
 
 I then copy paste my old `~/.ssh` folder to this new computer.
 
@@ -63,7 +63,7 @@ I then copy paste my old `~/.ssh` folder to this new computer.
 I use [`rbenv`](https://github.com/sstephenson/rbenv) in combination with
 [`ruby-build`](https://github.com/sstephenson/ruby-build).
 
-{% highlight bash %}
+```bash
 $ brew install rbenv rbenv-gem-rehash ruby-build
 $ rbenv install 2.0.0-353
 $ rbenv global 2.0.0-p353
@@ -72,28 +72,28 @@ $ gem install bundler foreman rails
 $ bundle config --global jobs `expr $(sysctl -n hw.ncpu) - 1`
 $ brew install heroku-toolbelt
 $ gem install jekyll  # Static Blogging FTW!
-{% endhighlight %}
+```
 
 ## Dotfiles
 
 I then reinstall my [dotfiles](http://github.com/ssaunier/dotfiles). You can fork
 my repo to configure it to you needs.
 
-{% highlight bash %}
+```bash
 $ mkdir -p ~/code/ssaunier && cd $_
 $ git clone git@github.com:ssaunier/dotfiles.git && cd dotfiles
 $ ./install.sh
-{% endhighlight %}
+```
 
 ## MacOSX
 
 You want your system to be as responsive as possible. For instance, blazing
 fast keyboard repeat rate. You get that with:
 
-{% highlight bash %}
+```bash
 $ defaults write NSGlobalDomain KeyRepeat -int 2
 $ defaults write NSGlobalDomain InitialKeyRepeat -int 15
-{% endhighlight %}
+```
 
 You should explore [@mathiasbynens's `.osx`](https://github.com/mathiasbynens/dotfiles/blob/master/.osx)
 file for the perfect Hacking configuration.
