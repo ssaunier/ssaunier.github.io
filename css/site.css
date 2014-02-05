@@ -149,12 +149,13 @@ header .logo a, header .logo a:hover {
 
 .post > .highlight {
   max-width: 100% !important;
+  word-wrap: break-word;
 }
 
 @media (max-width: 700px) {
   .inner, pre code, .post > * {
-    margin-left: 1em !important;
-    margin-right: 1em !important;
+    margin-left: 18px !important;
+    margin-right: 18px !important;
     width: auto !important;
   }
   .post > .highlight {

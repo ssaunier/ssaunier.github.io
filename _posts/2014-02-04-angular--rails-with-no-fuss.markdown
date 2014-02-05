@@ -71,7 +71,7 @@ mkdir -p spec/karma/config
 Now you must fetch some files:
 
 1. [`package.json`](https://github.com/ssaunier/angular-rails-example/blob/master/package.json) to automatically install node packages with `npm install`
-1. [`spec/karma/config/unit.js`](https://github.com/ssaunier/angular-rails-example/blob/master/spec/karma/config/unit.js) the Karma coniguration file
+1. [`spec/karma/config/unit.js`](https://github.com/ssaunier/angular-rails-example/blob/master/spec/karma/config/unit.js) the Karma configuration file
 1. [`spec/karma/application_spec.js`](https://github.com/ssaunier/angular-rails-example/blob/master/spec/karma/application_spec.js) Adding `angular-mocks` to the tested files
 1. [`lib/tasks/karma.rake`](https://github.com/ssaunier/angular-rails-example/blob/master/lib/tasks/karma.rake): The key ingredient to make Karma aware of Sprockets
 
