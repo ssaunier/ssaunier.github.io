@@ -5,7 +5,7 @@ description: "Use Angular to structure your front-end code without turning it in
 category: blog
 ---
 
-I haven't be satisfied with the way my front-end code (mainly based on JQuery) has grown with my previous rails app, so I took the time to sit and explore the great front-end framework we now have. I still like handling the routing in Rails with several pages, it feels wrong to move that logic to the javascript layer. I don't want to build a single-page application. But having some canonical way to write front-end code plus a great framework is really important.
+I haven't been satisfied with the way my front-end code (mainly based on JQuery) has grown with my previous rails app, so I took the time to sit and explore the great front-end framework we now have. I still like handling the routing in Rails with several pages, it feels wrong to move that logic to the javascript layer. I don't want to build a single-page application. But having some canonical way to write front-end code plus a great framework is really important.
 
 For this article, I chose **Angular** for its approach on models (plain old javascript objects) and the two-way binding. I will describe how to add angular to your rails application, and how to setup **Karma** and **Jasmine** for testing it, making sure they play nice with **Sprockets**.
 
