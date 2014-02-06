@@ -354,6 +354,7 @@ article h1 {
 
 .post pre code {
   border: none;
+  line-height: 170%;
 }
 
 /* terminal */
