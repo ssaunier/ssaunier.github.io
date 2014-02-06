@@ -154,7 +154,7 @@ It complains that the `Rubygems` service does not exist. Let's create it
 and let's write its skeleton. We know we need to inject the `$http` module.
 
 ```coffee
-# $ touch javascripts/angular/services/rubygems.coffee
+# $ touch app/assets/javascripts/angular/services/rubygems.coffee
 app = angular.module("app")
 app.service 'Rubygems', ['$http', ($http) ->
 ]
