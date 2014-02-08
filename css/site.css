@@ -222,7 +222,7 @@ nav a.selected:hover {
 }
 
 .links li {
-  padding: 0.2em 0;
+  padding: 0.5em 0;
 }
 
 h1 {
@@ -240,7 +240,7 @@ footer {
   line-height: 2em;
   color: #858585;
   text-align: center;
-  margin: 4em 0;
+  margin: 2em 0;
 }
 
 footer p {
