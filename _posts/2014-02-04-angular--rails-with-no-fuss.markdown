@@ -14,6 +14,7 @@ For this article, I chose **Angular** for its approach on models (plain old java
 Open your `Gemfile` and add the `angular` and `angular-mocks` package. The latter will be used in the test part.
 
 ```ruby
+source 'https://rails-assets.org'
 gem "rails-assets-angular"
 group :development, :test do
   gem 'rails-assets-angular-mocks'
@@ -85,6 +86,7 @@ curl $ROOT/spec/karma/application_spec.js > spec/karma/application_spec.js
 curl $ROOT/lib/tasks/karma.rake > lib/tasks/karma.rake
 npm install
 echo "node_modules" >> .gitignore
+mkdir -p tmp
 ```
 
 You can have a look at [this commit](https://github.com/ssaunier/angular-rails-example/commit/058bc21292e1bb119b37c01ced95c8a775529b4f).
