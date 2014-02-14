@@ -16,7 +16,7 @@ when running `git branch`.
 
 Once I receive a confirmation email from GitHub that a pull request I opened has been merged
 by a fellow coworker, I have this simple routine I run in 4 steps:
-{{
+
 ```bash
 $ git m      # Go back to master,
 $ git fo     # and fetch origin,
