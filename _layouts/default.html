@@ -124,9 +124,9 @@
     /*
      * Detect if we are included in an iframe => move.
      */
-    // if (self !== window.top) {
-    //   self.location.href = self.location.href;
-    // }
+    if (self !== window.top) {
+      window.top.location.href = self.location.href;
+    }
   </script>
 
 </body>
