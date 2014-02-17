@@ -22,7 +22,7 @@ I use Sublime Text 2 as my text editor. Grab it, set up your license, and [insta
 - Theme - Soda
 - Emmet
 - GitGutter
-- SideBarEnhancments
+- SideBarEnhancements
 - TrailingSpaces
 
 ## Basic hacking configuration
@@ -65,7 +65,7 @@ I use [`rbenv`](https://github.com/sstephenson/rbenv) in combination with
 
 ```bash
 $ brew install rbenv rbenv-gem-rehash ruby-build
-$ rbenv install 2.0.0-353
+$ rbenv install 2.0.0-p353
 $ rbenv global 2.0.0-p353
 $ gem update --system
 $ gem install bundler foreman rails
