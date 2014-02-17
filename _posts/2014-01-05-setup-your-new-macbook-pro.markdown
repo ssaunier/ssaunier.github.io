@@ -1,4 +1,4 @@
----
+]---
 layout: post
 title: "Setup your new MacBook Pro"
 description: "So you've just received a new laptop for X-mas? Time to set it up!"
@@ -65,8 +65,8 @@ I use [`rbenv`](https://github.com/sstephenson/rbenv) in combination with
 
 ```bash
 $ brew install rbenv rbenv-gem-rehash ruby-build
-$ rbenv install 2.0.0-p353
-$ rbenv global 2.0.0-p353
+$ rbenv install 2.1.0
+$ rbenv global 2.1.0
 $ gem update --system
 $ gem install bundler foreman rails
 $ bundle config --global jobs `expr $(sysctl -n hw.ncpu) - 1`
