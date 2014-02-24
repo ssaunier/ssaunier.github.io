@@ -1,4 +1,4 @@
-]---
+---
 layout: post
 title: "Setup your new MacBook Pro"
 description: "So you've just received a new laptop for X-mas? Time to set it up!"
