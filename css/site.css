@@ -120,6 +120,12 @@ header nav {
   margin-bottom: 1.5em;
 }
 
+@media(max-width: 400px) {
+  .header-container .contact {
+    display: none;
+  }
+}
+
 .separator {
   padding-bottom: 0.8em;
   margin-bottom: 1.4em;
@@ -445,6 +451,7 @@ img {
   color: #ffffff;
   background-color: #3073b3;
   text-decoration: none;
+  cursor: pointer;
 }
 .btn:active,
 .btn.active {
@@ -457,4 +464,9 @@ img {
   font-size: 17px;
   line-height: 1.471;
   border-radius: 6px;
+}
+
+.form-control {
+  -moz-box-sizing: padding-box;
+  box-sizing: padding-box;
 }
