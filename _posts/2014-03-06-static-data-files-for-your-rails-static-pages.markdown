@@ -1,4 +1,4 @@
----
+
 layout: post
 title: "Static data files for your Rails static pages"
 description: "Avoid including a CMS engine or creating models for your Rails static pages"
@@ -32,18 +32,18 @@ which you make available in your rails app through an initializer and a global v
 
 ```ruby
 # config/initializers/team.rb
-TEAM = YAML.load_file("#{Rails.root}/config/data/team.yml").deep_symbolize_keys
+TEAM = YAML.load_file("#{Rails.root}/config/data/team.yml")
 ```
 
 Then you can use `TEAM` in your team view (I use [high_voltage](https://github.com/thoughtbot/high_voltage) for my static pages).
 
 ```erb
 <%# app/views/pages/team.html.erb #>
-<% TEAM[:members].each do |member| %>
+<% TEAM['members'].each do |member| %>
   <div>
-    <h3><%= member[:name] %></h3>
-    <h4><%= member[:title] %></h4>
-    <%= image_tag "team/#{member[:photo]}" %>
+    <h3><%= member['name'] %></h3>
+    <h4><%= member['title'] %></h4>
+    <%= image_tag "team/#{member['photo']}" %>
   </div>
 <% end %>
 ```
