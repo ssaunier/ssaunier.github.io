@@ -1,4 +1,4 @@
-
+---
 layout: post
 title: "Static data files for your Rails static pages"
 description: "Avoid including a CMS engine or creating models for your Rails static pages"
