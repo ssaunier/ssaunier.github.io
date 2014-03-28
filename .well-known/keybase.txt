@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/ssaunier
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sebastien.saunier.me
+  * I am ssaunier (https://keybase.io/ssaunier) on keybase.
+  * I have a public key with fingerprint 97A6 F0E7 014C 1D6F C965  5308 E76B 7565 6898 6B58
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "97a6f0e7014c1d6fc9655308e76b756568986b58",
+            "host": "keybase.io",
+            "key_id": "E76B756568986B58",
+            "uid": "4f0a1fea9a8450342b9fff509d38b800",
+            "username": "ssaunier"
+        },
+        "service": {
+            "hostname": "sebastien.saunier.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396000403,
+    "expire_in": 157680000,
+    "prev": "8c79207dadd30695dbd1cea66eacec8b09a7290cc5e52bc33ee37466a172528a",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMS4JetGN+fZ8/aMpw/8TGIINnWbXK2UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslCzNE83SDFLNDQxNkg1TzNKSLc1MTY0NLFLNzZLMTc1MzSwsLcySTC2U
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgqKu5mRNcvRNYfSlYwiTNINEwLTXRMtHC
+xNTA2MQoyTItLc3UwDLF2CLJwsAApLA4tSgvMTcVqLq4OLE0LzO1SKlWRwkoWpaZ
+nApyM8hqmIpUoO0lmal5elClekBhHaWCovyS/OT8HKCKjJKSAiuQASWVBSAd5alJ
+8VCz4pMy81KA/gdqKEstKs7Mz1OyMgSqTC7JBBluaGxpZmBgYGJgrKOUWlGQWZQa
+nwlSYWpuBnSpgQHImtQyoJEWyeaWRgbmKYkpKcYGZpamKUkphsmpiWZmqYnJqckW
+SQaWieZGlgbJyaappkZJycbGqanG5iZmZomG5kamRhaJSiDfFeblK1kBbSpJTAf5
+KzM9L7GktChVqbaTSYaFgZGJgY2VCRSDDFycArB4vfhZgKFdZX8N39Ku3nDXJX4B
+ezLnnA/9GBBUFi5ea5Yyt++6j3OY74mJd+SmHtCtSTKf9OvP2Qc7etKb9bUu3q6d
++XPNlFm8usuVQmMUXO111e/PEJs9NTXLxTT8y9Srru99zl8yFmX85DeZ62x0n/Sv
+qDs7382QFAysNVD3/98tZtqm8+3+/8lGjvr7zx667st1av75KAZO1XebdpyNCfpn
+eejCfIHKek6F7UsLvDfYHnv8sqTw5U/+dXIyIXmrul5/6kj/2fD5t90znv8fY4Vv
+HHvTtfvqgd5j7xoEVpz2K9FNYCrglni62o/F4bnied//X2OVF8Yv6jvaq3Mpcr77
+15LFq61XdD9bI91zWN6mmV2+JEZjqVbdhGrDO1psoWfqTvx59Ii9K/Jrzb8Vn+u1
+1X0ENd+fz1xT7mXfcmnSvHf6/H92rdKXdVcRuHj6uVnkThuGWI+pe2acDQ592XIm
++mb0e2WVqH/xOXv42F2Xv2esmZd7mm1bk83EO7MmxK/Q72q/zqJ0jndDruxJpv/f
+WPes1A05UvlmpbJef2vPmvDHBX933zm0dm6vrsGiiTv+MHpdv1DV1rNAaUarTnLX
+sidTG+Q1stx+yU4/2rCe6erqR6+iyuIm7LiiM0d3qVSVXqG/pGiB5J93mj36rdN/
+uz79c67om8pc4zdMf5pzXP6py/IZbZHepyLw7gOzRNy9u8JPW1xuTeY6VO5UvB0A
+=6cqD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ssaunier
+
+==================================================================
