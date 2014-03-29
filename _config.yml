@@ -5,3 +5,7 @@ safe: true
 pygments: true
 lsi: false
 markdown: redcarpet
+
+# Keybase
+include:
+  - .well-known
