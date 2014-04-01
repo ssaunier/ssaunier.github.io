@@ -389,10 +389,15 @@ blockquote {
   font-style: italic;
   margin-top: 4em;
   margin-bottom: 6em;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 0 1em;
+  background-color: #fefefe;
 }
 .post-footer-self-promotion img {
   float: left;
-  margin-left: -68px;
+  margin-left: -84px;
+  margin-top: 16px;
 }
 .post-footer-self-promotion strong {
   background-color: lightyellow;
