@@ -30,7 +30,6 @@ I use Sublime Text 2 as my text editor. Grab it, set up your license, and [insta
 I assume you run Mavericks.
 
 ```bash
-$ sudo xcodebuild -license
 $ xcode-select --install
 ```
 
