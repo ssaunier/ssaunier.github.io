@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "You do not need a database for your contact form"
-description: ""
+description: "Learn how to simply embed a contact form on your static website"
 category: blog
 ---
 
@@ -40,6 +40,8 @@ You just need to open your text editor, and paste the following code:
 ```
 
 That's it, your form already works! It will post the form onto an external domain, `forms.brace.io`, and send you an email with all the form content. No database. And you can just hit reply in your mailbox to continue the conversation with your visitor.
+
+This tool is provided by the guys from [Brace](http://brace.io/), their main service is to host static websites directly from Dropbox. Neat! You just setup a dropbox folder, and it's available on the Internet :) That's an alternative to Github Pages for the less technical savvy of you.
 
 ## Convention over Configuration
 
