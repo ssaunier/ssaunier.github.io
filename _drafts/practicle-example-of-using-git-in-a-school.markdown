@@ -112,3 +112,4 @@ stuff coming. And if you didn't grasp all the concepts in this article, I will t
 a [workshop on Git and GitHub](http://www.lewagon.org/learn/debuter-avec-git-github) in May,
 grab your ticket!
 
+*Photography credits: School [42](http://www.42.fr/)'s iMac classroom*
