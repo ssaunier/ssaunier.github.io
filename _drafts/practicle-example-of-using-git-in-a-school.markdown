@@ -42,3 +42,73 @@ exercise_foo
 
 This way, students would just run `rake` in the `exercise_foo` folder and get an
 auto-grading of their attempt.
+
+## How Git and Github is used by teachers
+
+We created the repository [lewagon/promo-2-challenges](https://github.com/lewagon/promo-2-challenges)
+and added `push` permissions to all teachers. Then it's just a simple collaboration strategy
+with branches and pull-requests. Each new exercise is created/refactored inside a git branch,
+and a pull-request is opened when the jobs is done. Here is a figure showing the
+GitHub repository (`origin` in the context of teachers):
+
+<figure class="center">
+  <img class="two-third" src="/images/posts/git-teachers.png" alt="Teachers push and pull to GitHub">
+  <figcaption>Teachers can push and pull to the exercise templates repo</figcaption>
+</figure>
+
+## Students work on the exercises and submit their attempt
+
+Enter the students. Each student will **fork** the exercise templates repository to their
+own GitHub account. You can view all the students of the second camp on the
+[GitHub network map](https://github.com/lewagon/promo-2-challenges/network). Then,
+
+1. Students can submit their attempts using `git push origin master`, where `origin` in this
+context is the student's forked repository.
+1. Students can get an update of the exercises using `git pull upstream master`, where `upstream`
+is the original teachers' repository.
+
+So each students have 2 remotes configured on their local exercises repository. Thank you, git!
+Here is a figure to have a full picutre over the workflow:
+
+<figure class="center">
+  <img class="two-third" src="/images/posts/git-students.png" alt="Students push their attempts">
+  <figcaption>Students push their attempts and pull exercise updates</figcaption>
+</figure>
+
+## Icing on the cake, teachers get a dashboard
+
+With all the automation in place, you can see there is a way to automatically compute
+student's attempt and put a nice dashboard of the class. That way, we can see who is
+thriving and more importantly, who has difficulties.
+
+We needed a way to be alerted when a student `push`es an attempt, so that we can run
+`rake`, parse the `rake` results and store that into a database. Fortunately, GitHub
+provides us with [Webhooks](https://developer.github.com/v3/repos/hooks/), so each
+time a student `push`es, a `POST` request is sent to the pedagogic platform we built.
+The pedagogic platform will then `clone` and `pull` the student's repository, `cd`
+to the exercise repository and run `rake`. It is summarized in the following
+sequence diagram:
+
+<figure class="center">
+  <img class="two-third" src="/images/posts/kitt-sequencedigram.png" alt="Pedagogic Platform is notified by GitHub via a Webhook">
+  <figcaption>What happens when a student git <code>push</code>es</figcaption>
+</figure>
+
+So putting all together, we get this great Git workflow:
+
+<figure class="center">
+  <img class="two-third" src="/images/posts/git-kitt.png" alt="Git is powerful">
+  <figcaption>Students push, GitHub notifies, Pedagogic Platform grades</figcaption>
+</figure>
+
+## Conclusion: Git is awesome!
+
+Using [git remotes](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes), we managed
+to put together an efficient worflow where teachers can easily update and add new exercises,
+while students are working. The Webhook provided by GitHub are priceless, thanks guys!
+
+Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great
+stuff coming. And if you didn't grasp all the concepts in this article, I will throw
+a [workshop on Git and GitHub](http://www.lewagon.org/learn/debuter-avec-git-github) in May,
+grab your ticket!
+

@@ -349,6 +349,10 @@ article h1 {
   background-color: rgb(248, 248, 248);
 }
 
+.post code {
+  font-size: 18px;
+}
+
 .post ul, .post ol {
   padding-left: 2.5em;
 }
@@ -387,6 +391,17 @@ article h1 {
     height: 13em;
   }
 }
+
+figure .two-third {
+  max-width: 66%;
+}
+
+@media (max-width: 600px) {
+  figure .two-third {
+    max-width: 100%;
+  }
+}
+
 
 /* Quotes */
 blockquote {
