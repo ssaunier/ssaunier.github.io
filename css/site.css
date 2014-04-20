@@ -374,6 +374,20 @@ article h1 {
   background-color: #333;
 }
 
+.post-photo {
+  height: 24em;
+  margin-top: -1.5em;
+  margin-bottom: 2.5em;
+  background-size: cover;
+  box-shadow: 0px 4px 8px #999;
+}
+
+@media (max-width: 420px) {
+  .post-photo {
+    height: 13em;
+  }
+}
+
 /* Quotes */
 blockquote {
   margin: 1em 0 1em -1em;
