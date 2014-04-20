@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Practicle example of using git in a school"
-description: ""
+title: "Practical example of using git in a school"
+description: "How Le Wagon harnesses the power of git remotes to serve exercises to students"
 category: blog
 photo: ecole42.jpg
 ---
