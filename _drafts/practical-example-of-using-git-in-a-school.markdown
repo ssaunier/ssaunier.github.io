@@ -7,26 +7,23 @@ photo: ecole42.jpg
 ---
 
 I recently joined [Le Wagon](http://www.lewagon.org/), hosting a
-[9 weeks bootcamp for entrepreneurs in Paris](http://www.lewagon.org/premiere).
-My role is to teach people who have zero programming education how to build
+[9 week-long bootcamp for entrepreneurs in Paris](http://www.lewagon.org/premiere).
+My role is to teach people who have had zero programming education how to build
 a web application using Ruby on Rails.
 
 [Boris](https://www.linkedin.com/pub/boris-paillard/70/226/867), CEO of Le Wagon,
-wrote the first batch of ruby exercises during last Christmas
-holidays for the very first camp. Since then, the teachers and I put some work
-into those to refactor the exercises against some standards.
+wrote the first batch of ruby exercises during last year's
+holidays for the very first camp. Since then, the teachers and I worked on improving and extending these exercises..
 
-In this article, I explained how we leverarged `git` to create a great Teacher/Student
-workflow. I will use Le Wagon as en example, but this applies to any computer class.
+In this article, I explain how we leverage `git` to create a great Teacher/Student
+workflow. I will use [Le Wagon](http://www.lewagon.org/) as an example, but this approach applies to any computer class.
 
 ## Teachers write exercise templates
 
-Students of the first camp told us they wanted to have some way to know if their
-code was correct. Exercises consisted only of a `README.md`, and solutions were
-given at the end of the day through live-coding sessions. It was a bit cahotic.
+When we first ran the camp, students kept telling us they wanted a way to know if their code was correct. Exercises consisted only of a `README.md`, and solutions were
+given at the end of the day through live-coding sessions. It was a bit caotic.
 
-How could we set up a way to automatically check if a student's attempt to a
-given exercise was correct? Well, that's quite straightfoward, let's use <acronym title="Test Driven Development">TDD</acronym>!
+How could we automatically check if a student's answer to an exercise was correct?? Well, it's quite straightforward, let's use <acronym title="Test Driven Development">TDD</acronym>!
 We agreed on an exercise template:
 
 ```
@@ -48,7 +45,7 @@ auto-grading of their attempt.
 We created the repository [lewagon/promo-2-challenges](https://github.com/lewagon/promo-2-challenges)
 and added `push` permissions to all teachers. Then it's just a simple collaboration strategy
 with branches and pull-requests. Each new exercise is created/refactored inside a git branch,
-and a pull-request is opened when the jobs is done. Here is a figure showing the
+and a pull-request is opened when the jobs are done. Here is a figure showing the
 GitHub repository (`origin` in the context of teachers):
 
 <figure class="center">
@@ -67,8 +64,8 @@ context is the student's forked repository.
 1. Students can get an update of the exercises using `git pull upstream master`, where `upstream`
 is the original teachers' repository.
 
-So each students have 2 remotes configured on their local exercises repository. Thank you, git!
-Here is a figure to have a full picutre over the workflow:
+So each students has 2 remotes configured on their local exercises repository. Thank you, git!
+Here is a figure to have a full picture over the workflow:
 
 <figure class="center">
   <img class="two-third" src="/images/posts/git-students.png" alt="Students push their attempts">
@@ -77,9 +74,9 @@ Here is a figure to have a full picutre over the workflow:
 
 ## Icing on the cake, teachers get a dashboard
 
-With all the automation in place, you can see there is a way to automatically compute
-student's attempt and put a nice dashboard of the class. That way, we can see who is
-thriving and more importantly, who has difficulties.
+With all the automation in place, you can see there is a way to automatically compute a
+student's attempt and create a nice dashboard of the class. That way, we can see who is
+thriving and more importantly, who is having trouble.
 
 We needed a way to be alerted when a student `push`es an attempt, so that we can run
 `rake`, parse the `rake` results and store that into a database. Fortunately, GitHub
@@ -104,7 +101,7 @@ So putting all together, we get this great Git workflow:
 ## Conclusion: Git is awesome!
 
 Using [git remotes](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes), we managed
-to put together an efficient worflow where teachers can easily update and add new exercises,
+to create an efficient workflow where teachers can easily update and add new exercises,
 while students are working. The Webhook provided by GitHub are priceless, thanks guys!
 
 Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great
