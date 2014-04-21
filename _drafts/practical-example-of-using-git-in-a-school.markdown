@@ -42,7 +42,7 @@ auto-grading of their attempt.
 
 ## How Git and Github is used by teachers
 
-We created the repository [lewagon/promo-2-challenges](https://github.com/lewagon/promo-2-challenges)
+We created the exercise templates repository
 and added `push` permissions to all teachers. Then it's just a simple collaboration strategy
 with branches and pull-requests. Each new exercise is created/refactored inside a git branch,
 and a pull-request is opened when the jobs are done. Here is a figure showing the
