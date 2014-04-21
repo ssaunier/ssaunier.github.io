@@ -111,5 +111,4 @@ grab your ticket!
 
 *Photography credits: School [42](http://www.42.fr/)'s iMac classroom*
 
-<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Practical example of using git and GitHub in a school " data-url="http://sebastien.saunier.me/blog/2014/04/21/practical-example-of-using-git-in-a-school.html" data-count="horizontal">Vote on Hacker News</a>
-<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+<a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="Show HN: Practical example of using git and GitHub in a school">Vote on Hacker News</a>
