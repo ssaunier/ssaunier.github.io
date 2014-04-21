@@ -11,9 +11,9 @@ I recently joined [Le Wagon](http://www.lewagon.org/), hosting a
 My role is to teach people who have had zero programming education how to build
 a web application using Ruby on Rails.
 
-[Boris](https://www.linkedin.com/pub/boris-paillard/70/226/867), CEO of Le Wagon,
+[Boris Paillard](https://www.linkedin.com/pub/boris-paillard/70/226/867), CEO of Le Wagon,
 wrote the first batch of ruby exercises during last year's
-holidays for the very first camp. Since then, the teachers and I worked on improving and extending these exercises..
+holidays for the very first camp. Since then, the teachers and I worked on improving and extending these exercises.
 
 In this article, I explain how we leverage `git` to create a great Teacher/Student
 workflow. I will use [Le Wagon](http://www.lewagon.org/) as an example, but this approach applies to any computer class.
