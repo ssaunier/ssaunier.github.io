@@ -21,7 +21,7 @@ workflow. I will use [Le Wagon](http://www.lewagon.org/) as an example, but this
 ## Teachers write exercise templates
 
 When we first ran the camp, students kept telling us they wanted a way to know if their code was correct. Exercises consisted only of a `README.md`, and solutions were
-given at the end of the day through live-coding sessions. It was a bit caotic.
+given at the end of the day through live-coding sessions. It was a bit chaotic.
 
 How could we automatically check if a student's answer to an exercise was correct? Well, it's quite straightforward, let's use <acronym title="Test Driven Development">TDD</acronym>!
 We agreed on an exercise template:
