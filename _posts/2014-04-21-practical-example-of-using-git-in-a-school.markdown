@@ -3,7 +3,7 @@ layout: post
 title: "Practical example of using git in a school"
 description: "How Le Wagon harnesses the power of git remotes to serve exercises to students"
 category: blog
-photo: ecole42.jpg
+photo: lewagon_mutinerie.jpg
 ---
 
 I recently joined [Le Wagon](http://www.lewagon.org/), hosting a
@@ -104,7 +104,5 @@ to create an efficient workflow where teachers can easily update and add new exe
 while students are working. The Webhook provided by GitHub are priceless, thanks guys!
 
 Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great stuff coming. If you are in Paris in July/August, or October/November, there are still some seats left for our <a href="http://www.lewagon.org/premiere">9 week-long bootcamp</a>, they won't last long!
-
-*Photography credits: School [42](http://www.42.fr/)'s iMac classroom*
 
 <!-- <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="Show HN: Practical example of using git and GitHub in a school">Vote on Hacker News</a> -->
