@@ -110,4 +110,4 @@ grab your ticket!
 
 *Photography credits: School [42](http://www.42.fr/)'s iMac classroom*
 
-<a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="Show HN: Practical example of using git and GitHub in a school">Vote on Hacker News</a>
+<!-- <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="Show HN: Practical example of using git and GitHub in a school">Vote on Hacker News</a> -->
