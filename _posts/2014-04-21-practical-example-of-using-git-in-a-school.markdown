@@ -23,7 +23,7 @@ workflow. I will use [Le Wagon](http://www.lewagon.org/) as an example, but this
 When we first ran the camp, students kept telling us they wanted a way to know if their code was correct. Exercises consisted only of a `README.md`, and solutions were
 given at the end of the day through live-coding sessions. It was a bit caotic.
 
-How could we automatically check if a student's answer to an exercise was correct?? Well, it's quite straightforward, let's use <acronym title="Test Driven Development">TDD</acronym>!
+How could we automatically check if a student's answer to an exercise was correct? Well, it's quite straightforward, let's use <acronym title="Test Driven Development">TDD</acronym>!
 We agreed on an exercise template:
 
 ```
@@ -56,8 +56,7 @@ GitHub repository (`origin` in the context of teachers):
 ## Students work on the exercises and submit their attempt
 
 Enter the students. Each student will **fork** the exercise templates repository to their
-own GitHub account. You can view all the students of the second camp on the
-[GitHub network map](https://github.com/lewagon/promo-2-challenges/network). Then,
+own GitHub account. Then,
 
 1. Students can submit their attempts using `git push origin master`, where `origin` in this
 context is the student's forked repository.
@@ -104,8 +103,8 @@ Using [git remotes](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes),
 to create an efficient workflow where teachers can easily update and add new exercises,
 while students are working. The Webhook provided by GitHub are priceless, thanks guys!
 
-Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great
-stuff coming. And if you didn't grasp all the concepts in this article, I will throw
+Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great stuff coming. If you are in Paris in July/August, or October/November, there are still some seats left for our <a href="http://www.lewagon.org/premiere">9 week-long bootcamp</a>, they won't last long!
+And if you didn't grasp all the concepts in this article, I will throw
 a [workshop on Git and GitHub](http://www.lewagon.org/learn/debuter-avec-git-github) in May,
 grab your ticket!
 
