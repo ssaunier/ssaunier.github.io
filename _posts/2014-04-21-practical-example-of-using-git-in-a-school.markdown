@@ -104,9 +104,6 @@ to create an efficient workflow where teachers can easily update and add new exe
 while students are working. The Webhook provided by GitHub are priceless, thanks guys!
 
 Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great stuff coming. If you are in Paris in July/August, or October/November, there are still some seats left for our <a href="http://www.lewagon.org/premiere">9 week-long bootcamp</a>, they won't last long!
-And if you didn't grasp all the concepts in this article, I will throw
-a [workshop on Git and GitHub](http://www.lewagon.org/learn/debuter-avec-git-github) in May,
-grab your ticket!
 
 *Photography credits: School [42](http://www.42.fr/)'s iMac classroom*
 
