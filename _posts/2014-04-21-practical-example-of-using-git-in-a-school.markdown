@@ -45,7 +45,7 @@ auto-grading of their attempt.
 We created the exercise templates repository
 and added `push` permissions to all teachers. Then it's just a simple collaboration strategy
 with branches and pull-requests. Each new exercise is created/refactored inside a git branch,
-and a pull-request is opened when the jobs are done. Here is a figure showing the
+and a pull-request is opened when the job is done. Here is a figure showing the
 GitHub repository (`origin` in the context of teachers):
 
 <figure class="center">
