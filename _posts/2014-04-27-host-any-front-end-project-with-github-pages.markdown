@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Host any front end project with GitHub Pages"
-description: ""
+description: "Work in the gh-pages branch of your git project, set up your own domain with a CNAME"
 category: blog
 ---
 
