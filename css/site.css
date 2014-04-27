@@ -451,8 +451,11 @@ img {
 }
 
 .gist {
-  font-size: 0.8em !important;
-  line-height: 140% !important;
+  font-size: 0.7em !important;
+  line-height: 130% !important;
+}
+.gist .lines {
+  width: 100%;
 }
 
 .book-me {
