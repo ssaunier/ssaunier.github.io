@@ -16,7 +16,7 @@ rentrer dans CREW et proposer ses services aux startups de The Family. Voici mes
 
 The Family est un accélérateur de startups 100% privé co-fondé par
 [@Alice_zag](https://twitter.com/Alice_zag), [@daedalium](https://twitter.com/daedalium)
-et [@Nicolas_Colin](https://twitter.com/Nicolas_Colin) il y a un peu plus d'un an. Sa mission est de donner les clés à la nouvelle génération d'entrepreneurs, avec une ambition internationale. Ce n'est pas un incubateur, le programme proposé au startup est composé d'Éducation, de Privilèges et d'un accès au Capital, avec pour objectif de *scaler* ces 3 composants.
+et [@Nicolas_Colin](https://twitter.com/Nicolas_Colin) il y a un peu plus d'un an. Sa mission est de donner les clés à la nouvelle génération d'entrepreneurs, avec une ambition internationale. Ce n'est pas un incubateur, le programme proposé aux startups est composé d'Éducation, de Privilèges et d'un accès au Capital, avec pour objectif de *scaler* ces 3 aspects.
 
 Il y a actuellement 106 startups dans le programme de The Family, mais elles ne sont pas
 présentes physiquement dans les locaux, encore une fois, ce n'est pas un incubateur. Au début, la mutalisation des ressources (bureau, imprimante, etc.) n'est pas l'enjeu, l'enjeu
@@ -33,6 +33,9 @@ The Family a déménagé en début d'année au [25 rue du petit Musc](https://ww
 est réservé aux membres du club qui souhaitent travailler ou recevoir
 des clients dans une ambiance *cozy*. Le Chief of Hapiness, ancien restaurateur,
 contribue à l'ambiance magique du lieu.
+
+Il sert bien sûr lors des sessions [Koudetat](http://koudetat.co/), le programme
+d'éducation à l'entreprenariat (limité à 100 élèves au lancement, complet en 15 jours).
 
 ## Q & A
 
