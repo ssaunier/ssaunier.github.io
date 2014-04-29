@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Petit déjeuner de presentation TheFamily CREW"
+title: "Petit déjeuner de présentation TheFamily CREW"
 description: "Compte-rendu de la présentation du nouveau service de The Family dédié aux freelances"
 category: blog
 french: true
-#photo: the_family.jpg
+photo: the_family.jpg
 ---
 
 Ce matin, un [petit déjeuner](http://www.meetup.com/TheFamilySpecialEvents/events/179387212/)
