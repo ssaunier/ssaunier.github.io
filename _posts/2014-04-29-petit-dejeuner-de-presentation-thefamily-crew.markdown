@@ -54,7 +54,7 @@ Actuellement, 5 startups sont au niveau *One*, et ont levé plusieurs millions d
 
 ### Que manque-t-il aux *super équipes* des startups de The Family ?
 
-Ils démarrent de zéro ! The Family n'est pas maternisant. Ils expliquent les règles, et ce qui *pigent* vont utiliser toutes les ressources mises à leur disposition. Les membres de The Family sont hyper sollicités par les meilleurs.
+Ils démarrent de zéro ! The Family n'est pas maternisant. Ils expliquent les règles, et ceux qui "pigent" vont utiliser toutes les ressources mises à leur disposition. Les membres de The Family sont hyper sollicités par les meilleurs.
 
 ### Quels sont les critères d'entrée au CREW ?
 
