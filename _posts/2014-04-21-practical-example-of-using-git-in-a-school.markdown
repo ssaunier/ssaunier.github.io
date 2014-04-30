@@ -105,4 +105,3 @@ while students are working. The Webhook provided by GitHub are priceless, thanks
 
 Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great stuff coming. If you are in Paris in July/August, or October/November, there are still some seats left for our <a href="http://www.lewagon.org/premiere">9 week-long bootcamp</a>, they won't last long!
 
-<a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="Show HN: Practical example of using git and GitHub in a school">Vote on Hacker News</a>

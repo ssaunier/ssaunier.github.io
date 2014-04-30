@@ -29,14 +29,17 @@ layout: default
 </article>
 
 <section class="post-footer-self-promotion inner">
-  <a href="https://twitter.com/intent/follow?screen_name=ssaunier">
+  <a href="https://twitter.com/intent/follow?screen_name=ssaunier" target="_blank">
     <img class="avatar" src="/images/sebastien_saunier.jpg" />
   </a>
   <p>
-    Thanks for reading! Hey, does your <strong>agile suck</strong>? I love
-    teams who thrive with <strong>Pivotal Tracker</strong> and <strong>Github</strong>, so if you don't,
-    let me help,
-    <a href="mailto:seb@saunier.me?subject=Here%20is%20my%20issue%20with%20Tracker%20and%20Github">shoot me an email</a> or <a href="https://twitter.com/intent/tweet?text=@ssaunier%20my%20main%20problem%20with%20agile%20is">tweet me</a>, I'll be in touch.
+    Thanks for reading! Do you want to keep up with what I do?
+    <a href="https://twitter.com/intent/follow?screen_name=ssaunier">Follow me</a> or:
+
+    <form action="http://saunier.us8.list-manage.com/subscribe/post?u=3e666bd315f84f1bbdfe80c3b&amp;id=0494cf26c5" method="post"target="_blank">
+      <input type="email" class="form-control" name="EMAIL" placeholder="Enter your email address"><input type="submit" value="Subscribe" >
+      Fear not, I hate spam too.
+    </form>
   </p>
 </section>
 
@@ -58,20 +61,3 @@ layout: default
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </section>
-
-<script>
-  // (function(s,u,b,hh,uu,bb){
-  //   uu=document.createElement(u);
-  //   uu.setAttribute('data-subhub',hh);
-  //   uu.setAttribute('data-panel',true);
-  //   uu.async=1;uu.src=b;
-  //   bb=s.getElementsByTagName(u)[0];
-  //   bb.parentNode.insertBefore(uu,bb);
-  // })(document, 'script',
-  //   'https://assets.subhub.io/v1/subhub.js',
-  //   'cd4d142d-51e9-4bda-87da-ccd27248cb78');
-</script>
-
-<script>
-(function(w){var j,d=w.document,getElementsByClassName=function(match,tag){if(d.getElementsByClassName){return d.getElementsByClassName(match)}var result=[],elements=d.getElementsByTagName(tag||"*"),i,elem;match=" "+match+" ";for(i=0;i<elements.length;i++){elem=elements[i];if((" "+(elem.className||elem.getAttribute("class"))+" ").indexOf(match)>-1){result.push(elem)}}return result},hnAnchorElements=getElementsByClassName("hn-share-button","a"),eventMethod=w.addEventListener?"addEventListener":"attachEvent",eventer=w[eventMethod],messageEvent=eventMethod==="attachEvent"?"onmessage":"message",base="//hnbutton.appspot.com";w._gaq||(w._gaq=[]);eventer(messageEvent,function(e){if(e.origin===base&&(e.data==="vote"||e.data==="submit")){w._gaq.push(["_trackSocial","Hacker News",e.data])}},false);w.HN={render:function(anchor){var title=anchor.getAttribute("data-title")||d.title,url=anchor.getAttribute("data-url")||w.location.href,i=d.createElement("iframe");i.src=base+"/button?title="+encodeURIComponent(title)+"&url="+encodeURIComponent(url);i.scrolling="auto";i.frameBorder="0";i.width="75px";i.height="20px";i.className="hn-share-iframe";anchor.parentNode.insertBefore(i,anchor);anchor.parentNode.removeChild(anchor)}};for(j=hnAnchorElements.length-1;j>=0;j--){w.HN.render(hnAnchorElements[j])}})(window);
-</script>

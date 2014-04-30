@@ -517,3 +517,48 @@ img {
   -moz-box-sizing: padding-box;
   box-sizing: padding-box;
 }
+
+/* Register */
+.post-footer-self-promotion input {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: 1px solid #CCCCCC;
+  color: #555555;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 0px 12px;
+  border-right: none;
+}
+
+.post-footer-self-promotion input[type="email"] {
+  background-color: #FFFFFF;
+  background-image: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 4px 0 0 4px;
+  width: 210px;
+}
+
+.post-footer-self-promotion input[type="submit"] {
+  background-color: #255b96;
+  color: #ffffff !important;
+  text-decoration: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+@media (max-width: 419px) {
+  .post-footer-self-promotion input[type="email"] {
+    border-right: 1px solid #CCC;
+    border-radius: 4px;
+  }
+  .post-footer-self-promotion input[type="submit"] {
+    display: block;
+    border-radius: 4px;
+    width: 210px;
+    margin-top: 1em;
+  }
+}
