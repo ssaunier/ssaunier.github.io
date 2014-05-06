@@ -1,3 +1,25 @@
+- name: Weroom
+  image: weroom.png
+  url: https://www.weroom.com/en
+  oneliner: Roommates Social Network
+  role: Technical Coach / Product Owner
+  technologies:
+    - Rails 4
+    - PostgreSQL
+    - Foundation 5
+    - Heroku
+
+- name: Kitt - Le Wagon
+  image: lewagon-kitt.png
+  url: http://www.lewagon.org
+  oneliner: Pedagogic Platform for Dev Bootcamp
+  role: Freelance Web Engineer
+  technologies:
+    - Rails 4
+    - PostgreSQL
+    - Bootstrap 3
+    - Heroku
+
 - name: MobiCheckin
   image: mobicheckin.png
   url: http://www.mobicheckin.com/en
@@ -8,6 +30,7 @@
     - RSpec
     - MongoDB (Mongoid 2)
     - Resque
+    - Bootstrap 2
     - NodeJS
   description: >
     Built from day one with <a href="https://app.mobicheckin.com/api/">a strong API</a>, dogfooded

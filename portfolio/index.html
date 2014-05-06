@@ -25,7 +25,7 @@ category: portfolio
   {% for project in site.data.projects %}
     <div class="spacer"></div>
     <section>
-      <a href="http://www.mobicheckin.com/en">
+      <a href="{{ project.url }}">
         <img class="inline pull-right" src="/images/portfolio/{{ project.image }}"
              alt="{{ project.name }} Screenshot" width="280">
       </a>
