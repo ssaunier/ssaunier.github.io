@@ -3,6 +3,12 @@
   url: https://www.weroom.com/en
   oneliner: Roommates Social Network
   role: Technical Coach / Product Owner
+  description: >
+    I work 9 weeks with the Weroom team in early 2014. My mission was to implement write
+    a technical roadmap, implement an agile & continuous deployment process and ramp
+    up the design team. I worked closely with two of the designers who managed to
+    become front-end developer (from Illustrator to Sublime + Terminal), which is IMHO the best
+    way to grow your technical team.
   technologies:
     - Rails 4
     - PostgreSQL
@@ -14,11 +20,21 @@
   url: http://www.lewagon.org
   oneliner: Pedagogic Platform for Dev Bootcamp
   role: Freelance Web Engineer
+  description: >
+    <a href="http://www.lewagon.org">Le Wagon</a> is a startup school hosting a
+    <a href="http://www.lewagon.org/premiere">9 week-long bootcamp for entrepreneurs</a>
+    where they learn Ruby, <abbr title="Object Oriented Programming">OOP</abbr>,
+    HTML, CSS, JS & jQuery, database modeling and Ruby on Rails. I built a platform
+    for these students, where they can read the exercises, see if their solution is correct
+    and how their classmates are doing. I wrote an
+    <a href="/blog/2014/04/21/practical-example-of-using-git-in-a-school.html">article</a>
+    on how we use git and GitHub if you want details.
   technologies:
     - Rails 4
     - PostgreSQL
     - Bootstrap 3
     - Heroku
+    - GitHub webhooks
 
 - name: MobiCheckin
   image: mobicheckin.png
