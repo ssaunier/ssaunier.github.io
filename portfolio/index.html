@@ -1,51 +1,23 @@
 ---
-layout: default
+layout: portfolio
 title: Sébastien Saunier - Portfolio
 description: Sébastien Saunier's Portfolio of awesome web applications built with Love, Lean, Agile, Rails, PHP and ASP.NET MVC
 category: portfolio
 ---
 
-<div class="inner">
-
-  <h1>Portfolio</h1>
-
-  <p class="fancy">
-    I graduated in 2008 from <a href="http://www.polytechnique.edu/jsp/accueil.jsp?LANGUE=1">Polytechnique</a> and joined <a href="https://www.google.com/about/jobs/locations/zurich/">Google</a> as a software engineer intern. I came back to Paris in 2009 and worked 3 years as a software engineer for <a href="http://www.virtuoz.com">VirtuOz</a> on the SaaS tool suite. In 2012, I joined <a href="http://www.applidget.com">Applidget</a>
-    as the lead developer of <a href="http://www.mobicheckin.com">MobiCheckin</a>, an award-winning SaaS solution for professional event organizer. Since 2007, I have technically bootstraped <a href="http://www.sogedis.fr">Sogedis</a> and grow it to a 3M€ business. I recently joined <a href="http://www.lewagon.org">Le Wagon</a>, a French 9 week-long bootcamp where I teach ruby on rails programming to entrepreneurs!
-  </p>
-
-  <p class="fancy">
-    Here are some of the projects I worked on. In need of
-    a web software engineer with an eye for design and a dedication to great
-    <abbr title="User Experience">UX</abbr>?
-
-    <a href="/contact/">Ping me</a> and let's build awesome and useful stuff!
-  </p>
-
-  {% for project in site.data.projects %}
-    <div class="spacer"></div>
-    <section>
-      <a href="{{ project.url }}">
-        <img class="inline pull-right" src="/images/portfolio/{{ project.image }}"
-             alt="{{ project.name }} Screenshot" width="280">
-      </a>
-      <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-      <h3>{{ project.oneliner }}</h3>
-      <p><strong>My role:</strong> {{ project.role }}</p>
-      <p>{{ project.description}}</p>
-      <p>
-        <strong>Technologies:</strong> {{ project.technologies | join: ", " }}
-      </p>
-    </section>
-  {% endfor %}
-
-  <div class="fancy center convinced">
-    <!-- <a class="btn btn-lg" href="http://freelancebooking.pro/en/users/ssaunier">Book me</a>
-
-    <br /><br /> -->
-
-    Interested? Here's my <a href="https://github.com/ssaunier">Github</a> and <a href="https://github.com/ssaunier/resume/raw/master/resume.pdf">resume</a>,
-    let's <a href="/contact">get in touch</a>.
-  </div>
-
-</div>
+{% for project in site.data.projects %}
+  <section>
+    <a href="{{ project.url }}">
+      <img class="inline pull-right" src="/images/portfolio/{{ project.image }}"
+           alt="{{ project.name }} Screenshot" width="280">
+    </a>
+    <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+    <h3>{{ project.oneliner }}</h3>
+    <p><strong>My role:</strong> {{ project.role }}</p>
+    <p>{{ project.description}}</p>
+    <p>
+      <strong>Technologies:</strong> {{ project.technologies | join: ", " }}
+    </p>
+  </section>
+  <div class="spacer"></div>
+{% endfor %}
