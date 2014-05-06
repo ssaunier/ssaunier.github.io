@@ -13,18 +13,18 @@ category: portfolio
   <a href="/contact/">Ping me</a> and let's build awesome and useful stuff!
 </p>
 
-{% for project in site.data.projects %}
+{% for product in site.data.products %}
   <section>
-    <a href="{{ project.url }}">
-      <img class="inline pull-right" src="/images/portfolio/{{ project.image }}"
-           alt="{{ project.name }} Screenshot" width="280">
+    <a href="{{ product.url }}">
+      <img class="inline pull-right" src="/images/portfolio/{{ product.image }}"
+           alt="{{ product.name }} Screenshot" width="280">
     </a>
-    <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-    <h3>{{ project.oneliner }}</h3>
-    <p><strong>My role:</strong> {{ project.role }}</p>
-    <p>{{ project.description}}</p>
+    <h2><a href="{{ product.url }}">{{ product.name }}</a></h2>
+    <h3>{{ product.oneliner }}</h3>
+    <p><strong>My role:</strong> {{ product.role }}</p>
+    <p>{{ product.description}}</p>
     <p>
-      <strong>Technologies:</strong> {{ project.technologies | join: ", " }}
+      <strong>Technologies:</strong> {{ product.technologies | join: ", " }}
     </p>
   </section>
   <div class="spacer"></div>
