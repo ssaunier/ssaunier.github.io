@@ -112,7 +112,7 @@ article {
 
 .portfolio-nav li a {
   width: 5em;
-  padding: 0.7em;
+  padding: 0.7em 0.4em;
   display: inline-block;
   text-decoration: none;
 }
