@@ -1,6 +1,6 @@
 title: Sébastien Saunier
 
-# Oveerriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+# Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
 safe: true
 pygments: true
 lsi: false
@@ -9,3 +9,7 @@ markdown: redcarpet
 # Keybase
 include:
   - .well-known
+
+# White-listed plugins
+gems:
+  - jekyll-sitemap
