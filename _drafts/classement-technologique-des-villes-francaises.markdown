@@ -33,7 +33,7 @@ Wikipedia nous donne généreusement la [liste des villes les plus peuplées](ht
 
 Ce travail a été réalisé de manière semi-automatique car les pages Wikipedia des communautés de communes ne suivent pas toutes le même patron. Vous pouvez consulter cette [base de données des communautés de communes](https://github.com/ssaunier/github-french-cities/blob/master/data/french_hubs.yml)
 
-Ensuite, pour chaque ville, il faut demander à GitHub le nombre d'utilisateurs déclarés. On obtient [cette liste](https://github.com/ssaunier/github-french-cities/blob/master/data/github_users_per_city.yml) qui nécessite un retraitement manuel. En effet, *Orléans* sort un trop grand nombre de résultats en raison de l'existance de la ville de *New Orleans, Louisiane*.
+Ensuite, pour chaque ville, il faut demander à GitHub le nombre d'utilisateurs déclarés. On obtient [cette liste](https://github.com/ssaunier/github-french-cities/blob/master/data/github_users_per_city.yml) qui nécessite un retraitement manuel. En effet, *Orléans* sort un trop grand nombre de résultats en raison de l'existence de la ville de *New Orleans, Louisiane*.
 
 Il reste maintenant à aggréger les résultats par métropole. Voici le classement.
 
