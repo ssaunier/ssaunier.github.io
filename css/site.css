@@ -61,7 +61,15 @@ p { margin: 1em 0; }
 table {
   font-size: inherit;
   font: 100%;
+  width: 100%;
+  border-collapse: collapse;
 }
+
+table td, table th {
+  border: 1px solid #999;
+  padding: 0.4em;
+}
+
 
 /* Common */
 a, a:active {
@@ -188,6 +196,10 @@ header .logo a, header .logo a:hover {
   text-align: left;
   width: 100%;
   display: block;
+}
+
+.twitter-tweet.twitter-tweet-rendered {
+  margin: 1em auto !important;
 }
 
 .post > .highlight {
