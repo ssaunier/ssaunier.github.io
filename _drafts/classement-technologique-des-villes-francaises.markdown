@@ -9,7 +9,7 @@ photo: corsica.jpg
 
 Quitter Paris pour de plus vertes contrées, tel est l'ambition qui habite certains d'entre nous. Mais comme tout ingénieur qui se respecte, il faut planifier minitieusement la relocalisation. Combien de développeurs habitent Tours ? Meetup déçoit car [aucun groupe](http://www.meetup.com/find/?allMeetups=true&radius=31&userFreeform=Tours%2C+France&mcId=c1011764&mcName=Tours%2C+FR&sort=default) tech n'est constitué. GitHub quant à lui nous indique que [77 développeurs](https://github.com/search?q=location%3A%22Tours%22&type=Users&ref=searchresults) se sont déclaré, dont 6 avec pour langage principal Ruby.
 
-J'ai voulu établir le classement des villes françaises en fonction du nombre d'utilisateurs GitHub, ce qui m'a attiré beaucoup d'attention sur Twitter :
+J'ai voulu établir le classement des villes françaises en fonction du nombre d'utilisateurs GitHub, ce qui a rencontré un certain echo sur Twitter :
 
 <blockquote class="twitter-tweet" lang="en"><p>13 villes ont plus d&#39;un développeur pour 1000 habitants (approximation: dev = personne ayant un compte GitHub) <a href="http://t.co/oLK4GDyFca">pic.twitter.com/oLK4GDyFca</a></p>&mdash; Sébastien Saunier (@ssaunier) <a href="https://twitter.com/ssaunier/statuses/464839588633395200">May 9, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
