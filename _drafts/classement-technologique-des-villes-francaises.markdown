@@ -66,6 +66,10 @@ Si votre agglomération n'est pas dans le top 20, consulter [la liste des 180 ag
 
 ## Discussion
 
+Paris a un ratio sensiblement plus élevè. Outre la concentration d'emplois dans
+le numérique, cela s'explique aussi par le raccourci d'indiquer "Paris" pour les
+habitants de la petite couronne.
+
 À l'heure où les villes candidatent pour le label [FrenchTech](http://www.lafrenchtech.com), ce classement anticipe sans doute sur l'issue des délibérations. Si vous avez notez une incohérence, n'hésitez pas à ouvrir une *Pull Request* sur [ssaunier/github-french-cities](https://github.com/ssaunier/github-french-cities). Vous pouvez également réexploiter le code / les données, elles sont placées sous license MIT. Merci à tous pour vos retours sur Twitter !
 
 *Photo credit: [Terence S. Jones](https://www.flickr.com/photos/terence_s_jones/8011517843)*
