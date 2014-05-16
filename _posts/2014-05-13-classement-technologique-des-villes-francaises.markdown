@@ -73,9 +73,6 @@ Paris a un ratio sensiblement plus élevé. Outre la concentration d'emplois dan
 le numérique, on peut tenir du raccourci qui consiste à indiquer "Paris" pour les
 habitants de la petite couronne. À l'heure où les villes candidatent pour le label [FrenchTech](http://www.lafrenchtech.com), ce classement anticipe sans doute sur l'issue des délibérations.
 
-Si Git & GitHub sont un peu obscurs pour vous, venez assister à mon [workshop **wagon-bar**](http://www.lewagon.org/learn/debuter-avec-git-github)
-ce soir à Paris, chez [The Family](/blog/2014/04/29/petit-dejeuner-de-presentation-thefamily-crew.html).
-
 N'hésitez pas à ouvrir une *Pull Request* sur [ssaunier/github-french-cities](https://github.com/ssaunier/github-french-cities). Vous pouvez également réexploiter le code / les données, ils sont placés sous license MIT. Merci à tous pour vos retours sur Twitter ! Et merci à [@yannski](https://twitter.com/yannski) pour la relecture :)
 
 *Photo credit: [Terence S. Jones](https://www.flickr.com/photos/terence_s_jones/8011517843)*
