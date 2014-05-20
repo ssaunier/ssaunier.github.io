@@ -31,7 +31,7 @@ The Family a déménagé en début d'année au [25 rue du petit Musc](https://ww
 ([video avant aménagement par Alice](https://www.youtube.com/watch?v=PtAWeEYYgck)), et le lieu est magnifique. Le rez-de-chaussée sert
 à accueillir des meetups (jusque 200 personnes assises) le soir, mais en journée
 est réservé aux membres du club qui souhaitent travailler ou recevoir
-des clients dans une ambiance *cozy*. Le Chief of Hapiness, ancien restaurateur,
+des clients dans une ambiance *cozy*. Le Chief of Happiness, ancien restaurateur,
 contribue à l'ambiance magique du lieu.
 
 Il sert bien sûr lors des sessions [Koudetat](http://koudetat.co/), le programme
@@ -41,7 +41,7 @@ d'éducation à l'entreprenariat (limité à 100 élèves au lancement, complet 
 
 Questions de l'assistance, réponses d'Alice.
 
-### Comment gérez-vous au quotidient plus de 100 startups ?
+### Comment gérez-vous au quotidien plus de 100 startups ?
 
 Les startups ne sont pas physiquement là. Elles sont regroupées par niveau :
 
