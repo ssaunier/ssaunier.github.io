@@ -17,3 +17,6 @@
   + http://www.youtube.com/watch?v=CGN4RFkhH2M
   + https://gist.github.com/justinko/2838490
   + http://www.naildrivin5.com/blog/2012/06/10/single-responsibility-principle-and-rails.html
+
+- Il faut utiliser http://help.mandrill.com/entries/21699367-Inbound-Email-Processing-Overview et 
+https://github.com/thoughtbot/griddler
