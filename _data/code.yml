@@ -4,6 +4,13 @@
   description: >
     My dotfiles for my Macbook Pro Retina.
 
+- name: Headsha.re
+  github: ssaunier/headsha.re
+  technology: ruby
+  description: >
+    I built [Headsha.re](http://www.headsha.re) to help people drive traffic to their website through
+    the links they share on social networks. It has been acquired by [Snip.ly](http://snip.ly) in June 2014.
+
 - name: Ogone gem
   github: applidget/ogone
   technology: Ruby
