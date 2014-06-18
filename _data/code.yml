@@ -6,7 +6,7 @@
 
 - name: Headsha.re
   github: ssaunier/headsha.re
-  technology: ruby
+  technology: Ruby
   description: >
     I built <a href="http://www.headsha.re">Headsha.re</a> to help people drive traffic to their website through
     the links they share on social networks. It has been acquired by <a href="http://snip.ly">Snip.ly</a> in June 2014.
