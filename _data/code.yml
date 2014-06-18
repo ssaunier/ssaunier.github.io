@@ -8,8 +8,8 @@
   github: ssaunier/headsha.re
   technology: ruby
   description: >
-    I built [Headsha.re](http://www.headsha.re) to help people drive traffic to their website through
-    the links they share on social networks. It has been acquired by [Snip.ly](http://snip.ly) in June 2014.
+    I built <a href="http://www.headsha.re">Headsha.re</a> to help people drive traffic to their website through
+    the links they share on social networks. It has been acquired by <a href="http://snip.ly">Snip.ly</a> in June 2014.
 
 - name: Ogone gem
   github: applidget/ogone
