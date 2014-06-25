@@ -37,9 +37,17 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.top-bar {
+/*.top-bar {
   height: 4px;
-  background-color: #255b96; /* blue bar */
+  background-color: #255b96;
+} */
+
+.top-bar {
+  background-color: lightyellow;
+  height: 32px;
+  line-height: 32px;
+  color: #666;
+  border-bottom: 1px solid #eee ;
 }
 
 h1, h2, h3 {
