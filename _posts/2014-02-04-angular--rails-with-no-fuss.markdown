@@ -79,7 +79,7 @@ Now you must fetch some files:
 You can get those files with these commands:
 
 ```bash
-ROOT=https://raw.github.com/ssaunier/angular-rails-example/master/
+ROOT=https://raw.githubusercontent.com/ssaunier/angular-rails-example/master/
 curl $ROOT/package.json > package.json
 curl $ROOT/spec/karma/config/unit.js > spec/karma/config/unit.js
 curl $ROOT/spec/karma/application_spec.js > spec/karma/application_spec.js
