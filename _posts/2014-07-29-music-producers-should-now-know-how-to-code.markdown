@@ -44,7 +44,7 @@ function HandleMIDI(event)
 }
 ```
 
-For programmers, this is quite straigthfowrard, but for my brother, it was
-like the graal. He told me that he lost 3 hours on the Internet if someone already
-had done this, and just found a guy selling a bunch of scripts for 40 bucks. Well,
+For programmers, this is quite straigthforward, but for my brother, it was
+like the graal. He told me that he lost 3 hours on the Internet searching if someone
+had already done this, and just found a guy selling a bunch of scripts for 40 bucks. Well,
 I guess musicians will need their stackoverflow quite soon.
