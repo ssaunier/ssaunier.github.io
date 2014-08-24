@@ -21,7 +21,7 @@ group :development, :test do
 end
 ```
 
-You now need to `angular` in your `app/assets/javascripts/application.js` so that it is loaded by Sprockets.
+You now need to require `angular` in your `app/assets/javascripts/application.js` so that it is loaded by Sprockets.
 You can put this instruction just before the `require_tree .`
 
 ```js
@@ -188,6 +188,6 @@ And now the test is green! Congrats for writing your first angular service test!
 ## Conclusion
 
 I should probably package this nicely as a gem. I wrote this post because I could not
-find anywhere how to use Sprockets with karma tests, in the context of a light angular + rails
+find how to use Sprockets with karma tests, in the context of a light angular + rails
 application (not a single page app). If you want to use the same approach in your rails app, and
 clean up some front-end code, follow the [git log](https://github.com/ssaunier/angular-rails-example/commits/master)!
