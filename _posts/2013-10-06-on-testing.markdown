@@ -76,7 +76,7 @@ Rule 5 can be broken if side effects are stable and cheap (close, not far away).
 ## About mocks
 
 A mock is a fake of the real object, and it's the developer's job to make sure there
-is no API drift, to ensure test doubles (mocks) stay in sync with th API.
+is no API drift, to ensure test doubles (mocks) stay in sync with the API.
 
 Test frameworks can help you do that. For instance, with [`rspec-mocks`](https://github.com/rspec/rspec-mocks), you have:
 
