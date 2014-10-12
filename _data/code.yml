@@ -7,7 +7,8 @@
 - name: Round Robin Tournament gem
   github: ssaunier/round_robin_tournament
   technology: Ruby
-  description: > This little ruby gem implements the <a href="http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm">Round Robin Tournament</a> scheduling.
+  description: >
+    This little ruby gem implements the <a href="http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm">Round Robin Tournament</a> scheduling.
     It is useful when you want a competition
     "in which each contestant meets all other contestants in turn", or if you have a classroom
     of students and want them to work in pairs, but with a different partner every day.
