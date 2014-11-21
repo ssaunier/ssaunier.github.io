@@ -185,10 +185,10 @@ header nav {
 
 header .logo a, header .logo a:hover {
   color: black;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
-.logo small a {
+.logo small em {
   font-weight: 400;
 }
 
