@@ -618,3 +618,8 @@ img {
     margin-top: 1em;
   }
 }
+
+.slideshare {
+  height: 549px;
+  width: 100%;
+}
