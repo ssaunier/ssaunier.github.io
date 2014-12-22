@@ -5,6 +5,8 @@ description: "Learn how to simply embed a contact form on your static website"
 category: blog
 ---
 
+**Edit** (Dec 22th, 2014): Brace forms closed and open sourced their product, thanks! The article has been update to reflect those changes.
+
 I love static websites. They are simple and fast. But they are just files, so how do I setup a contact form?
 
 ## Jekyll and Github Pages
@@ -25,23 +27,23 @@ You may already have implemented a contact form page, and it relied on a databas
 
 If you plan to get more than 5 contacts per day through this contact form page, you should sign up to [Wufoo](http://www.wufoo.com/). It's a great service which lets you build a form in seconds (with a great drag'n'drop <acronym title="User Interface">UI</acronym>), which you can embed in your webpage with an iframe. It's great if you plan to have multiple forms on your website.
 
-### Brace Forms - For hackers
+### Formspree - For hackers
 
-I did not choose Wufoo for this blog. Overkill. I stumbled upon [Brace Forms](http://forms.brace.io), and I fell in love.
+I did not choose Wufoo for this blog. Overkill. I stumbled upon [Formspree](http://formspree.io/), and I fell in love.
 
 You just need to open your text editor, and paste the following code:
 
 ```html
-<form action="//forms.brace.io/you@email.com">
+<form action="http://formspree.io/you@email.com">
   <input type="email" name="_replyto">
   <textarea name="body">
   <input type="submit" value="Send">
 </form>
 ```
 
-That's it, your form already works! It will post the form onto an external domain, `forms.brace.io`, and send you an email with all the form content. No database. And you can just hit reply in your mailbox to continue the conversation with your visitor.
+That's it, your form already works! It will post the form onto an external domain, `formspree.io`, and send you an email with all the form content. No database. And you can just hit reply in your mailbox to continue the conversation with your visitor.
 
-This tool is provided by the guys from [Brace](http://brace.io/), their main service is to host static websites directly from Dropbox. Neat! You just setup a dropbox folder, and it's available on the Internet :) That's an alternative to Github Pages for the less technical savvy of you.
+This tool was built by the guys from [Brace](http://brace.io/), then open-sourced and hosted by [Assembly](https://assembly.com/formspree).
 
 ## Convention over Configuration
 
