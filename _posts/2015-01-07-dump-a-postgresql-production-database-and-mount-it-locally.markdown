@@ -13,7 +13,7 @@ The following code works only for the PostgreSQL database vendor.
 
 ## Your database is on [Heroku](https://www.heroku.com/postgres)
 
-You can add this rake tasks to your code:
+You can add this rake task to your code:
 
 <script src="https://gist.github.com/ssaunier/8c88cbdce09d47581975.js"></script>
 
