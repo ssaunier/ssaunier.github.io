@@ -20,7 +20,7 @@ You can add this rake tasks to your code:
 Then run it with
 
 ```bash
-rake db:import_from_heroku
+$ rake db:import_from_heroku
 ```
 
 ## Your database is on [AWS RDS](aws.amazon.com/rds/)
