@@ -10,4 +10,5 @@ intended for beginners.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/42874896" class="slideshare" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//fr.slideshare.net/ssaunier/api-for-beginners" title="API for Beginners" target="_blank">API for Beginners</a> </strong> from <strong><a href="//www.slideshare.net/ssaunier" target="_blank">Sébastien Saunier</a></strong> </div>
 
-This talk has been recorded, I will post the Youtube video soon.
+This talk has been recorded in Decembre 2014, at [Le Wagon](http://www.lewagon.org),
+you can [watch it on Youtube (French)](https://www.youtube.com/watch?v=0FQ6w4CO5Nw).
