@@ -6,7 +6,7 @@ category: blog
 ---
 
 
-I am proud to announce that I joined [Le Wagon](http://www.lewagon.org) as the **CTO**. Le Wagon is a dev bootcamp teaching entrepreneurs who have had zero programming education how to build a web application using Ruby on Rails. This happens in Paris, and I have been a mentor and a teacher there since February.
+I am proud to announce that I joined [Le Wagon](http://www.lewagon.org) as the **CTO**. Le Wagon is the French innovative coding school for entrepreneurs, theaching people who have had zero programming education how to build a web application using Ruby on Rails. This happens in Paris and Bruxelles, and I have been a mentor and a teacher there since February.
 
 My role at Le Wagon is now to make sure we deliver the best education possible to our students. I also design and implement the pedagogic platform supporting our teaching effort, making an heavy use of GitHub and their API / Webhooks (see [this article]({% post_url 2014-04-21-practical-example-of-using-git-in-a-school %})).
 
