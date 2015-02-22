@@ -13,6 +13,18 @@
     "in which each contestant meets all other contestants in turn", or if you have a classroom
     of students and want them to work in pairs, but with a different partner every day.
 
+- name: Wagon Rails gem
+  github: lewagon/wagon_rails
+  technology: Ruby
+  description: >
+    This is a fork of the <code>suspenders</code> gem, and gives <a href="http://www.lewagon.org/en">Le Wagon fullstack bootcamp</a>'s students
+    to quickly generate a rails app using the best practices they learnt. No time lost on boilerplate configuration, more time spent on coding!
+
+- name: Trello Webhooks gem
+  github: ssaunier/trello_webhook
+  technology: Ruby
+  description: This gem will help you to quickly setup a route in your Rails application which listens for incoming Trello webhooks
+
 - name: Headsha.re
   github: ssaunier/headsha.re
   technology: Ruby
@@ -37,7 +49,7 @@
 - name: GitHub Webhooks gem
   github: ssaunier/github_webhook
   technology: Ruby
-  description: This gem will help you to quickly setup a route in your Rails application which listens to a GitHub webhook
+  description: This gem will help you to quickly setup a route in your Rails application which listens for incoming GitHub webhooks
 
 - name: Examiner gem
   github: ssaunier/examiner
