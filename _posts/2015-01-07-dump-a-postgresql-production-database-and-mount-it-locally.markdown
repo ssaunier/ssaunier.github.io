@@ -11,9 +11,10 @@ code is to dump all the data from the production database and mount it locally.
 
 The following code works only for the PostgreSQL database vendor.
 
-**Edit**: this is now [built-in](https://devcenter.heroku.com/articles/heroku-postgresql#pg-pull) in the `heroku` command-line, thanks [@will](https://github.com/will) for pointing it out!
 
 ## Your database is on [Heroku](https://www.heroku.com/postgres)
+
+**Edit**: this is now [built-in](https://devcenter.heroku.com/articles/heroku-postgresql#pg-pull) in the `heroku` command-line, thanks [@will](https://github.com/will) for pointing it out!
 
 You can add this rake task to your code:
 
