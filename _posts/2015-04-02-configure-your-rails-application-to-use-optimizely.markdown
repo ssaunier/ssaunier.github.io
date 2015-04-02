@@ -17,7 +17,7 @@ https://www.optimizelyedit.com/assets/application-261102d8007ae1fff68a817ec78c9d
 
 Of course it does not exist...
 
-By default, Rails is secure and prevent other website to load yours in an iframe.
+By default, Rails is secure and prevents other website to load yours in an iframe.
 It's done with the following HTTP header:
 
 ```
