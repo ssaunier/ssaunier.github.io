@@ -1,3 +1,19 @@
+- name: Le Wagon On Demand
+  image: lewagonondemand.png
+  url: https://ondemand.lewagon.org
+  oneliner: Coding lectures for Entrepreneurs (French)
+  role: Lead Developer
+  description: >
+    As the CTO of Le Wagon, my team and I implemented the latest platform of Le Wagon.
+    We put together a simple rails app, using Vimeo as a video hosting provider.
+    Payment is handled by Stripe, AARRR metrics tracked with Mixpanel and Intercom.
+  technologies:
+    - Rails 4
+    - Stripe
+    - Mixpanel & Intercom
+    - PostgreSQL
+    - Heroku
+
 - name: Weroom
   image: weroom.png
   url: https://www.weroom.com/en
