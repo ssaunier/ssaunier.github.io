@@ -383,19 +383,19 @@ header h1.title a:hover {
 article h1 {
   margin-bottom: 8px;
   line-height: 120%;
-  text-align: center !important;
+  text-align: left;
 }
 
-.meta {
-  color: #ddd;
+article .inner.meta {
+  color: #dedede;
   display: inline-block;
-  border-top: 1px solid #ccc;
   font-size: 0.9em;
   margin-top: 4px;
   padding: 4px 8px;
 }
 .suggest-translate, .suggest-translate a {
-    color: #ddd;
+  color: #ddd !important;
+  padding-top: 0.5em !important;
 }
 
 .convinced { margin: 6em 0 4em 0;}

@@ -10,11 +10,12 @@ category: blog
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span class="date">{{ post.date | date_to_string }}</span>
         <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
         {% if post.french %}
           <img src="/images/french.png" alt="French post" class="french-flag" title="This post is in french" />
         {% endif %}
+        <br />
+        <span class="date">{{ post.date | date_to_string }}</span>
         <br />
         <span class="description">{{ post.description }}</span>
       </li>

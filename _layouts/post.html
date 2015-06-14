@@ -13,10 +13,10 @@ layout: default
     {{ page.title }}
   </h1>
 
-  <p class="meta">{{ page.date | date: "%A %-d %B %Y" }}</p>
+  <p class="inner meta">{{ page.date | date: "%A %-d %B %Y" }}</p>
 
   {% if page.french %}
-  <div class="suggest-translate">
+  <div class="inner suggest-translate">
     This post is in French. You can try to
     <a href="http://translate.google.com/translate?sl=fr&amp;tl=en&amp;u=http://sebastien.saunier.me{{ page.url }}">
       google translate it</a>.
