@@ -50,9 +50,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Asap', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #101010;
   margin-top: 2em;
   margin-bottom: 0.3em;
   line-height: 1.2em;
@@ -158,7 +157,7 @@ article {
 
 /* Header and navigation */
 header {
-  font-family: 'Asap', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -207,6 +206,23 @@ header .logo a, header .logo a:hover {
 
 .twitter-tweet.twitter-tweet-rendered {
   margin: 1em auto !important;
+}
+
+article .inner {
+  padding-top: 1.5em;
+  margin-top: -1em;
+  color: white;
+}
+
+article {
+  background-color: #3073b3;
+}
+
+article .post {
+  margin-top: 1em;
+  padding-top: 1em;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .post > .highlight {
@@ -371,12 +387,15 @@ article h1 {
 }
 
 .meta {
-  color: #666;
+  color: #ddd;
   display: inline-block;
   border-top: 1px solid #ccc;
   font-size: 0.9em;
   margin-top: 4px;
   padding: 4px 8px;
+}
+.suggest-translate, .suggest-translate a {
+    color: #ddd;
 }
 
 .convinced { margin: 6em 0 4em 0;}
@@ -437,10 +456,11 @@ article h1 {
 .post-photo {
   height: 24em;
   margin-top: -1.5em;
-  margin-bottom: 2.5em;
+  margin-bottom: 1.9em;
   background-size: cover;
   background-position: center;
   box-shadow: 0px 4px 8px #999;
+  z-index: 2;
 }
 
 @media (max-width: 420px) {
