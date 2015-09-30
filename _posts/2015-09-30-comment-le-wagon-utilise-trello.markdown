@@ -8,7 +8,7 @@ french: true
 
 Le 16 septembre 2015, [Michael Pryor](https://twitter.com/michaelpryor), CEO de [Trello](https://trello.com/), était à [The Family](http://www.thefamily.co/) pour le lancement de la version française de son produit éponyme. À cette occasion, les startups [BlaBlaCar](https://www.blablacar.fr/), [Octobat](https://www.octobat.com/) et [Le Wagon](http://www.lewagon.org) ont fait un rapide retour sur comment elles utilisent Trello.
 
-Avec le soutient de [Romain](https://twitter.com/romainpaillard), je me suis chargé du retour d'expérience pour Le Wagon. Voici 7 minutes au pas de course, déjà calées :
+Avec le soutien de [Romain](https://twitter.com/romainpaillard), je me suis chargé du retour d'expérience pour Le Wagon. Voici 7 minutes au pas de course, déjà calées :
 
 <div class="video-wrapper">
   <div class="video-wrapper-inner">
