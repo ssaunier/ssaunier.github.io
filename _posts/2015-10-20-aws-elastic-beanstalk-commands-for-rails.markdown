@@ -8,7 +8,7 @@ category: blog
 ---
 
 As a Rails developer, my guess is that you've been using Heroku a lot. At some point, you want
-to try AWS Elastic Beanstalk, a PaaS built ont top of AWS. I did, but I was a bit lost
+to try AWS Elastic Beanstalk, a PaaS built on top of AWS. I did, but I was a bit lost
 in the documentation trying to reproduce the well-known Heroku commands. Here's what
 I've found (please add a comment if you have more tips to share!).
 
