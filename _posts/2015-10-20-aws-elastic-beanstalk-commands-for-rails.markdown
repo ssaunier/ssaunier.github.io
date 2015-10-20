@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "AWS Elastic Banstalk commands for Rails"
+redirect_from:
+  -/blog/2015/10/20/aws-elastic-banstalk-commands-for-rails.html
+title: "AWS Elastic Beanstalk commands for Rails"
 description: "Learn all the Heroku/Beanstalk command line equivalents"
 category: blog
 ---

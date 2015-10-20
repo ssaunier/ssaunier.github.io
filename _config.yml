@@ -14,3 +14,4 @@ include:
 # White-listed plugins
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
