@@ -107,6 +107,22 @@ $ eb ssh
 ssh> cd /var/app/current && bin/rails c
 ```
 
+## Rails logs
+
+On Heroku, you can tail all the application logs to see incoming requests
+and 500 with
+
+```bash
+$ heroku logs --tail
+```
+
+On AWS Beanstalk, you need to SSH first again:
+
+```bash
+$ eb ssh
+ssh> cd /var/app/current && tail -f log/*.log
+```
+
 ## Conclusion
 
 AWS Beanstalk can auto-scale where Heroku won't (you have to manually run `heroku ps:scale` commands),
