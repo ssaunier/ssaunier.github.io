@@ -40,12 +40,14 @@ of records.
 
 ```bash
 $ bin/rails c
-irb(main):001:0> Book.random
-  Book Load (3.6ms)  SELECT  "books".* FROM "books"  ORDER BY RANDOM() LIMIT 1
-=> #<Book id: 22, title: "Madame Bovary", created_at: "2015-11-04 09:28:32", updated_at: "2015-11-04 09:28:32">
-irb(main):002:0> Book.random(2)
-  Book Load (0.4ms)  SELECT  "books".* FROM "books"  ORDER BY RANDOM() LIMIT 2
-=> #<ActiveRecord::Relation [#<Book id: 64, title: "Le Rouge et le Noir", created_at: "2015-11-04 09:28:32", updated_at: "2015-11-04 09:28:32">, #<Book id: 88, title: "L'Assomoir", created_at: "2015-11-04 09:28:32", updated_at: "2015-11-04 09:28:32">]>
+irb(main):051:0> Book.random
+   (0.2ms)  SELECT COUNT(*) FROM "books"
+  Book Load (0.2ms)  SELECT  "books".* FROM "books"  ORDER BY "books"."id" ASC LIMIT 1 OFFSET 88
+=> #<Book id: 89, title: "Title 89", created_at: "2015-11-04 09:28:32", updated_at: "2015-11-04 09:28:32">
+irb(main):052:0> Book.random(2)
+   (0.1ms)  SELECT COUNT(*) FROM "books"
+  Book Load (0.1ms)  SELECT  "books".* FROM "books" LIMIT 2 OFFSET 16
+=> #<ActiveRecord::Relation [#<Book id: 17, title: "Title 17", created_at: "2015-11-04 09:28:32", updated_at: "2015-11-04 09:28:32">, #<Book id: 18, title: "Title 18", created_at: "2015-11-04 09:28:32", updated_at: "2015-11-04 09:28:32">]>
 ```
 
 Enjoy querying randomly!
