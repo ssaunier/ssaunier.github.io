@@ -16,12 +16,11 @@ module Randomable
 
   class_methods do
     def random(the_count = 1)
-      records = offset([0, rand(count) - the_count].max).limit(the_count)
+      records = offset(rand(count - the_count)).limit(the_count)
       the_count == 1 ? records.first : records
     end
   end
 end
-
 ```
 
 Then it's very easy to use, just include the module in your model (can be used
