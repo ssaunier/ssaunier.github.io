@@ -15,18 +15,13 @@ module Randomable
   extend ActiveSupport::Concern
 
   class_methods do
-    def random(count = 1)
-      random_sql_function = "RANDOM()"
-      if defined?(ActiveRecord::ConnectionAdapters::MysqlAdapter) &&
-        ActiveRecord::Base.connection.instance_of?(
-          ActiveRecord::ConnectionAdapters::MysqlAdapter)
-        random_sql_function = "RAND()"
-      end
-      records = limit(count).order(random_sql_function)
-      count == 1 ? records.first : records
+    def random(the_count = 1)
+      records = offset([0, rand(count) - the_count].max).limit(the_count)
+      the_count == 1 ? records.first : records
     end
   end
 end
+
 ```
 
 Then it's very easy to use, just include the module in your model (can be used
