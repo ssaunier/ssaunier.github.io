@@ -6,8 +6,8 @@ category: blog
 photo: lewagon_mutinerie.jpg
 ---
 
-I recently joined [Le Wagon](http://www.lewagon.org/), hosting a
-[9 week-long bootcamp for entrepreneurs in Paris](http://www.lewagon.org/premiere).
+I recently joined [Le Wagon](http://www.lewagon.com/), hosting a
+[9 week-long bootcamp for entrepreneurs in Paris](http://www.lewagon.org/program).
 My role is to teach people who have had zero programming education how to build
 a web application using Ruby on Rails.
 
@@ -16,7 +16,7 @@ wrote the first batch of ruby exercises during last year's
 holidays for the very first camp. Since then, the teachers and I worked on improving and extending these exercises.
 
 In this article, I explain how we leverage `git` to create a great Teacher/Student
-workflow. I will use [Le Wagon](http://www.lewagon.org/) as an example, but this approach applies to any computer class.
+workflow. I will use [Le Wagon](http://www.lewagon.com) as an example, but this approach applies to any computer class.
 
 ## Teachers write exercise templates
 
@@ -103,5 +103,5 @@ Using [git remotes](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes),
 to create an efficient workflow where teachers can easily update and add new exercises,
 while students are working. The Webhook provided by GitHub are priceless, thanks guys!
 
-Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great stuff coming. If you are in Paris in July/August, or October/November, there are still some seats left for our <a href="http://www.lewagon.org/premiere">9 week-long bootcamp</a>, they won't last long!
+Follow [Le Wagon](https://twitter.com/intent/follow?screen_name=Lewagonparis), we have great stuff coming. If you are in Paris in July/August, or October/November, there are still some seats left for our <a href="http://www.lewagon.com/program">9 week-long bootcamp</a>, they won't last long!
 

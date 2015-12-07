@@ -17,4 +17,3 @@ adaptés aux débutants (zéro prérequis !) :
   </div>
 </div>
 
-Vous pouvez consulter indépendamment les [slides de ce talk](http://workshops.lewagon.org/workshops/git-github/index.html).
