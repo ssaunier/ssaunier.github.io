@@ -4,6 +4,16 @@
   description: >
     My dotfiles for my Macbook Pro Retina.
 
+- name: GitHub Webhooks gem
+  github: ssaunier/github_webhook
+  technology: Ruby
+  description: This gem will help you to quickly setup a route in your Rails application which listens for incoming GitHub webhooks
+
+- name: Markdown cache gem
+  github: ssaunier/markdown_cache
+  technology: Ruby
+  description: Markdown (GFM) view helper with redis-backed cache
+
 - name: Round Robin Tournament gem
   github: ssaunier/round_robin_tournament
   technology: Ruby
@@ -45,11 +55,6 @@
     Ruby gem I put together in Fall 2013 when I was interviewing for a job
     at <a href="https://www.sqwiggle.com">Sqwiggle</a>. This gem provides an engine to
     help communicate to your users when issues they report get fixed, given that your issue tracker is private. It extend your web application with a public dashboard of your issue tracker.
-
-- name: GitHub Webhooks gem
-  github: ssaunier/github_webhook
-  technology: Ruby
-  description: This gem will help you to quickly setup a route in your Rails application which listens for incoming GitHub webhooks
 
 - name: Examiner gem
   github: ssaunier/examiner
