@@ -34,7 +34,7 @@ I did not choose Wufoo for this blog. Overkill. I stumbled upon [Formspree](http
 You just need to open your text editor, and paste the following code:
 
 ```html
-<form action="http://formspree.io/you@email.com">
+<form action="http://formspree.io/you@email.com" method="post">
   <input type="email" name="_replyto">
   <textarea name="body"></textarea>
   <input type="submit" value="Send">
