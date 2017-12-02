@@ -225,7 +225,7 @@ article .post {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.post > .highlight {
+.post .highlighter-rouge {
   max-width: 100% !important;
   word-wrap: break-word;
 }
@@ -236,7 +236,7 @@ article .post {
     margin-right: 18px !important;
     width: auto !important;
   }
-  .post > .highlight {
+  .post .highlighter-rouge {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
@@ -290,6 +290,14 @@ nav a.selected:hover {
   max-width: 50px;
   vertical-align: -9px;
   margin-left: 12px;
+}
+
+.lewagon-logo {
+  height: 24px;
+  width: 24px;
+  vertical-align: -8px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .links {
@@ -533,6 +541,10 @@ img {
 }
 .gist .lines {
   width: 100%;
+}
+
+.gist table td {
+  border: none;
 }
 
 .book-me {
