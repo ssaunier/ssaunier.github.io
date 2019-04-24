@@ -19,4 +19,4 @@ un clone de [Product Hunt](http://www.producthunt.com)), de sa base de données,
 de ses différentes page, l'ajout d'une interface utilisateur (login / sign in),
 et enfin la mise en production.
 
-C'est là => [Débutez avec Ruby on Rails](https://ondemand.lewagon.org/tracks/debutez-avec-ruby-on-rails/go)
+C'est là => [Débutez avec Ruby on Rails](https://ondemand.lewagon.com/tracks/debutez-avec-ruby-on-rails/go)

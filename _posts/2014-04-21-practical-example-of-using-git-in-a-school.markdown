@@ -7,7 +7,7 @@ photo: lewagon_mutinerie.jpg
 ---
 
 I recently joined [Le Wagon](https://www.lewagon.com), hosting a
-[9 week-long bootcamp for entrepreneurs in Paris](http://www.lewagon.org/program).
+[9 week-long bootcamp for entrepreneurs in Paris](https://www.lewagon.com/program).
 My role is to teach people who have had zero programming education how to build
 a web application using Ruby on Rails.
 

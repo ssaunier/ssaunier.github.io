@@ -6,7 +6,7 @@ category: blog
 french: true
 ---
 
-Le 20 octobre 2014, j'ai donné un talk au meetup [Coding Station](http://www.meetup.com/Le-Wagon-Paris-Coding-Station) du [Wagon](http://www.lewagon.org) sur **git** et [GitHub](http://www.github.com). Cet outil
+Le 20 octobre 2014, j'ai donné un talk au meetup [Coding Station](http://www.meetup.com/Le-Wagon-Paris-Coding-Station) du [Wagon](https://www.lewagon.com) sur **git** et [GitHub](http://www.github.com). Cet outil
 omniprésent dans les startups est peu évident à aborder seul, et comme souvent l'appréhension
 optimale se fait par les explications d'un mentor. Voici donc mon approche de git et GitHub,
 adaptés aux débutants (zéro prérequis !) :
