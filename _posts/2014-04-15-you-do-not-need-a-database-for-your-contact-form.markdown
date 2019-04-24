@@ -51,6 +51,6 @@ The reason why I fell in love with Brace Forms as I was reading their landing pa
 
 Some engineers will tend to choose the most complex solutions, because they feel that it will increase their positions as expert and because it makes them feel smarter. Or maybe they feel more at ease one they have to do all the plumbing by hand. Then time passes and they have to deal with the consequences.
 
-Do you know another tool which lives by those principles? You're right, that's [Ruby on Rails](http://www.rubyonrails.org), maybe it's time to [learn it](http://www.lewagon.org/) right? :)
+Do you know another tool which lives by those principles? You're right, that's [Ruby on Rails](http://www.rubyonrails.org), maybe it's time to [learn it](https://www.lewagon.com) right? :)
 
 **TL;DR** - Embrace simplicity.

@@ -27,7 +27,7 @@
   github: lewagon/wagon_rails
   technology: Ruby
   description: >
-    This is a fork of the <code>suspenders</code> gem, and gives <a href="http://www.lewagon.org/en">Le Wagon fullstack bootcamp</a>'s students
+    This is a fork of the <code>suspenders</code> gem, and gives <a href="https://www.lewagon.com">Le Wagon fullstack bootcamp</a>'s students
     to quickly generate a rails app using the best practices they learnt. No time lost on boilerplate configuration, more time spent on coding!
 
 - name: Trello Webhooks gem

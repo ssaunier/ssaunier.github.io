@@ -2,8 +2,8 @@
 layout: post
 ---
 
-<a href="http://www.lewagon.org"><img class="inline pull-right" src="/images/posts/lewagon.jpg" alt="Le Wagon logo" width="128"/></a>
-Have you heard of [Le Wagon](http://www.lewagon.org)? It's a 9-weeks dev bootcamp in Paris for at entrepreneurs who want to learn how to code (from scratch). I am one of the [teachers](http://www.lewagon.org/profs). For the second edition, the founders wanted a new version of the teaching platform, and I was in charge of its development. This is the story of **Kitt**.
+<a href="https://www.lewagon.com"><img class="inline pull-right" src="/images/posts/lewagon.jpg" alt="Le Wagon logo" width="128"/></a>
+Have you heard of [Le Wagon](https://www.lewagon.com)? It's a 9-weeks dev bootcamp in Paris for at entrepreneurs who want to learn how to code (from scratch). I am one of the teachers. For the second edition, the founders wanted a new version of the teaching platform, and I was in charge of its development. This is the story of **Kitt**.
 
 ## Context
 

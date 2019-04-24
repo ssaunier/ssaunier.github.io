@@ -6,10 +6,10 @@ category: blog
 french: true
 ---
 
-Au [Wagon](http://www.lewagon.com/fr), on nous pose souvent la question du choix de Ruby
-on Rails pour notre [formation au développement web](http://www.lewagon.com/fr) de 9 semaines. J'ai répondu à cette question sur le blog du Wagon.
+Au [Wagon](https://www.lewagon.com/fr), on nous pose souvent la question du choix de Ruby
+on Rails pour notre [formation au développement web](https://www.lewagon.com/fr) de 9 semaines. J'ai répondu à cette question sur le blog du Wagon.
 
-[**Lire l'article**](http://www.lewagon.com/blog/pourquoi-apprendre-coder-ruby-on-rails)
+[**Lire l'article**](https://www.lewagon.com/blog/pourquoi-apprendre-coder-ruby-on-rails)
 
 Nous avons également développé une _track_ sur Le Wagon On Demand, qui est
 un condensé de notre formation longue de 9 semaines en format _Coding Bootcamp_.

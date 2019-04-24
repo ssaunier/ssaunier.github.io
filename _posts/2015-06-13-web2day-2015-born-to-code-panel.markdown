@@ -9,13 +9,13 @@ On June 4th, 2015, I was kindly invited by the [Web2day](http://web2day.co/) con
 attend a panel on the *Born to code* topic. You can find the video at the bottom of this
 article, let me walk you through my answers.
 
-## Can you walk us through [Le Wagon](http://www.lewagon.com) program?
+## Can you walk us through [Le Wagon](https://www.lewagon.com) program?
 
 Our students come from a lot of places. We have students from Business School, Consulting Firms, Engineers, Artists, startup founders, lawyers. We even had students who dropped out of college to join us for the love of code and who are now successful developers.
 
 About the training program, it's a very intense 9-week bootcamp. We take people with zero experience , and the goal is to bring them to the point where they are able to build a MVP of any idea they might have.
 
-So how do we do that? We start from scratch, first we need to teach them basic concepts of programming language. For three weeks, they learn Ruby and Object Oriented Programming. Then we have one week about Databases and SQL. Another week about front-end web development, so HTML, CSS and JavaScript. Then we start building web applications with Ruby on Rails, and we teach them how to be effective as a coding team. During the last 2 weeks, they work on the MVP of their own projects. We really have [amazing results](http://www.lewagon.com/alumni) after just 10 days of development, I invite you to check out the demo days on our Youtube channel.
+So how do we do that? We start from scratch, first we need to teach them basic concepts of programming language. For three weeks, they learn Ruby and Object Oriented Programming. Then we have one week about Databases and SQL. Another week about front-end web development, so HTML, CSS and JavaScript. Then we start building web applications with Ruby on Rails, and we teach them how to be effective as a coding team. During the last 2 weeks, they work on the MVP of their own projects. We really have [amazing results](https://www.lewagon.com/alumni) after just 10 days of development, I invite you to check out the demo days on our Youtube channel.
 
 **After the program, our students build their startups, start a freelance career, or join companies as developers**.
 
